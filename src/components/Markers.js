@@ -1,6 +1,7 @@
 import React from 'react';
 import useSwr from "swr";
 import { Map, Marker, TileLayer } from "react-leaflet";
+import police from '../data/data.json';
 
 const fetcher = (...args) => fetch(...args).then(response => response.json());
 
@@ -9,6 +10,7 @@ const Markers = () => {
     "https://data.police.uk/api/crimes-street/all-crime?lat=52.629729&lng=-1.131592&date=2019-10";
   const { data, error } = useSwr(url, { fetcher });
   const crimes = data && !error ? data.slice(0, 100) : [];
+  console.log('data @ markers', police[0]["Street Address of Incident"]);
 
   return (
     <Map center={[40.7128, -74.0060]} zoom={12}>

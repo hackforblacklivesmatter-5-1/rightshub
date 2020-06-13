@@ -8,7 +8,7 @@ import Markers from './components/Markers';
 import data from './data/data.json';
 
 function App() {
-  console.log(data[0]["Street Address of Incident"])
+  console.log(data[0]["Street Address of Incident"]);
   return (
     <div className="App">
       <GlobalFonts />
