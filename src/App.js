@@ -1,17 +1,19 @@
-import React from "react";
-import { Table } from "./components/Table";
-import GlobalFonts from "./fonts/fonts";
-import { Route } from "react-router-dom";
-import "./index.css";
-import Markers from "./components/Markers";
-import data from "./data/data.json";
-import { Home } from "./components/Home";
-import Navbar from "./components/Navbar";
-import { Media } from "./components/Media";
-import { Resources } from "./components/Resources";
+import React from "react"
+import { Table } from "./components/Table"
+import GlobalFonts from "./fonts/fonts"
+import { Route } from "react-router-dom"
+import "./index.css"
+import Markers from "./components/Markers"
+import data from "./data/data.json"
+import { Home } from "./components/Home"
+// import Navbar from "./components/Navbar";
+
+import { Media } from "./components/Media"
+import { Resources } from "./components/Resources"
+import Navbar from "./components/Navbar"
 
 function App() {
-  console.log(data[0]["Street Address of Incident"]);
+  console.log(data[0]["Street Address of Incident"])
   return (
     <div className="App">
       <GlobalFonts />
@@ -22,7 +24,7 @@ function App() {
       <Route path="/Media" exact component={Media} />
       <Route path="/Resources" exact component={Resources} />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
