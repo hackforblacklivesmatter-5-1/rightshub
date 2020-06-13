@@ -10,7 +10,7 @@ import { Home } from "./components/Home"
 
 import { Media } from "./components/Media"
 import { Resources } from "./components/Resources"
-import Navbar from "./components/Navbar"
+import Navbar from "./components/navbar"
 
 function App() {
   console.log(data[0]["Street Address of Incident"])
