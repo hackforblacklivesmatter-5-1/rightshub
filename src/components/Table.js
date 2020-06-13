@@ -11,9 +11,9 @@ export const Table = () => {
       // shooting incident data YTD
       // .get("https://data.cityofnewyork.us/resource/5ucz-vwe8.json")
       // Arrest data historic
-      // .get("https://data.cityofnewyork.us/resource/8h9b-rp9u.json")
+      .get("https://data.cityofnewyork.us/resource/8h9b-rp9u.json")
       // Arrest data YTD
-      .get("https://data.cityofnewyork.us/resource/uip8-fykc.json")
+      // .get("https://data.cityofnewyork.us/resource/uip8-fykc.json")
       .then((res) => {
         // console.log(res.data)
         setRecords(res.data)
@@ -28,16 +28,10 @@ export const Table = () => {
     return records.map((record, id) => {
       return (
         <tr key={id}>
-          <td>{record.boro}</td>
-          <td>{record.occur_date}</td>
-          <td>{record.perp_age_group}</td>
-          <td>{record.perp_race}</td>
-          <td>{record.perp_sex}</td>
-          <td>{record.precinct}</td>
-          <td>{record.statistical_murder_flag}</td>
-          <td>{record.vic_age_group}</td>
-          <td>{record.vic_race}</td>
-          <td>{record.vic_sex}</td>
+          <td>{record.arrest_boro}</td>
+          <td>{record.arrest_date}</td>
+          <td>{record.arrest_precinct}</td>
+          <td>{record.age_group}</td>
         </tr>
       )
     })
@@ -51,9 +45,9 @@ export const Table = () => {
           <tr>
             <th>Boro</th>
             <th>Date</th>
-            <th>Age Group</th>
+            {/* <th>Age Group</th>
             <th>Race</th>
-            <th>Gender</th>
+            <th>Gender</th> */}
             <th>Precinct</th>
             <th>Killing</th>
             <th>Victim Age Group</th>
