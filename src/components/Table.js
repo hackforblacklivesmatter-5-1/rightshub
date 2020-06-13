@@ -57,6 +57,25 @@ export const Table = () => {
         </thead>
         <tbody>{renderTable()}</tbody>
       </table>
+      <div className="table-container">
+        <table className="table-content">
+          <thead>
+            <tr>
+              <th>Borough</th>
+              <th>Date</th>
+              <th>Age Group</th>
+              <th>Race</th>
+              <th>Gender</th>
+              <th>Precinct</th>
+              <th>Killing</th>
+              <th>Victim Age Group</th>
+              <th>Victim Race</th>
+              <th>Victim Gender</th>
+            </tr>
+          </thead>
+          <tbody>{renderTable()}</tbody>
+        </table>
+      </div>
     </div>
   )
 }
