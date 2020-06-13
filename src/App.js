@@ -15,7 +15,6 @@ function App() {
 			<GlobalFonts />
 			<Route path='/' exact component={Home} />
 			<Route path='/Table' exact component={Table} />
-			<Route path='/Chart' exact component={Chart} />
 			<Route path='/Markers' exact component={Markers} />
 		</div>
 	)
