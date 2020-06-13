@@ -12,7 +12,7 @@ export default function Navbar(props) {
   };
   return (
     <div>
-      <div className="navBar">
+      <div className="navBar-comp">
         <Paper>
           <Tabs
             //value={value}
