@@ -1,18 +1,14 @@
-import React from "react";
-import logo from "./logoblm.png";
-import "./App.css";
+import React from "react"
+import { Table } from "./components/Table"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to begin!
-        </p>
+        <Table />
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
