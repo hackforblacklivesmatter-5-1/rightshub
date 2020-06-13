@@ -1,9 +1,7 @@
 import React from 'react';
-import useSwr from "swr";
 import { Map, Marker, TileLayer, Popup } from "react-leaflet";
 import police from '../data/data.json';
 
-const fetcher = (...args) => fetch(...args).then(response => response.json());
 
 const Markers = () => {
 
