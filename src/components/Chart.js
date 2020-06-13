@@ -14,10 +14,10 @@ console.log(data)
 export class Chart extends React.Component {
 	state = {
 		data: data,
-		yAxisAttribute: 'states',
-		xAxisAttribute: 'value',
+		yAxisAttribute: 'State',
+		xAxisAttribute: '',
 		width: 1000,
-		height: 400,
+		height: 1000,
 	}
 	// chartRef = React.createRef()
 	componentDidMount() {
@@ -79,8 +79,8 @@ export class Chart extends React.Component {
 			.attr('width', (d) => x(d[this.state.xAxisAttribute]))
 	}
 	render() {
-		console.log(this.state)
-		return <div>{this.drawChart()}</div>
+		// 	console.log(this.state)
+		return <div className='rowChart' ref={this.chartRef}></div>
 	}
 }
 
