@@ -6,7 +6,7 @@ export const Statistics = () => {
 	useEffect(() => {}, [])
 
 	return (
-		<div>
+		<div className='stats'>
 			<div>Here are the most pressing statistics</div>
 			<div> % of the people shot in NY are black </div>
 		</div>

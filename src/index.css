@@ -40,6 +40,10 @@ nav {
 }
 
 /* table component css */
+.stats {
+	border-radius: 2px;
+	border: blue 1px;
+}
 .table-container {
 	display: flex;
 	flex-direction: column;
