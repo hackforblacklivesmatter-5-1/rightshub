@@ -40,23 +40,6 @@ export default function Navbar(props) {
                   <Tab className="TabLabel" label="Map" />
                 </Link>
               </div>
-
-              <div className="tabBox">
-                <Link to="/GeorgeHarrison" state={"George%20Harrison"}>
-                  <Tab className="TabLabel" label="George Harrison" />
-                </Link>
-              </div>
-
-              <div className="tabBox">
-                <Link to="/RingoStarr" value={"Ringo%20Starr"}>
-                  <Tab className="TabLabel" label="Ringo Starr" />
-                </Link>
-              </div>
-              <div className="tabBox">
-                <Link to="/Create" value={"Create"}>
-                  <Tab className="TabLabel" label="Create A Song" />
-                </Link>
-              </div>
             </div>
           </Tabs>
         </Paper>
