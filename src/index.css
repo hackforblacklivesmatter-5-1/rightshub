@@ -1,14 +1,28 @@
+/* Global CSS */
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
+  text-decoration: none;
+  color: black;
   margin: 0;
   font-family: Roboto;
 }
 
 h1 {
+  margin: 10px 0px 0px 0px;
+  font-family: "Cornerstone";
+}
+
+.Home-Header {
+  margin: 10px 0px 0px 0px;
+  font-family: "Cornerstone";
+  font-size: 80px;
+}
+
+h2 {
   margin: 10px 0px 0px 0px;
   font-family: "Cornerstone";
 }
@@ -74,8 +88,10 @@ table.table-content tfoot td {
   align-items: center;
 }
 
+/* maps component */
+
 .leaflet-container {
-  width: 100%; 
+  width: 100%;
   height: 100vh;
 }
 
@@ -83,3 +99,70 @@ table.table-content tfoot td {
   width: 75%; 
   height: 80vh;
 } */
+
+/* navbar componenent */
+.tabContainerBox {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+  color: black;
+  border: 3px solid black;
+  position: fixed;
+  background-color: white;
+  border-radius: 0%;
+}
+
+.tabBox:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+.TabLabel {
+  color: black;
+  margin: 10px 20px 10px 20px;
+  text-decoration: none;
+  word-spacing: 0.25px;
+}
+
+/* HOME */
+
+.Homepage {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: #fce21b;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  flex-direction: column;
+  margin-top: -45px;
+}
+
+/* MEDIA */
+
+.Media {
+  display: flex;
+  background-color: #fce21b;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin-top: -45px;
+
+  height: 100vh;
+
+  flex-direction: column;
+}
+
+/* Resources */
+
+.Resources {
+  display: flex;
+  background-color: #fce21b;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  margin-top: -45px;
+
+  flex-direction: column;
+}
