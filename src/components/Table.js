@@ -13,6 +13,7 @@ export const Table = () => {
           <thead>
             <tr>
               <th>Race</th>
+              <th>Name</th>
             </tr>
           </thead>
           <tbody>
