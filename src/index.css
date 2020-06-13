@@ -36,3 +36,8 @@ code {
   align-items: center;
   width: 90vw;
 }
+
+.leaflet-container {
+  width: 75%;
+  height: 80vh;
+}
