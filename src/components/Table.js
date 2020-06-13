@@ -44,7 +44,7 @@ export const Table = () => {
   };
 
   return (
-    <div>
+    <div className="table-component">
       <h1>Shooting Incidents</h1>
       <div className="table-container">
         <table className="table-content">
