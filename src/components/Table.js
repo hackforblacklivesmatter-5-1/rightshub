@@ -1,47 +1,25 @@
-import React, { useState, useEffect } from "react";
-import axios from "axios";
+import React from "react"
+import data from "../data/data.json"
 
 export const Table = () => {
-  const [records, setRecords] = useState([]);
+  console.log(data)
 
-  useEffect(() => {
-    axios
-      // shooting incident data historic
-      // .get("https://data.cityofnewyork.us/resource/833y-fsy8.json")
-      // shooting incident data YTD
-      // .get("https://data.cityofnewyork.us/resource/5ucz-vwe8.json")
-      // Arrest data historic
-      // .get("https://data.cityofnewyork.us/resource/8h9b-rp9u.json")
-      // Arrest data YTD
-      .get("https://data.cityofnewyork.us/resource/uip8-fykc.json")
-      .then((res) => {
-        // console.log(res.data)
-        setRecords(res.data);
-      })
-      .catch((err) => {
-        // console.log(err)
-      });
-  }, []);
-
-  const renderTable = () => {
-    console.log(records);
-    return records.map((record, id) => {
+  const renderData = () => {
+    return data.map((record, id) => {
       return (
         <tr key={id}>
-          <td>{record.boro}</td>
-          <td>{record.occur_date}</td>
-          <td>{record.perp_age_group}</td>
-          <td>{record.perp_race}</td>
-          <td>{record.perp_sex}</td>
-          <td>{record.precinct}</td>
-          <td>{record.statistical_murder_flag}</td>
-          <td>{record.vic_age_group}</td>
-          <td>{record.vic_race}</td>
-          <td>{record.vic_sex}</td>
+          <td>{record["Victim's race"]}</td>
+          <td>{record["Victim's name"]}</td>
+          <td>{record["Cause of death"]}</td>
+          <td>{record["Criminal Charges?"]}</td>
+          <td>{record["Fleeing (Source: WaPo)"]}</td>
+          <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
+          <td>{record["Alleged Threat Level (Source: WaPo):"]}</td>
+          <td>{record["Body Camera (Source: WaPo)"]}</td>
         </tr>
-      );
-    });
-  };
+      )
+    })
+  }
 
   return (
     <div className="table-component">
@@ -51,21 +29,46 @@ export const Table = () => {
         <table className="table-content">
           <thead>
             <tr>
-              <th>Borough</th>
-              <th>Date</th>
-              <th>Age Group</th>
-              <th>Race</th>
-              <th>Gender</th>
-              <th>Precinct</th>
-              <th>Killing</th>
-              <th>Victim Age Group</th>
-              <th>Victim Race</th>
-              <th>Victim Gender</th>
+              <th>Victim's Race</th>
+              <th>Victim's Name</th>
+              <th>Cause of Death</th>
+              <th>Criminal Charges</th>
+              <th>Fleeing</th>
+              <th>Alleged Weapon</th>
+              <th>Alleged Threat Level</th>
+              <th>Body Camera</th>
             </tr>
           </thead>
-          <tbody>{renderTable()}</tbody>
+          <tbody>
+            {renderData()}
+            {/* {sortByRace()} */}
+            {/* {sortByName()} */}
+          </tbody>
         </table>
       </div>
     </div>
-  );
-};
+  )
+}
+
+// const sortByRace = () => {
+//   return data
+//     .sort((a, b) => (a["Victim's race"] > b["Victim's race"] ? 1 : -1))
+//     .map((record, id) => {
+//       return (
+//         <tr key={id}>
+//           <td>{record["Victim's race"]}</td>
+//         </tr>
+//       )
+//     })
+// }
+// const sortByName = () => {
+//   return data
+//     .sort((a, b) => (a["Victim's name"] > b["Victim's name"] ? 1 : -1))
+//     .map((record, id) => {
+//       return (
+//         <tr key={id}>
+//           <td>{record["Victim's name"]}</td>
+//         </tr>
+//       )
+//     })
+// }
