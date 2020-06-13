@@ -1,5 +1,28 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
+import { Statistics } from '../components/Statistics'
+
+export const Table = () => {
+	const [records, setRecords] = useState([])
+
+	useEffect(() => {
+		// axios
+		// shooting incident data historic
+		// .get("https://data.cityofnewyork.us/resource/833y-fsy8.json")
+		// shooting incident data YTD
+		// .get("https://data.cityofnewyork.us/resource/5ucz-vwe8.json")
+		// Arrest data historic
+		// .get("https://data.cityofnewyork.us/resource/8h9b-rp9u.json")
+		// Arrest data YTD
+		// .get('https://data.cityofnewyork.us/resource/uip8-fykc.json')
+		// .then((res) => {
+		// 	// console.log(res.data)
+		// 	setRecords(res.data)
+		// })
+		// .catch((err) => {
+		// 	// console.log(err)
+		// })
+	}, [])
 
 	const renderTable = () => {
 		// console.log(records);
@@ -42,9 +65,9 @@ import axios from 'axios'
 						</tr>
 					</thead>
 					<tbody>{renderTable()}</tbody>
-          <Statistics />
 				</table>
 			</div>
+			<Statistics />
 		</div>
 	)
 }

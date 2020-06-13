@@ -1,18 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component, useState, useEffect } from 'react'
 
 export const Statistics = () => {
 	const [records, setRecords] = useState([])
 
-	useEffect(() => {
-			.get('https://data.cityofnewyork.us/resource/uip8-fykc.json')
-			.then((res) => {
-				// console.log(res.data)
-				setRecords(res.data)
-			})
-			.catch((err) => {
-				// console.log(err)
-			})
-	}, [])
+	useEffect(() => {}, [])
 
 	return (
 		<div>
