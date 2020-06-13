@@ -25,23 +25,9 @@ const Markers = () => {
           key={popo["WaPo ID (If included in WaPo database)"]}
           position={[popo['Latitude'], popo['Longitude']]}
         >
+          <Popup>A pretty CSS3 popup.<br />Easily customizable.</Popup>
         </Marker>
       ))}
-      <Marker position={[40.7128, -74.0060]}>
-        <Popup>A pretty CSS3 popup.<br />Easily customizable.</Popup>
-        <Popup
-          position={[40.7128, -74.0060]}
-          onClose={() => {
-            alert('closed popup')
-          }}
-        >
-          <div>
-            {/* <h2>{activePark.properties.NAME}</h2>
-          <p>{activePark.properties.DESCRIPTIO}</p> */}
-            <p>I am a popup</p>
-          </div>
-        </Popup>
-      </Marker>
     </Map>
   )
 }
