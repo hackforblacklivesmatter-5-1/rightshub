@@ -9,7 +9,6 @@ import { Home } from "./components/Home";
 import Navbar from "./components/navbar";
 import { Media } from "./components/Media";
 import { Resources } from "./components/Resources";
-import "./App.css";
 
 function App() {
   console.log(data[0]["Street Address of Incident"]);
