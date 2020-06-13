@@ -2,10 +2,7 @@ import React from 'react';
 import { Map, Marker, TileLayer, Popup } from "react-leaflet";
 import police from '../data/data.json';
 
-
 const Markers = () => {
-
-
   return (
     <Map center={[40.7128, -74.0060]} zoom={12}>
       <TileLayer
