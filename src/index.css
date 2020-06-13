@@ -46,6 +46,10 @@ nav {
 	display: flex;
 	flex-direction: column;
 }
+
+.table-title {
+  margin-top: 35px;
+}
 table.table-content {
 	font-family: Roboto;
 	border: 3px solid #000000;
