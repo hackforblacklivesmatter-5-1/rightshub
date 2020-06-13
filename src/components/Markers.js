@@ -11,7 +11,7 @@ const Markers = () => {
   const crimes = data && !error ? data.slice(0, 100) : [];
 
   return (
-    <Map center={[52.6376, -1.135171]} zoom={12}>
+    <Map center={[40.7128, -74.0060]} zoom={12}>
       <TileLayer
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
