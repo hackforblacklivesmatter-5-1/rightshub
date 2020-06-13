@@ -7,7 +7,7 @@ export const Statistics = () => {
 
 	return (
 		<div>
-			<div>Here are what are the most pressing things today </div>
+			<div>Here are the most pressing statistics</div>
 			<div></div>
 		</div>
 	)
