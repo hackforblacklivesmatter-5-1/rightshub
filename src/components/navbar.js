@@ -39,7 +39,7 @@ export default function Navbar(props) {
               </div>
 
               <div className="tabBox">
-                <Link to="/Map" state={"Map"}>
+                <Link to="/Markers" state={"Markers"}>
                   <h1 className="TabLabel" label="Map">
                     Map
                   </h1>
