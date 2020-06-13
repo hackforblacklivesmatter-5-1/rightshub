@@ -6,13 +6,7 @@ import police from '../data/data.json';
 const fetcher = (...args) => fetch(...args).then(response => response.json());
 
 const Markers = () => {
-  const url =
-    "https://data.police.uk/api/crimes-street/all-crime?lat=52.629729&lng=-1.131592&date=2019-10";
-  const { data, error } = useSwr(url, { fetcher });
-  const crimes = data && !error ? data.slice(0, 100) : [];
-  console.log('cops', police[0]);
-  console.log('uk police', crimes[0])
-  console.log('data @ markers', police[0]['Latitude'], police[0]['Longitude']);
+
 
   return (
     <Map center={[40.7128, -74.0060]} zoom={12}>
@@ -25,7 +19,12 @@ const Markers = () => {
           key={popo["WaPo ID (If included in WaPo database)"]}
           position={[popo['Latitude'], popo['Longitude']]}
         >
-          <Popup>A pretty CSS3 popup.<br />Easily customizable.</Popup>
+          <Popup><b>{popo["Victim's name"]}</b><br />
+            {popo["Victim's age"]}, {popo["Victim's race"]}
+            <br />
+            <br />
+            {popo["A brief description of the circumstances surrounding the death"]}
+          </Popup>
         </Marker>
       ))}
     </Map>
