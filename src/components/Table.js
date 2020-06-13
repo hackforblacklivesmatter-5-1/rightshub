@@ -4,20 +4,31 @@ import data from "../data/data-ny.json"
 export const Table = () => {
   console.log(data)
 
+  const handleRowClick = (e) => {
+    window.open(
+      e.currentTarget.dataset.href,
+      '_blank' // <- This is what makes it open in a new window.
+    );
+    console.log('You clicked a row!', 'e.target.dataset.href: ', e.currentTarget.dataset.href)
+  };
+
   const renderData = () => {
     return data.map((record, id) => {
       return (
-        <tr key={id}>
-          <td>{record["Victim's race"]}</td>
-          <td>{record["Victim's name"]}</td>
-          <td>{record["Cause of death"]}</td>
-          <td>{record["Victim's age"]}</td>
-          <td>{record["Date of Incident (month/day/year)"]}</td>
-          <td>{record["Fleeing (Source: WaPo)"]}</td>
-          <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
-          <td>{record["Alleged Threat Level (Source: WaPo):"]}</td>
-          <td>{record["Body Camera (Source: WaPo)"]}</td>
-        </tr>
+        
+          <tr onClick={(e) => handleRowClick(e)} key={id} data-href={record["Link to news article or photo of official document"]}>
+              <td>{record["Victim's race"]}</td>
+              <td>{record["Victim's name"]}</td>
+              <td>{record["Cause of death"]}</td>
+              <td>{record["Victim's age"]}</td>
+              <td>{record["Date of Incident (month/day/year)"]}</td>
+              <td>{record["Fleeing (Source: WaPo)"]}</td>
+              <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
+              <td>{record["Alleged Threat Level (Source: WaPo):"]}</td>
+              <td>{record["Body Camera (Source: WaPo)"]}</td>
+            
+          </tr>
+        
       )
     })
   }
