@@ -92,6 +92,17 @@ table.table-content tfoot td {
   align-items: center;
 }
 
+.table-row {
+  cursor: pointer;
+  /* background-color: red; */
+}
+
+.table-row:hover {
+  cursor: pointer;
+  background-color: rgba(190,190,190,1);
+
+}
+
 /* maps component */
 
 .leaflet-container {

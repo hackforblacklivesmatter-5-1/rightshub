@@ -16,7 +16,10 @@ export const Table = () => {
     return data.map((record, id) => {
       return (
         
-          <tr onClick={(e) => handleRowClick(e)} key={id} data-href={record["Link to news article or photo of official document"]}>
+          <tr className="table-row" style={{
+                cursor: `pointer`,
+              }} 
+              onClick={(e) => handleRowClick(e)} key={id} data-href={record["Link to news article or photo of official document"]}>
               <td>{record["Victim's race"]}</td>
               <td>{record["Victim's name"]}</td>
               <td>{record["Cause of death"]}</td>
