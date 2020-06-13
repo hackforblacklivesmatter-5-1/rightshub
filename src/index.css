@@ -26,9 +26,9 @@ nav {
 }
 
 /* table component css */
-.table-content{
-  display:flex,
-  flex-direction:row
+.table-content {
+	display: flex;
+	flex-direction: row;
 }
 .table-content {
 	text-align: center;
