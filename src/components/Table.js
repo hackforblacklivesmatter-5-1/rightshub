@@ -63,14 +63,14 @@ export const Table = () => {
 //       )
 //     })
 // }
-// const sortByName = () => {
-//   return data
-//     .sort((a, b) => (a["Victim's name"] > b["Victim's name"] ? 1 : -1))
-//     .map((record, id) => {
-//       return (
-//         <tr key={id}>
-//           <td>{record["Victim's name"]}</td>
-//         </tr>
-//       )
-//     })
-// }
+const sortByName = () => {
+	return data
+		.sort((a, b) => (a["Victim's name"] > b["Victim's name"] ? 1 : -1))
+		.map((record, id) => {
+			return (
+				<tr key={id}>
+					<td>{record["Victim's name"]}</td>
+				</tr>
+			)
+		})
+}
