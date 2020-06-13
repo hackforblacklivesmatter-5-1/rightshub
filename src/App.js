@@ -4,6 +4,7 @@ import "./App.css";
 import { Map, Marker, Popup, TileLayer } from "react-leaflet";
 import useSwr from "swr";
 const fetcher = (...args) => fetch(...args).then(response => response.json());
+import { Table } from "./components/Table"
 
 function App() {
   const url =
@@ -14,10 +15,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to begin!
-        </p>
+        <Table />
       </header>
 
       <Map center={[52.6376, -1.135171]} zoom={12}>
@@ -34,7 +32,7 @@ function App() {
         ))}
       </Map>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
