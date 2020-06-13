@@ -1,6 +1,6 @@
 import React from 'react';
 import { Map, Marker, TileLayer, Popup } from "react-leaflet";
-import police from '../data/data.json';
+import police from '../data/data-ny.json';
 
 const Markers = () => {
   return (
