@@ -26,9 +26,9 @@ export const Table = () => {
 		<div className='table-component'>
 			<h1 className='table-title'>Shooting Incidents</h1>
 			<div className='yellow-line'></div>
+			<Statistics />
 			<div className='table-container'>
 				<table className='table-content'>
-					<Statistics />
 					<thead>
 						<tr>
 							<th>Victim's Race</th>

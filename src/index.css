@@ -40,15 +40,16 @@ nav {
 }
 
 /* table component css */
-
-.table-content {
-	text-align: center;
+.table-container {
 	display: flex;
 	flex-direction: column;
 }
+.table-content {
+	text-align: center;
+}
 
 .table-title {
-  margin-top: 35px;
+	margin-top: 35px;
 }
 table.table-content {
 	font-family: Roboto;

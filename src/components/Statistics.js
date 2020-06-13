@@ -8,7 +8,7 @@ export const Statistics = () => {
 	return (
 		<div>
 			<div>Here are the most pressing statistics</div>
-			<div></div>
+			<div> % of the people shot in NY are black </div>
 		</div>
 	)
 }
