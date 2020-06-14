@@ -46,6 +46,33 @@ class Gallery extends Component {
                 desc={description.crj}
               />
             </div>
+            <div className="col-md-4">
+              <GalleryCard
+                imgsrc={crj}
+                title="Center for Racial Justice"
+                href="https://centerracialjustice.org/"
+                desc={description.crj}
+              />
+            </div>
+
+            <div className="col-md-4">
+              <GalleryCard
+                imgsrc={crj}
+                title="Center for Racial Justice"
+                href="https://centerracialjustice.org/"
+                desc={description.crj}
+              />
+            </div>
+
+            <div className="col-md-4">
+              <GalleryCard
+                imgsrc={crj}
+                title="Center for Racial Justice"
+                href="https://centerracialjustice.org/"
+                desc={description.crj}
+              />
+            </div>
+
           </div>
         </div>
       </div>

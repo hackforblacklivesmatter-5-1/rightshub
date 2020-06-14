@@ -4,11 +4,16 @@
   padding: 0;
 }
 
+html {
+  background-color: #fce21b;
+}
+
 body {
   text-decoration: none;
   color: black;
   margin: 0;
   font-family: Roboto;
+  background-color: #fce21b;
 }
 
 h1 {
@@ -332,7 +337,7 @@ table.table-content tfoot td {
 }
 
 .Resources-Header {
-  margin: 0px 0px -25px 0px;
+  margin: 500px 0px -25px 0px;
   font-family: "Cornerstone";
   font-size: 77px;
 }
@@ -342,6 +347,7 @@ table.table-content tfoot td {
   height: 500px;
   z-index: 0;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .card:hover {
@@ -358,6 +364,10 @@ table.table-content tfoot td {
 
 .container-fluid .row {
   padding-top: 6rem;
+}
+
+.row {
+  width: 80vw;
 }
 
 .overflow {

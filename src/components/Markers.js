@@ -35,7 +35,7 @@ const Markers = () => {
               }
               <br />
               <br />
-              <a href={policeVictims["Link to news article or photo of official document"]}>View the Full Story</a>
+              <a href={policeVictims["Link to news article or photo of official document"]}>Read the Full Story</a>
             </Popup>
           </Marker>
         ))}
