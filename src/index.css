@@ -27,9 +27,16 @@ nav {
   font-family: "Cornerstone";
 }
 
-.yellow-line {
-  border-bottom: 5px solid #fce21b;
-  width: 310px;
+.black-line {
+  border-bottom: 3px solid black;
+  width: 350px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.white-line {
+  border-bottom: 5px solid #ffffff;
+  width: 350px;
   margin-bottom: 10px;
   margin-top: -10px;
 }
@@ -112,9 +119,10 @@ table.table-content tfoot td {
   display: inline-block;
   cursor: pointer;
   color: #333333;
-  font-family: Arial;
+  font-family: "Cornerstone";
   font-size: 15px;
   font-weight: bold;
+
   padding: 6px 24px;
   text-decoration: none;
 }
@@ -131,6 +139,11 @@ table.table-content tfoot td {
   align-items: center;
 }
 
+.table-subheader {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 /* table row style */
 .table-row {
   cursor: pointer;
@@ -143,6 +156,34 @@ table.table-content tfoot td {
 }
 
 /* maps component */
+
+.markers-title {
+  margin-top: 100px;
+}
+
+.download-button {
+  margin: 15px 20px 35px 20px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 1px;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: "Cornerstone";
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+}
+
+.download-button:hover {
+  filter: invert(1);
+}
+
+.markers-subheader {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
 
 .Markers-component {
   height: 100vh;
@@ -163,13 +204,12 @@ table.table-content tfoot td {
   justify-content: center;
   align-items: center;
   display: flex;
-  margin-top: 80px;
   border: 2px solid rgb(0, 0, 0);
   justify-content: center;
   align-items: center;
 }
 .Marker-tip {
-  margin-top: 10px;
+  margin-top: 25px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
   font-size: 18px;

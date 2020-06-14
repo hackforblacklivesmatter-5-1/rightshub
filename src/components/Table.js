@@ -208,6 +208,10 @@ export const Table = () => {
     <div className="table-component">
       <h1 className="table-title">Killings by Police</h1>
       <div className="yellow-line"></div>{" "}
+      <h6 className="table-subheader">
+        Below are the statistics of killings by police in New York from
+        2013-2019.
+      </h6>
       <div className="table-buttons">
         <button className="black-lives-button" onClick={() => toggleRace()}>
           Show Black Lives

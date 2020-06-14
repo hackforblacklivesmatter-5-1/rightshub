@@ -5,6 +5,13 @@ import police from "../data/data-ny.json";
 const Markers = () => {
   return (
     <div className="Markers-component">
+      <h1 className="markers-title">Killings by Police</h1>
+      <div className="black-line"></div>{" "}
+      <h6 className="markers-subheader">
+        Below are the reported killings by police in New York from 2013-2019
+        mapped out.
+      </h6>
+      <div className="markers-buttons"></div>
       <Map center={[40.7128, -74.006]} zoom={12}>
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
@@ -31,6 +38,9 @@ const Markers = () => {
         ))}
       </Map>
       <h4 className="Marker-tip">Click on GPS pins for information</h4>
+      <a href="https://github.com/hackforblacklivesmatter-5-1/rightshub/blob/master/src/data/NY2013to2019">
+        <button className="download-button">Download Dataset</button>
+      </a>
     </div>
   );
 };
