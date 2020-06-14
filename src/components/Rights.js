@@ -14,9 +14,13 @@ export const Rights = () => {
   return (
     <div className="Rights">
       <h1 className="Rights-Header">Know Your Rights</h1>
+      <h2 className="Rights-Sub-Header">You have the right: </h2>
       <div className="Rights-Gallery">
         <div className="container-fluid d-flex justify-content-center">
-          <div className="row">
+          <div style={{
+                  paddingTop: `2rem`
+                }}
+          className="row rights">
             <div className="col-md-4">
               <RightsCard
                 // imgsrc={aclu}
@@ -44,9 +48,7 @@ export const Rights = () => {
           </div>
         </div>
       </div>
-      <div className="Rights-Link">
-        <h3>https://www.aclu.org/know-your-rights/stopped-by-police/</h3>
-      </div>
+
     </div>
   )
 }
