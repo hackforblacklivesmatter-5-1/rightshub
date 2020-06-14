@@ -1,11 +1,12 @@
 import React from 'react';
-import aclu from '../assets/aclu-logo.jpeg';
+import './card-style.css'
+
 
 const GalleryCard = props => {
   return (
     <div className="card text-center">
       <div className="overflow">
-        <img src={aclu} alt="ACLU" />
+        <img src={props.imgsrc} alt="ACLU" className="card-img-top" />
       </div>
 
       <div className="card-body text-dark">
