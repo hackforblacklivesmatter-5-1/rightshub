@@ -99,17 +99,32 @@ table.table-content tfoot td {
 	align-items: center;
 }
 
-/* maps component */
-
-.leaflet-container {
-	width: 100%;
-	height: 100vh;
+/* table row style */
+.table-row {
+	cursor: pointer;
+	/* background-color: red; */
 }
 
+.table-row:hover {
+	cursor: pointer;
+	background-color: rgba(190, 190, 190, 1);
+}
+
+/* maps component */
+
 /* .leaflet-container {
-  width: 75%;
-  height: 80vh;
+  width: 100%;
+  height: 100vh;
 } */
+
+.leaflet-container {
+	width: 75%;
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
 
 /* navbar componenent */
 .tabContainerBox {
