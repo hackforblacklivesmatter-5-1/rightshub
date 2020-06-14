@@ -8,6 +8,11 @@ export const Home = () => {
       </h1>
       <div></div>
       <p></p> <h2 className="Home-SecondHeader">Know Your Rights</h2>
+      <h4 className="home-purpose">
+        Our goal is to educate and inform the public about incidents of death
+        from police in their area via data visualizations and educate them about
+        their rights.
+      </h4>
     </div>
   );
 };

@@ -174,7 +174,7 @@ export const Table = () => {
       <div className="table-container">
         <table className="table-content">
           <thead>
-            <tr>
+            <tr className="table-headers">
               <th>Victim's Race</th>
               <th>Victim's Name</th>
               <th>
@@ -201,7 +201,10 @@ export const Table = () => {
           </tbody>
         </table>
         {paginate(0)}
-      </div>
+      </div>{" "}
+      <a href="https://github.com/hackforblacklivesmatter-5-1/rightshub/blob/master/src/data/NY2013to2019.xlsx?raw=true">
+        <button className="download-button">Download Dataset</button>
+      </a>
     </div>
   )
 }
