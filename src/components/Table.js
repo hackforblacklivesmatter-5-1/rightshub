@@ -18,6 +18,13 @@ export const Table = () => {
       
     };
 
+    const handleTurnPage = (e) => {
+      e.preventDefault();
+      console.log('handlepage executed, current page: ', page)
+      setPage(e.target.innerText)
+      
+    };
+
     const currentPage = (pageNumber=1) => {
       return pageNumber
     };
@@ -28,12 +35,7 @@ export const Table = () => {
       return pages
     };
   
-    const handleTurnPage = (e) => {
-      e.preventDefault();
-      console.log('handlepage executed, current page: ', page)
-      setPage(e.target.innerText)
-      
-    };
+  
 
     
 
@@ -50,20 +52,15 @@ export const Table = () => {
     if(e.target.className === 'pagination-prev') {
       if(page > 0) {
         setPage(--page)
-        console.log('previous!')
       }
     } else if(e.target.className === 'pagination-next') {
-      if(page < countPages()) {
-        setPage(++page)
-        console.log('previous!')
+        if(page < countPages()) {
+          setPage(++page)
       }
     } else {
       handleTurnPage(e);
 
     }
-
-    
-    
   };
 
   // Render data
@@ -118,6 +115,7 @@ export const Table = () => {
       parseInt(a["Victim's age"]) < parseInt(b["Victim's age"]) ? 1 : -1
     )
     console.log(sorted)
+    return sorted
   }
 
   const sortByGun = () => {
