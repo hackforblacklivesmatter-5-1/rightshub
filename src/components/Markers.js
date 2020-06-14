@@ -9,16 +9,16 @@ const Markers = () => {
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         attribution='&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
       />
-      {police.map(popo => (
+      {police.map(policeVictims => (
         <Marker
-          key={popo["WaPo ID (If included in WaPo database)"]}
-          position={[popo['Latitude'], popo['Longitude']]}
+          key={policeVictims["WaPo ID (If included in WaPo database)"]}
+          position={[policeVictims['Latitude'], policeVictims['Longitude']]}
         >
-          <Popup><b>{popo["Victim's name"]}</b><br />
-            {popo["Victim's age"]}, {popo["Victim's race"]}
+          <Popup><b>{policeVictims["Victim's name"]}</b><br />
+            {policeVictims["Victim's age"]}, {policeVictims["Victim's race"]}
             <br />
             <br />
-            {popo["A brief description of the circumstances surrounding the death"]}
+            {policeVictims["A brief description of the circumstances surrounding the death"]}
           </Popup>
         </Marker>
       ))}
