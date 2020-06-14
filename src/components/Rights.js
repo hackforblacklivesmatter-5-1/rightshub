@@ -7,7 +7,7 @@ const description = {
   search:
     "You do not have to consent to a search of yourself or your belongings, but police may pat down your clothing if they suspect a weapon. Note that refusing consent may not stop the officer from carrying out the search against your will, but making a timely objection before or during the search can help preserve your rights in any later legal proceeding.",
   lawyer:
-    "If you are arrested by police, you have the right to a government-appointed lawyer if you cannot afford one.",
+    "If you are arrested by police, you have the right to a government-appointed lawyer if you cannot afford one. You do not have to answer questions about where you were born, whether you are a U.S. citizen, or how you entered the country. (Separate rules apply at international borders and airports as well as for individuals on certain nonimmigrant visas, including tourists and business travelers. For more specific guidance about how to deal with immigration-related questions, see our immigrants rights section.)",
 }
 
 export const Rights = () => {

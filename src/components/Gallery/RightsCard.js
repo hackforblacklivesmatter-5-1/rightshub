@@ -1,16 +1,15 @@
 import React from "react"
 const RightsCard = (props) => {
   return (
-    <div className="card text-center">
-      <div className="overflow">
-        {/* <img src={props.imgsrc} alt="ACLU" className="card-img-top" /> */}
-      </div>
+    <div className="card rights text-center">
       <div className="card-box text-dark">
-        <h4 className="card-title">{props.title}</h4>
+        <h2 className="card-title">{props.title}</h2>
         <p className="card-text text-secondary">{props.desc}</p>
-        <a href={props.href} className="btn btn-outline-success">
-          Learn More
-        </a>
+        <div>
+          <a className="card-rights-link" href="#">
+            Heres a link
+          </a>
+        </div>
       </div>
     </div>
   )
