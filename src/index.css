@@ -47,8 +47,30 @@ nav {
   text-align: center;
 }
 
+th {
+  background: white;
+  position: sticky;
+  top: -2px;
+  box-shadow: 0px 3px 0px -1px rgba(0, 0, 0, 1);
+  border-top: none;
+}
+
+@supports (-ms-ime-align: auto) {
+  background-clip: padding-box;
+}
+
+.table-container {
+  background-color: white;
+  margin-bottom: 30px;
+  height: 68vh;
+  overflow: scroll;
+  border: 1px solid black;
+  border-top: 3px solid black;
+}
+
 .table-title {
-  margin-top: 50px;
+  margin-top: 40px;
+  margin-bottom: 0px;
 }
 table.table-content {
   font-family: Roboto;
@@ -92,6 +114,7 @@ table.table-content tfoot td {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  background-color: #fce21b;
 }
 
 .arrow-down {
@@ -113,7 +136,7 @@ table.table-content tfoot td {
 
 .black-lives-button {
   margin: 15px 20px 25px 20px;
-  background-color: #fce21b;
+  background-color: white;
   border: 2px solid black;
   border-radius: 1px;
   display: inline-block;
@@ -122,7 +145,6 @@ table.table-content tfoot td {
   font-family: "Cornerstone";
   font-size: 15px;
   font-weight: bold;
-
   padding: 6px 24px;
   text-decoration: none;
 }
@@ -156,29 +178,6 @@ table.table-content tfoot td {
 }
 
 /* maps component */
-
-.markers-title {
-  margin-top: 100px;
-}
-
-.download-button {
-  margin: 15px 20px 35px 20px;
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 1px;
-  display: inline-block;
-  cursor: pointer;
-  color: #333333;
-  font-family: "Cornerstone";
-  font-size: 15px;
-  font-weight: bold;
-  padding: 6px 24px;
-  text-decoration: none;
-}
-
-.download-button:hover {
-  filter: invert(1);
-}
 
 .markers-subheader {
   margin-top: 5px;
@@ -214,6 +213,30 @@ table.table-content tfoot td {
   font-style: italic;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.804);
+}
+
+.markers-title {
+  margin-top: 100px;
+}
+
+.download-button {
+  margin: 15px 20px 35px 20px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 1px;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: "Cornerstone";
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+}
+
+.download-button:hover {
+  background-color: #ffd500;
+  text-shadow: 0px 1px 0px #fce21b;
 }
 
 /* navbar componenent */
@@ -255,6 +278,15 @@ table.table-content tfoot td {
   margin-top: -45px;
 }
 
+.home-purpose {
+  margin-top: -5px;
+  margin-left: 25px;
+  width: 420px;
+  text-align: right;
+  font-weight: 300;
+  font-size: 18px;
+}
+
 .Home-subtitle {
   font-size: 40px;
   margin-left: -40px;
@@ -262,19 +294,19 @@ table.table-content tfoot td {
 }
 
 .Home-Header {
-  margin: 10px 0px -20px 0px;
+  margin: 20px 0px -20px 100px;
   font-family: "Cornerstone";
   font-size: 80px;
 }
 
 .Home-SecondHeader {
-  margin-left: 52px;
+  margin-left: 152px;
   margin-top: -10px;
 }
 
-/* MEDIA */
+/* Rights */
 
-.Media {
+.Rights {
   display: flex;
   background-color: #fce21b;
   justify-content: center;
