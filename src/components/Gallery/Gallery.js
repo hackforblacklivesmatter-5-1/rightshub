@@ -12,10 +12,10 @@ class Gallery extends Component {
       <div className="container-fluid d-flex justify-content-center">
         <div className="row">
           <div className="col-md-4">
-            <GalleryCard imgsrc={aclu} />
+            <GalleryCard imgsrc={aclu} title="ACLU" />
           </div>
-          <div className="col-md-4"><GalleryCard imgsrc={jlusa} /></div>
-          <div className="col-md-4"><GalleryCard imgsrc={crj} /></div>
+          <div className="col-md-4"><GalleryCard imgsrc={jlusa} title="JustLeadership" /></div>
+          <div className="col-md-4"><GalleryCard imgsrc={crj} title="Center for Racial Justice" /></div>
         </div>
       </div>
     )
