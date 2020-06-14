@@ -3,8 +3,6 @@ import data from "../data/data-ny.json";
 
 export const Table = () => {
   const [race, setRace] = useState(false);
-  const [date, setDate] = useState(false);
-  const [age, setAge] = useState(false);
 
   // Handling functions
 
@@ -58,7 +56,7 @@ export const Table = () => {
 
   //Pagination
   const paginate = (currentPage) => {
-    console.log("Im paginating");
+    // console.log("Im paginating")
     const page = currentPage;
     countPages();
     turnPageTo(page);
@@ -67,21 +65,21 @@ export const Table = () => {
   const turnPageTo = (n) => {
     const startIndex = n * 20;
     const currentData = data.slice(startIndex, startIndex + 20);
-    console.log(currentData);
+    // console.log(currentData)
   };
 
   const countPages = () => {
-    console.log("counting!");
+    // console.log("counting!")
     const pages = Math.ceil(data.length / 20);
   };
-
-  const renderPages = () => {};
 
   // Filter and Sort functions
   const filterByRace = () => {
     const blackVictims = data.filter(
       (victim) => victim["Victim's race"] === "Black"
     );
+    let blackLives = blackVictims.length;
+    console.log(blackLives);
     return blackVictims.map((record, id) => {
       return (
         <tr key={id}>
@@ -99,63 +97,9 @@ export const Table = () => {
     });
   };
 
-  const sortByDate = () => {
-    let sorted = data.sort((a, b) =>
-      new Date(a["Date of Incident (month/day/year)"]) >
-      new Date(b["Date of Incident (month/day/year)"])
-        ? 1
-        : -1
-    );
-    return sorted.map((record, id) => {
-      return (
-        <tr key={id}>
-          <td>{record["Victim's race"]}</td>
-          <td onMouseEnter={() => showDescription(record)}>
-            {record["Victim's name"]}
-          </td>
-          <td>{record["Victim's age"]}</td>
-          <td>{record["Date of Incident (month/day/year)"]}</td>
-          <td>{record["Fleeing (Source: WaPo)"]}</td>
-          <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
-          <td>{record["Body Camera (Source: WaPo)"]}</td>
-        </tr>
-      );
-    });
-  };
-
-  const sortByAge = () => {
-    let sorted = data.sort((a, b) =>
-      parseInt(a["Victim's age"]) > parseInt(b["Victim's age"]) ? 1 : -1
-    );
-    return sorted.map((record, id) => {
-      return (
-        <tr key={id}>
-          <td>{record["Victim's race"]}</td>
-          <td onMouseEnter={() => showDescription(record)}>
-            {record["Victim's name"]}
-          </td>
-          <td>{record["Victim's age"]}</td>
-          <td>{record["Date of Incident (month/day/year)"]}</td>
-          <td>{record["Fleeing (Source: WaPo)"]}</td>
-          <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
-          <td>{record["Alleged Threat Level (Source: WaPo):"]}</td>
-          <td>{record["Body Camera (Source: WaPo)"]}</td>
-        </tr>
-      );
-    });
-  };
-
   // toggle state
   const toggleRace = () => {
     setRace(!race);
-  };
-
-  const toggleDate = () => {
-    setDate(!date);
-  };
-
-  const toggleAge = () => {
-    setAge(!age);
   };
 
   return (
@@ -166,6 +110,9 @@ export const Table = () => {
         Below are the statistics of killings by police in New York from
         2013-2019.
       </h6>
+      {race
+        ? "Number of Black Lives Lost: 71"
+        : `Total Number of Lives Lost: ${data.length}`}
       <div className="table-buttons">
         <button className="black-lives-button" onClick={() => toggleRace()}>
           Show Black Lives
@@ -180,28 +127,14 @@ export const Table = () => {
             <tr className="table-headers">
               <th>Victim's Race</th>
               <th>Victim's Name</th>
-              <th>
-                Victim's age{" "}
-                <div className="arrow-container" onClick={() => toggleAge()}>
-                  <i className="arrow-down"></i>
-                </div>
-              </th>
-              <th>
-                Date of Incident
-                <div className="arrow-container" onClick={() => toggleDate()}>
-                  <i className="arrow-down"></i>
-                </div>
-              </th>
+              <th>Victim's age </th>
+              <th>Date of Incident</th>
               <th>Fleeing</th>
               <th>Alleged Weapon</th>
               <th>Body Camera</th>
             </tr>
           </thead>
-          <tbody>
-            {race ? filterByRace() : renderData()}
-            {date ? sortByDate() : renderData()}
-            {age ? sortByAge() : renderData()}
-          </tbody>
+          <tbody>{race ? filterByRace() : renderData()}</tbody>
         </table>
       </div>
     </div>

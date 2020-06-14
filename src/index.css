@@ -4,11 +4,16 @@
   padding: 0;
 }
 
+html {
+  background-color: #fce21b;
+}
+
 body {
   text-decoration: none;
   color: black;
   margin: 0;
   font-family: Roboto;
+  background-color: #fce21b;
 }
 
 h1 {
@@ -90,6 +95,7 @@ th {
   margin-top: 56px;
   margin-bottom: 0px;
 }
+
 table.table-content {
   font-family: Roboto;
   border: 3px solid #000000;
@@ -98,32 +104,35 @@ table.table-content {
   text-align: center;
   border-collapse: collapse;
 }
+
 table.table-content td,
 table.table-content th {
   border: 1px solid #000000;
   padding: 5px 4px;
 }
+
 table.table-content tbody td {
   font-size: 13px;
 }
+
 table.table-content thead {
   background: #cfcfcf;
   background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #cfcfcf 100%);
-  background: -webkit-linear-gradient(
-    top,
-    #dbdbdb 0%,
-    #d3d3d3 66%,
-    #cfcfcf 100%
-  );
+  background: -webkit-linear-gradient(top,
+      #dbdbdb 0%,
+      #d3d3d3 66%,
+      #cfcfcf 100%);
   background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #cfcfcf 100%);
   border-bottom: 3px solid #000000;
 }
+
 table.table-content thead th {
   font-size: 15px;
   font-weight: bold;
   color: #000000;
   text-align: center;
 }
+
 table.table-content tfoot td {
   font-size: 14px;
 }
@@ -227,6 +236,7 @@ table.table-content tfoot td {
   justify-content: center;
   align-items: center;
 }
+
 .Marker-tip {
   margin-top: -24px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -390,6 +400,34 @@ table.table-content tfoot td {
   flex-direction: column;
 }
 
+.Rights-Header {
+  /* position: absolute; */
+  margin-top: 1.5rem;
+  
+  left: 50%;
+  /* transform: translateX(-50%); */
+};
+
+.Rights-Sub-Header {
+  font-family: "Cornerstone";
+  color: tomato;
+};
+
+
+
+
+.Rights .Link {
+  color: tomato;
+  margin: 12rem 1rem;
+};
+
+.container-fluid .row.rights {
+  /* padding-top: 2rem; */
+  /* margin-top: 2rem; */
+}
+
+
+
 /* Resources */
 
 .Resources {
@@ -403,16 +441,33 @@ table.table-content tfoot td {
 }
 
 .Resources-Header {
-  margin: 0px 0px -25px 0px;
+  margin: 500px 0px -25px 0px;
   font-family: "Cornerstone";
   font-size: 77px;
 }
 
 .card {
   width: 20rem;
-  height: 550px;
+  height: 500px;
   z-index: 0;
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card.rights {
+  width: 400px;
+  height: 400px;
+  z-index: 0;
+  margin-top: 20px;
+  padding: 30px 10px 20px 10px;
+}
+
+.card-title {
+  text-decoration: underline;
+}
+
+.card-rights-link {
+  text-decoration: none;
 }
 
 .card:hover {
@@ -424,10 +479,15 @@ table.table-content tfoot td {
 .card-text {
   font-size: 0.9em;
   padding: 0.4rem 1.9rem;
+  text-align: left;
 }
 
 .container-fluid .row {
   padding-top: 6rem;
+}
+
+.row {
+  width: 80vw;
 }
 
 .overflow {
