@@ -16,12 +16,6 @@ h1 {
   font-family: "Cornerstone";
 }
 
-.Home-Header {
-  margin: 10px 0px 0px 0px;
-  font-family: "Cornerstone";
-  font-size: 80px;
-}
-
 h2 {
   margin: 10px 0px 0px 0px;
   font-family: "Cornerstone";
@@ -33,10 +27,18 @@ nav {
   font-family: "Cornerstone";
 }
 
-.yellow-line {
-  border-bottom: 5px solid #fce21b;
-  width: 310px;
+.black-line {
+  border-bottom: 3px solid black;
+  width: 350px;
   margin-bottom: 10px;
+  margin-top: -10px;
+}
+
+.white-line {
+  border-bottom: 5px solid #ffffff;
+  width: 350px;
+  margin-bottom: 10px;
+  margin-top: -10px;
 }
 
 /* table component css */
@@ -46,7 +48,7 @@ nav {
 }
 
 .table-title {
-  margin-top: 35px;
+  margin-top: 50px;
 }
 table.table-content {
   font-family: Roboto;
@@ -92,6 +94,56 @@ table.table-content tfoot td {
   align-items: center;
 }
 
+.arrow-down {
+  border: solid rgba(0, 0, 0, 0.84);
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 2px;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  margin-top: -25px;
+  margin-left: 5px;
+}
+
+.arrow-container {
+  display: inline;
+  vertical-align: top;
+  line-height: 17px;
+}
+
+.black-lives-button {
+  margin: 15px 20px 25px 20px;
+  background-color: #fce21b;
+  border: 2px solid black;
+  border-radius: 1px;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: "Cornerstone";
+  font-size: 15px;
+  font-weight: bold;
+
+  padding: 6px 24px;
+  text-decoration: none;
+}
+
+.black-lives-button:hover {
+  background-color: #ffd500;
+  text-shadow: 0px 1px 0px #fce21b;
+}
+
+.table-buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-subheader {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 /* table row style */
 .table-row {
   cursor: pointer;
@@ -100,21 +152,69 @@ table.table-content tfoot td {
 
 .table-row:hover {
   cursor: pointer;
-  background-color: rgba(190,190,190,1);
-
+  background-color: rgba(190, 190, 190, 1);
 }
 
 /* maps component */
 
-.leaflet-container {
-  width: 100%;
-  height: 100vh;
+.markers-title {
+  margin-top: 100px;
 }
 
-/* .leaflet-container {
-  width: 75%; 
+.download-button {
+  margin: 15px 20px 35px 20px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 1px;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: "Cornerstone";
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+}
+
+.download-button:hover {
+  filter: invert(1);
+}
+
+.markers-subheader {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.Markers-component {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  background-color: #fce21b;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  flex-direction: column;
+  margin-top: -45px;
+}
+
+.leaflet-container {
+  width: 75%;
   height: 80vh;
-} */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 2px solid rgb(0, 0, 0);
+  justify-content: center;
+  align-items: center;
+}
+.Marker-tip {
+  margin-top: 25px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.804);
+}
 
 /* navbar componenent */
 .tabContainerBox {
@@ -123,10 +223,11 @@ table.table-content tfoot td {
   width: 100%;
   justify-content: center;
   color: black;
-  border: 3px solid black;
+  border-bottom: 4px solid black;
   position: fixed;
   background-color: white;
   border-radius: 0%;
+  z-index: 5;
 }
 
 .tabBox:hover {
@@ -135,7 +236,7 @@ table.table-content tfoot td {
 
 .TabLabel {
   color: black;
-  margin: 10px 20px 10px 20px;
+  margin: 14px 20px 10px 20px;
   text-decoration: none;
   word-spacing: 0.25px;
 }
@@ -152,6 +253,23 @@ table.table-content tfoot td {
   color: black;
   flex-direction: column;
   margin-top: -45px;
+}
+
+.Home-subtitle {
+  font-size: 40px;
+  margin-left: -40px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.Home-Header {
+  margin: 10px 0px -20px 0px;
+  font-family: "Cornerstone";
+  font-size: 80px;
+}
+
+.Home-SecondHeader {
+  margin-left: 52px;
+  margin-top: -10px;
 }
 
 /* MEDIA */
@@ -174,11 +292,64 @@ table.table-content tfoot td {
 .Resources {
   display: flex;
   background-color: #fce21b;
-  height: 100vh;
   justify-content: center;
   align-items: center;
   color: black;
-  margin-top: -45px;
-
   flex-direction: column;
+  height: 95vh;
+}
+
+.Resources-Header {
+  margin: 0px 0px -25px 0px;
+  font-family: "Cornerstone";
+  font-size: 77px;
+}
+
+.card {
+  width: 20rem;
+  height: 550px;
+  z-index: 0;
+  margin-top: 20px;
+}
+
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+  transform: scale(1.05);
+  transition: transform 1s ease;
+}
+
+.card-text {
+  font-size: 0.9em;
+  padding: 0.4rem 1.9rem;
+}
+
+.container-fluid .row {
+  padding-top: 6rem;
+}
+
+.overflow {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  padding: 70px 70px 70px;
+  height: 150px;
+}
+
+.card-img-top {
+  transform: scale(1);
+  transition: transform 0.5s ease;
+}
+
+.card-title {
+  font-size: 1.3em;
+}
+
+.card-box {
+  padding: 0.75;
+}
+
+.gallery {
+  margin-top: -100px;
 }
