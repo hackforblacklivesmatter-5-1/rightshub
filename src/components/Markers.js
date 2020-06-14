@@ -30,9 +30,12 @@ const Markers = () => {
               <br />
               {
                 policeVictims[
-                  "A brief description of the circumstances surrounding the death"
+                "A brief description of the circumstances surrounding the death"
                 ]
               }
+              <br />
+              <br />
+              <a href={policeVictims["Link to news article or photo of official document"]}>View the Full Story</a>
             </Popup>
           </Marker>
         ))}
