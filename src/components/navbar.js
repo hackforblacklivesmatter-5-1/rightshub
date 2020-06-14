@@ -1,15 +1,15 @@
-import React from "react"
-import { Link } from "react-router-dom"
-import Paper from "@material-ui/core/Paper"
-import Tabs from "@material-ui/core/Tabs"
-import Tab from "@material-ui/core/Tab"
+import React from "react";
+import { Link } from "react-router-dom";
+import Paper from "@material-ui/core/Paper";
+import Tabs from "@material-ui/core/Tabs";
+import Tab from "@material-ui/core/Tab";
 
 // following code via material-ui (besides small tweaks and customization)
 
 export default function Navbar(props) {
   const handleChange = (event /*  newValue */) => {
-    /* setValue(newValue),  */ console.log(event.target.innerText)
-  }
+    /* setValue(newValue),  */ console.log(event.target.innerText);
+  };
   return (
     <div>
       <div className="navBar-comp">
@@ -24,8 +24,8 @@ export default function Navbar(props) {
             <div className="tabContainerBox">
               <div className="tabBox">
                 <Link to="/">
-                  <h1 className="TabLabel" label="Home">
-                    Home
+                  <h1 className="TabLabel" label="About">
+                    About
                   </h1>
                 </Link>
               </div>
@@ -46,9 +46,9 @@ export default function Navbar(props) {
                 </Link>
               </div>
               <div className="tabBox">
-                <Link to="/Media" state={"Media"}>
-                  <h1 className="TabLabel" label="Media">
-                    Media
+                <Link to="/Rights" state={"Rights"}>
+                  <h1 className="TabLabel" label="Rights">
+                    Rights
                   </h1>
                 </Link>
               </div>
@@ -64,5 +64,5 @@ export default function Navbar(props) {
         </Paper>
       </div>
     </div>
-  )
+  );
 }
