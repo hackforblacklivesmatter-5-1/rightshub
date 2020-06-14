@@ -12,64 +12,74 @@ export const Table = () => {
   const handleRowClick = (e) => {
     window.open(
       e.currentTarget.dataset.href,
-      '_blank' // <- This is what makes it open in a new window.
-    );
-    console.log('You clicked a row!', 'e.target.dataset.href: ', e.currentTarget.dataset.href)
-  };
+      "_blank" // <- This is what makes it open in a new window.
+    )
+    console.log(
+      "You clicked a row!",
+      "e.target.dataset.href: ",
+      e.currentTarget.dataset.href
+    )
+  }
+
+  const showDescription = (record) => {
+    console.log(
+      record["A brief description of the circumstances surrounding the death"]
+    )
+  }
 
   // Render data
 
   const renderData = () => {
     return data.map((record, id) => {
       return (
-        
-          <tr className="table-row" style={{
-                cursor: `pointer`,
-              }} 
-              onClick={(e) => handleRowClick(e)} key={id} data-href={record["Link to news article or photo of official document"]}>
-              <td>{record["Victim's race"]}</td>
-              <td>{record["Victim's name"]}</td>
-              <td>{record["Cause of death"]}</td>
-              <td>{record["Victim's age"]}</td>
-              <td>{record["Date of Incident (month/day/year)"]}</td>
-              <td>{record["Fleeing (Source: WaPo)"]}</td>
-              <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
-              {/* <td>{record["Alleged Threat Level (Source: WaPo):"]}</td> */}
-              <td>{record["Body Camera (Source: WaPo)"]}</td>
-            
-          </tr>
-        
+        <tr
+          className="table-row"
+          style={{
+            cursor: `pointer`,
+          }}
+          onClick={(e) => handleRowClick(e)}
+          key={id}
+          data-href={
+            record["Link to news article or photo of official document"]
+          }
+        >
+          <td>{record["Victim's race"]}</td>
+          <td onMouseEnter={() => showDescription(record)}>
+            {record["Victim's name"]}
+          </td>
+          {/* <td>{record["Cause of death"]}</td> */}
+          <td>{record["Victim's age"]}</td>
+          <td>{record["Date of Incident (month/day/year)"]}</td>
+          <td>{record["Fleeing (Source: WaPo)"]}</td>
+          <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
+          <td>{record["Body Camera (Source: WaPo)"]}</td>
+        </tr>
       )
     })
   }
 
   //Pagination
   const paginate = (currentPage) => {
-    console.log('Im paginating')
-    const page = currentPage;
-    countPages();
-    turnPageTo(page);
-  };
+    console.log("Im paginating")
+    const page = currentPage
+    countPages()
+    turnPageTo(page)
+  }
 
   const turnPageTo = (n) => {
-    const startIndex = n * 20;
-    const currentData = data.slice(startIndex, (startIndex + 20));
+    const startIndex = n * 20
+    const currentData = data.slice(startIndex, startIndex + 20)
     console.log(currentData)
-    
-  };
+  }
 
   const countPages = () => {
-    console.log('counting!')
-    const pages = Math.ceil(data.length / 20);
-  };
+    console.log("counting!")
+    const pages = Math.ceil(data.length / 20)
+  }
 
-  const renderPages = () => {
+  const renderPages = () => {}
 
-  };
-
-
-
-  // Filter and Sort functionalitys
+  // Filter and Sort functions
   const filterByRace = () => {
     const blackVictims = data.filter(
       (victim) => victim["Victim's race"] === "Black"
@@ -79,18 +89,18 @@ export const Table = () => {
         <tr key={id}>
           <td>{record["Victim's race"]}</td>
           <td>{record["Victim's name"]}</td>
-          <td>
+          {/* <td>
             {
               record[
                 "A brief description of the circumstances surrounding the death"
               ]
             }
-          </td>
+          </td> */}
           <td>{record["Victim's age"]}</td>
           <td>{record["Date of Incident (month/day/year)"]}</td>
           <td>{record["Fleeing (Source: WaPo)"]}</td>
           <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
-          <td>{record["Alleged Threat Level (Source: WaPo):"]}</td>
+          {/* <td>{record["Alleged Threat Level (Source: WaPo):"]}</td> */}
           <td>{record["Body Camera (Source: WaPo)"]}</td>
         </tr>
       )
@@ -104,31 +114,27 @@ export const Table = () => {
         ? 1
         : -1
     )
-
-    console.log(sorted)
-
     return sorted.map((record, id) => {
       return (
         <tr key={id}>
           <td>{record["Victim's race"]}</td>
           <td>{record["Victim's name"]}</td>
-          <td>
+          {/* <td>
             {
               record[
                 "A brief description of the circumstances surrounding the death"
               ]
             }
-          </td>
+          </td> */}
           <td>{record["Victim's age"]}</td>
           <td>{record["Date of Incident (month/day/year)"]}</td>
           <td>{record["Fleeing (Source: WaPo)"]}</td>
           <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
-          <td>{record["Alleged Threat Level (Source: WaPo):"]}</td>
+          {/* <td>{record["Alleged Threat Level (Source: WaPo):"]}</td> */}
           <td>{record["Body Camera (Source: WaPo)"]}</td>
         </tr>
       )
     })
-
   }
 
   const sortByAge = () => {
@@ -140,18 +146,18 @@ export const Table = () => {
         <tr key={id}>
           <td>{record["Victim's race"]}</td>
           <td>{record["Victim's name"]}</td>
-          <td>
+          {/* <td>
             {
               record[
                 "A brief description of the circumstances surrounding the death"
               ]
             }
-          </td>
+          </td> */}
           <td>{record["Victim's age"]}</td>
           <td>{record["Date of Incident (month/day/year)"]}</td>
           <td>{record["Fleeing (Source: WaPo)"]}</td>
           <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
-          <td>{record["Alleged Threat Level (Source: WaPo):"]}</td>
+          {/* <td>{record["Alleged Threat Level (Source: WaPo):"]}</td> */}
           <td>{record["Body Camera (Source: WaPo)"]}</td>
         </tr>
       )
@@ -162,24 +168,23 @@ export const Table = () => {
     let sorted = data.sort((a, b) =>
       a["Cause of death"] > b["Cause of death"] ? 1 : -1
     )
-
     return sorted.map((record, id) => {
       return (
         <tr key={id}>
           <td>{record["Victim's race"]}</td>
           <td>{record["Victim's name"]}</td>
-          <td>
+          {/* <td>
             {
               record[
                 "A brief description of the circumstances surrounding the death"
               ]
             }
-          </td>
+          </td> */}
           <td>{record["Victim's age"]}</td>
           <td>{record["Date of Incident (month/day/year)"]}</td>
           <td>{record["Fleeing (Source: WaPo)"]}</td>
           <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
-          <td>{record["Alleged Threat Level (Source: WaPo):"]}</td>
+          {/* <td>{record["Alleged Threat Level (Source: WaPo):"]}</td> */}
           <td>{record["Body Camera (Source: WaPo)"]}</td>
         </tr>
       )
@@ -209,20 +214,17 @@ export const Table = () => {
       <div className="table-container">
         <table className="table-content">
           <thead>
-
             <button onClick={() => toggleRace()}>Black Lives</button>
             <button onClick={() => toggleDate()}>Sorted Date</button>
             <button onClick={() => toggleAge()}>Sorted Age</button>
-            {/* <button onClick={() => toggleGun()}>Sorted Gun</button> */}
             <tr>
               <th>Victim's Race</th>
               <th>Victim's Name</th>
-              <th>Description</th>
-              <th>Victim's age</th>
+              {/* <th>Description</th> */}
+              <th>Victim's Age</th>
               <th>Date of Incident (month/day/year)</th>
               <th>Fleeing</th>
               <th>Alleged Weapon</th>
-              {/* <th>Alleged Threat Level</th> */}
               <th>Body Camera</th>
             </tr>
           </thead>
