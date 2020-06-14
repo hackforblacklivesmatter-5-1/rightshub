@@ -324,6 +324,34 @@ table.table-content tfoot td {
   flex-direction: column;
 }
 
+.Rights-Header {
+  /* position: absolute; */
+  margin-top: 1.5rem;
+  
+  left: 50%;
+  /* transform: translateX(-50%); */
+};
+
+.Rights-Sub-Header {
+  font-family: "Cornerstone";
+  color: tomato;
+};
+
+
+
+
+.Rights .Link {
+  color: tomato;
+  margin: 12rem 1rem;
+};
+
+.container-fluid .row.rights {
+  /* padding-top: 2rem; */
+  /* margin-top: 2rem; */
+}
+
+
+
 /* Resources */
 
 .Resources {
