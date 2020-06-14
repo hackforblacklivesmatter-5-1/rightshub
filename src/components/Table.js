@@ -35,31 +35,42 @@ export const Table = () => {
 
 	// Render data
 
-	const renderData = () => {
-		return data.map((record, id) => {
-			return (
-				<tr
-					className='table-row'
-					style={{
-						cursor: `pointer`,
-					}}
-					onClick={(e) => handleRowClick(e)}
-					key={id}
-					data-href={
-						record['Link to news article or photo of official document']
-					}>
-					<td>{record["Victim's race"]}</td>
-					<td>{record["Victim's name"]}</td>
-					<td>{record['Cause of death']}</td>
-					<td>{record["Victim's age"]}</td>
-					<td>{record['Date of Incident (month/day/year)']}</td>
-					<td>{record['Fleeing (Source: WaPo)']}</td>
-					<td>{record['Alleged Weapon (Source: WaPo)']}</td>
-					{/* <td>{record["Alleged Threat Level (Source: WaPo):"]}</td> */}
-					<td>{record['Body Camera (Source: WaPo)']}</td>
-				</tr>
-			)
-		})
+	const renderData = (cat) => {
+		console.log(cat)
+		if (cat == 'race' && race) {
+			filterByRace()
+		} else if (cat == 'date' && date) {
+			sortByDate()
+		} else if (cat == 'age' && age) {
+			sortByAge()
+		} else if (cat == 'gun' && gun) {
+			sortByGun()
+		} else {
+			return data.map((record, id) => {
+				return (
+					<tr
+						className='table-row'
+						style={{
+							cursor: `pointer`,
+						}}
+						onClick={(e) => handleRowClick(e)}
+						key={id}
+						data-href={
+							record['Link to news article or photo of official document']
+						}>
+						<td>{record["Victim's race"]}</td>
+						<td>{record["Victim's name"]}</td>
+						<td>{record['Cause of death']}</td>
+						<td>{record["Victim's age"]}</td>
+						<td>{record['Date of Incident (month/day/year)']}</td>
+						<td>{record['Fleeing (Source: WaPo)']}</td>
+						<td>{record['Alleged Weapon (Source: WaPo)']}</td>
+						{/* <td>{record["Alleged Threat Level (Source: WaPo):"]}</td> */}
+						<td>{record['Body Camera (Source: WaPo)']}</td>
+					</tr>
+				)
+			})
+		}
 	}
 
 	// slider for year
@@ -224,8 +235,9 @@ export const Table = () => {
 	// }
 	console.log(state)
 
-	const handleToggle = (e) => {
+	const setFilter = (e) => {
 		setState({ ...state, [e.target.name]: e.target.checked })
+		renderData(e.target.name)
 	}
 	const YellowSwitch = withStyles({
 		switchBase: {
@@ -252,7 +264,7 @@ export const Table = () => {
 							<YellowSwitch
 								color='primary'
 								checked={state.race}
-								onChange={handleToggle}
+								onChange={setFilter}
 								name='race'
 							/>
 						}
@@ -264,7 +276,7 @@ export const Table = () => {
 							<YellowSwitch
 								color='primary'
 								checked={state.date}
-								onChange={handleToggle}
+								onChange={setFilter}
 								name='date'
 							/>
 						}
@@ -276,7 +288,7 @@ export const Table = () => {
 							<YellowSwitch
 								color='primary'
 								checked={state.age}
-								onChange={handleToggle}
+								onChange={setFilter}
 								name='age'
 							/>
 						}
@@ -305,7 +317,7 @@ export const Table = () => {
 						{race ? filterByRace() : renderData()}
 						{date ? sortByDate() : renderData()}
 						{age ? sortByAge() : renderData()}
-						{/* {gun ? sortByGun() : renderData()} */}
+						{gun ? sortByGun() : renderData()}
 					</tbody>
 				</table>
 				{/* {paginate(0)} */}
