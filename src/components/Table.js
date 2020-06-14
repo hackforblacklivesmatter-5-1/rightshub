@@ -110,9 +110,12 @@ export const Table = () => {
         Below are the statistics of killings by police in New York from
         2013-2019.
       </h6>
-      {race
-        ? "Number of Black Lives Lost: 71"
-        : `Total Number of Lives Lost: ${data.length}`}
+      <div className="table-liveslost">
+        {" "}
+        {race
+          ? "Number of Black Lives Lost: 71"
+          : `Total Number of Lives Lost: ${data.length}`}
+      </div>
       <div className="table-buttons">
         <button className="black-lives-button" onClick={() => toggleRace()}>
           Show Black Lives

@@ -1,5 +1,5 @@
-import React from "react"
-import RightsCard from "./Gallery/RightsCard"
+import React from "react";
+import RightsCard from "./Gallery/RightsCard";
 
 const description = {
   silent:
@@ -7,20 +7,32 @@ const description = {
   search:
     "You do not have to consent to a search of yourself or your belongings, but police may pat down your clothing if they suspect a weapon. Note that refusing consent may not stop the officer from carrying out the search against your will, but making a timely objection before or during the search can help preserve your rights in any later legal proceeding.",
   lawyer:
-    "If you are arrested by police, you have the right to a government-appointed lawyer if you cannot afford one. You do not have to answer questions about where you were born, whether you are a U.S. citizen, or how you entered the country. (Separate rules apply at international borders and airports as well as for individuals on certain nonimmigrant visas, including tourists and business travelers. For more specific guidance about how to deal with immigration-related questions, see our immigrants rights section.)",
-}
+    "If you are arrested by police, you have the right to a government-appointed lawyer if you cannot afford one. You do not have to answer questions about where you were born, whether you are a U.S. citizen, or how you entered the country. (Separate rules apply at international borders and airports as well as for individuals on certain nonimmigrant visas, including tourists and business travelers.",
+};
 
 export const Rights = () => {
   return (
     <div className="Rights">
-      <h1 className="Rights-Header">Know Your Rights</h1>
-      <h2 className="Rights-Sub-Header">You have the right: </h2>
+      <h1 className="markers-title">Know Your Rights</h1>
+      <div className="black-line-long"></div>
+      <h5 className="markers-subheader">
+        All US citizens are guaranteed certain rights.<p></p> The{" "}
+        <a
+          className="ACLU-link"
+          href="https://www.aclu.org/know-your-rights/stopped-by-police/"
+        >
+          ACLU
+        </a>
+        {""} has provided tips to protect yourself when encountering the police.
+      </h5>
       <div className="Rights-Gallery">
         <div className="container-fluid d-flex justify-content-center">
-          <div style={{
-                  paddingTop: `2rem`
-                }}
-          className="row rights">
+          <div
+            style={{
+              paddingTop: `2rem`,
+            }}
+            className="row rights"
+          >
             <div className="col-md-4">
               <RightsCard
                 // imgsrc={aclu}
@@ -32,7 +44,7 @@ export const Rights = () => {
             <div className="col-md-4">
               <RightsCard
                 // imgsrc={jlusa}
-                title="Not to consent to search"
+                title="To Deny Search"
                 href="https://jlusa.org/"
                 desc={description.search}
               />
@@ -40,7 +52,7 @@ export const Rights = () => {
             <div className="col-md-4">
               <RightsCard
                 // imgsrc={crj}
-                title="To A Lawyer"
+                title="To a Lawyer"
                 href="https://centerracialjustice.org/"
                 desc={description.lawyer}
               />
@@ -48,7 +60,6 @@ export const Rights = () => {
           </div>
         </div>
       </div>
-
     </div>
-  )
-}
+  );
+};

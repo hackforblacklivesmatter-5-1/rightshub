@@ -13,13 +13,6 @@ export default function Navbar(props) {
   return (
     <div>
       <div className="navBar-comp">
-        <div className="tabBox-main">
-          <Link to="/">
-            <h1 className="TabLabel" label="About">
-              Rights-Hub
-            </h1>
-          </Link>
-        </div>
         <Paper>
           <Tabs
             //value={value}
@@ -28,6 +21,14 @@ export default function Navbar(props) {
             indicatorColor="primary"
             textColor="primary"
           >
+            {" "}
+            <div className="tabBox-main">
+              <Link to="/">
+                <h1 className="TabLabel" label="About">
+                  Rights-Hub
+                </h1>
+              </Link>
+            </div>
             <div className="tabContainerBox">
               <div className="tabBox-nav">
                 <div className="tabBox">
