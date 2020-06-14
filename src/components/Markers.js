@@ -38,7 +38,7 @@ const Markers = () => {
         ))}
       </Map>
       <h4 className="Marker-tip">Click on GPS pins for information</h4>
-      <a href="https://github.com/hackforblacklivesmatter-5-1/rightshub/blob/master/src/data/NY2013to2019">
+      <a href="https://github.com/hackforblacklivesmatter-5-1/rightshub/blob/master/src/data/NY2013to2019.xlsx">
         <button className="download-button">Download Dataset</button>
       </a>
     </div>
