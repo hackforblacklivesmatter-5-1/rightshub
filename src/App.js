@@ -6,11 +6,9 @@ import "./index.css"
 import Markers from "./components/Markers"
 import data from "./data/data.json"
 import { Home } from "./components/Home"
-// import Navbar from "./components/Navbar";
-
+import Navbar from "./components/navbar"
 import { Media } from "./components/Media"
 import { Resources } from "./components/Resources"
-import Navbar from "./components/navbar"
 
 function App() {
   console.log(data[0]["Street Address of Incident"])
