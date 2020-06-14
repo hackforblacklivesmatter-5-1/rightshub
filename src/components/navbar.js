@@ -46,9 +46,9 @@ export default function Navbar(props) {
                 </Link>
               </div>
               <div className="tabBox">
-                <Link to="/Media" state={"Media"}>
-                  <h1 className="TabLabel" label="Media">
-                    Media
+                <Link to="/Rights" state={"Rights"}>
+                  <h1 className="TabLabel" label="Rights">
+                    Rights
                   </h1>
                 </Link>
               </div>
