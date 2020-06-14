@@ -4,11 +4,16 @@
   padding: 0;
 }
 
+html {
+  background-color: #fce21b;
+}
+
 body {
   text-decoration: none;
   color: black;
   margin: 0;
   font-family: Roboto;
+  background-color: #fce21b;
 }
 
 h1 {
@@ -365,16 +370,17 @@ table.table-content tfoot td {
 }
 
 .Resources-Header {
-  margin: 0px 0px -25px 0px;
+  margin: 500px 0px -25px 0px;
   font-family: "Cornerstone";
   font-size: 77px;
 }
 
 .card {
   width: 20rem;
-  height: 550px;
+  height: 500px;
   z-index: 0;
   margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .card.rights {
@@ -402,10 +408,15 @@ table.table-content tfoot td {
 .card-text {
   font-size: 0.9em;
   padding: 0.4rem 1.9rem;
+  text-align: left;
 }
 
 .container-fluid .row {
   padding-top: 6rem;
+}
+
+.row {
+  width: 80vw;
 }
 
 .overflow {
