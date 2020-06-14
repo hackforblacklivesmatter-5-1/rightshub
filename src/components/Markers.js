@@ -37,16 +37,33 @@ const Markers = () => {
               <br />
               {
                 policeVictims[
-                "A brief description of the circumstances surrounding the death"
+                  "A brief description of the circumstances surrounding the death"
                 ]
               }
               <br />
               <br />
-              <a href={policeVictims["Link to news article or photo of official document"]}>Read the Full Story</a>
+              <a
+                href={
+                  policeVictims[
+                    "Link to news article or photo of official document"
+                  ]
+                }
+              >
+                Read the Full Story
+              </a>
             </Popup>
           </Marker>
         ))}
       </Map>
+      <h5 className="Marker-tip2">
+        Data sourced via{" "}
+        <a
+          className="marker-link"
+          href="https://www.mappingpoliceviolence.org/"
+        >
+          Mapping Police Violence
+        </a>
+      </h5>
     </div>
   );
 };

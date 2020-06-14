@@ -3,7 +3,7 @@ import RightsCard from "./Gallery/RightsCard";
 
 const description = {
   silent:
-    "You have the right to remain silent. For example, you do not have to answer any questions about where you are going, where you are traveling from, what you are doing, or where you live. If you wish to exercise your right to remain silent, say so out loud. (In some states, you may be required to provide your name if asked to identify yourself, and an officer may arrest you for refusing to do so.)",
+    "You have the right to remain silent. For example, you do not have to answer any questions about where you are going, where you are traveling from, what you are doing, or where you live. If you wish to exercise your right to remain silent, say so out loud. (In some states, you may be required to provide your name if asked to identify yourself, and an officer may arrest you for refusing to do so.",
   search:
     "You do not have to consent to a search of yourself or your belongings, but police may pat down your clothing if they suspect a weapon. Note that refusing consent may not stop the officer from carrying out the search against your will, but making a timely objection before or during the search can help preserve your rights in any later legal proceeding.",
   lawyer:
@@ -13,9 +13,9 @@ const description = {
 export const Rights = () => {
   return (
     <div className="Rights">
-      <h1 className="markers-title">Know Your Rights</h1>
-      <div className="black-line-long"></div>
-      <h5 className="markers-subheader">
+      <h1 className="rights-title">Know Your Rights</h1>
+      <div className="black-line-title"></div>
+      <h5 className="rights-subheader">
         All US citizens are guaranteed certain rights.<p></p> The{" "}
         <a
           className="ACLU-link"
@@ -36,6 +36,7 @@ export const Rights = () => {
             <div className="col-md-4">
               <RightsCard
                 // imgsrc={aclu}
+                emoji="🤐"
                 title="To Remain Silent"
                 href="https://www.aclu.org/know-your-rights/stopped-by-police/"
                 desc={description.silent}
@@ -44,6 +45,7 @@ export const Rights = () => {
             <div className="col-md-4">
               <RightsCard
                 // imgsrc={jlusa}
+                emoji="🚫"
                 title="To Deny Search"
                 href="https://jlusa.org/"
                 desc={description.search}
@@ -52,6 +54,7 @@ export const Rights = () => {
             <div className="col-md-4">
               <RightsCard
                 // imgsrc={crj}
+                emoji="👩🏾‍💼"
                 title="To a Lawyer"
                 href="https://centerracialjustice.org/"
                 desc={description.lawyer}
