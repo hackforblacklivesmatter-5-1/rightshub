@@ -47,7 +47,6 @@ export const Table = () => {
           <td onMouseEnter={() => showDescription(record)}>
             {record["Victim's name"]}
           </td>
-          {/* <td>{record["Cause of death"]}</td> */}
           <td>{record["Victim's age"]}</td>
           <td>{record["Date of Incident (month/day/year)"]}</td>
           <td>{record["Fleeing (Source: WaPo)"]}</td>
@@ -88,14 +87,9 @@ export const Table = () => {
       return (
         <tr key={id}>
           <td>{record["Victim's race"]}</td>
-          <td>{record["Victim's name"]}</td>
-          {/* <td>
-            {
-              record[
-                "A brief description of the circumstances surrounding the death"
-              ]
-            }
-          </td> */}
+          <td onMouseEnter={() => showDescription(record)}>
+            {record["Victim's name"]}
+          </td>
           <td>{record["Victim's age"]}</td>
           <td>{record["Date of Incident (month/day/year)"]}</td>
           <td>{record["Fleeing (Source: WaPo)"]}</td>
@@ -118,19 +112,13 @@ export const Table = () => {
       return (
         <tr key={id}>
           <td>{record["Victim's race"]}</td>
-          <td>{record["Victim's name"]}</td>
-          {/* <td>
-            {
-              record[
-                "A brief description of the circumstances surrounding the death"
-              ]
-            }
-          </td> */}
+          <td onMouseEnter={() => showDescription(record)}>
+            {record["Victim's name"]}
+          </td>
           <td>{record["Victim's age"]}</td>
           <td>{record["Date of Incident (month/day/year)"]}</td>
           <td>{record["Fleeing (Source: WaPo)"]}</td>
           <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
-          {/* <td>{record["Alleged Threat Level (Source: WaPo):"]}</td> */}
           <td>{record["Body Camera (Source: WaPo)"]}</td>
         </tr>
       )
@@ -145,52 +133,20 @@ export const Table = () => {
       return (
         <tr key={id}>
           <td>{record["Victim's race"]}</td>
-          <td>{record["Victim's name"]}</td>
-          {/* <td>
-            {
-              record[
-                "A brief description of the circumstances surrounding the death"
-              ]
-            }
-          </td> */}
+          <td onMouseEnter={() => showDescription(record)}>
+            {record["Victim's name"]}
+          </td>
           <td>{record["Victim's age"]}</td>
           <td>{record["Date of Incident (month/day/year)"]}</td>
           <td>{record["Fleeing (Source: WaPo)"]}</td>
           <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
-          {/* <td>{record["Alleged Threat Level (Source: WaPo):"]}</td> */}
           <td>{record["Body Camera (Source: WaPo)"]}</td>
         </tr>
       )
     })
   }
 
-  const sortByGun = () => {
-    let sorted = data.sort((a, b) =>
-      a["Cause of death"] > b["Cause of death"] ? 1 : -1
-    )
-    return sorted.map((record, id) => {
-      return (
-        <tr key={id}>
-          <td>{record["Victim's race"]}</td>
-          <td>{record["Victim's name"]}</td>
-          {/* <td>
-            {
-              record[
-                "A brief description of the circumstances surrounding the death"
-              ]
-            }
-          </td> */}
-          <td>{record["Victim's age"]}</td>
-          <td>{record["Date of Incident (month/day/year)"]}</td>
-          <td>{record["Fleeing (Source: WaPo)"]}</td>
-          <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
-          {/* <td>{record["Alleged Threat Level (Source: WaPo):"]}</td> */}
-          <td>{record["Body Camera (Source: WaPo)"]}</td>
-        </tr>
-      )
-    })
-  }
-
+  // toggle state
   const toggleRace = () => {
     setRace(!race)
   }
@@ -201,10 +157,6 @@ export const Table = () => {
 
   const toggleAge = () => {
     setAge(!age)
-  }
-
-  const toggleGun = () => {
-    setGun(!gun)
   }
 
   return (
@@ -220,7 +172,6 @@ export const Table = () => {
             <tr>
               <th>Victim's Race</th>
               <th>Victim's Name</th>
-              {/* <th>Description</th> */}
               <th>Victim's Age</th>
               <th>Date of Incident (month/day/year)</th>
               <th>Fleeing</th>
@@ -232,7 +183,6 @@ export const Table = () => {
             {race ? filterByRace() : renderData()}
             {date ? sortByDate() : renderData()}
             {age ? sortByAge() : renderData()}
-            {gun ? sortByGun() : renderData()}
           </tbody>
         </table>
         {paginate(0)}
