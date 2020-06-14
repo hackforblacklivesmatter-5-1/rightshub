@@ -3,7 +3,8 @@ body {
 }
 
 .card {
-  width: 20rem;
+  width: 30rem;
+  height: 45rem;
 }
 
 .card:hover {
@@ -15,7 +16,7 @@ body {
 }
 
 .card-text {
-  font-size: 0.9 rem;
+  font-size: 1.1rem;
   padding: 0.4rem 1.9rem;
 }
 
@@ -28,9 +29,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
   top: 50%;
-  padding: 70px 0;
+  padding: 70px 70px;
   height: 250px;
 }
 
@@ -40,5 +40,5 @@ body {
 }
 
 .card-img-top:hover {
-  transform: scale(1.8);
+  transform: scale(1.2);
 }
