@@ -27,7 +27,7 @@ export const Table = () => {
               <td>{record["Date of Incident (month/day/year)"]}</td>
               <td>{record["Fleeing (Source: WaPo)"]}</td>
               <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
-              <td>{record["Alleged Threat Level (Source: WaPo):"]}</td>
+              {/* <td>{record["Alleged Threat Level (Source: WaPo):"]}</td> */}
               <td>{record["Body Camera (Source: WaPo)"]}</td>
             
           </tr>
@@ -86,7 +86,7 @@ export const Table = () => {
               <th>Date of Incident (month/day/year)</th>
               <th>Fleeing</th>
               <th>Alleged Weapon</th>
-              <th>Alleged Threat Level</th>
+              {/* <th>Alleged Threat Level</th> */}
               <th>Body Camera</th>
             </tr>
           </thead>
