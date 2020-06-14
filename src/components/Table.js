@@ -7,30 +7,69 @@ export const Table = () => {
   const [age, setAge] = useState(false)
   const [gun, setGun] = useState(false)
 
+  // Handling functions
+
+  const handleRowClick = (e) => {
+    window.open(
+      e.currentTarget.dataset.href,
+      '_blank' // <- This is what makes it open in a new window.
+    );
+    console.log('You clicked a row!', 'e.target.dataset.href: ', e.currentTarget.dataset.href)
+  };
+
+  // Render data
+
   const renderData = () => {
     return data.map((record, id) => {
       return (
-        <tr key={id}>
-          <td>{record["Victim's race"]}</td>
-          <td>{record["Victim's name"]}</td>
-          <td>
-            {
-              record[
-                "A brief description of the circumstances surrounding the death"
-              ]
-            }
-          </td>
-          <td>{record["Victim's age"]}</td>
-          <td>{record["Date of Incident (month/day/year)"]}</td>
-          <td>{record["Fleeing (Source: WaPo)"]}</td>
-          <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
-          <td>{record["Alleged Threat Level (Source: WaPo):"]}</td>
-          <td>{record["Body Camera (Source: WaPo)"]}</td>
-        </tr>
+        
+          <tr className="table-row" style={{
+                cursor: `pointer`,
+              }} 
+              onClick={(e) => handleRowClick(e)} key={id} data-href={record["Link to news article or photo of official document"]}>
+              <td>{record["Victim's race"]}</td>
+              <td>{record["Victim's name"]}</td>
+              <td>{record["Cause of death"]}</td>
+              <td>{record["Victim's age"]}</td>
+              <td>{record["Date of Incident (month/day/year)"]}</td>
+              <td>{record["Fleeing (Source: WaPo)"]}</td>
+              <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
+              {/* <td>{record["Alleged Threat Level (Source: WaPo):"]}</td> */}
+              <td>{record["Body Camera (Source: WaPo)"]}</td>
+            
+          </tr>
+        
       )
     })
   }
 
+  //Pagination
+  const paginate = (currentPage) => {
+    console.log('Im paginating')
+    const page = currentPage;
+    countPages();
+    turnPageTo(page);
+  };
+
+  const turnPageTo = (n) => {
+    const startIndex = n * 20;
+    const currentData = data.slice(startIndex, (startIndex + 20));
+    console.log(currentData)
+    
+  };
+
+  const countPages = () => {
+    console.log('counting!')
+    const pages = Math.ceil(data.length / 20);
+  };
+
+  const renderPages = () => {
+
+  };
+
+
+
+  // Filter and Sort functionalitys
   const filterByRace = () => {
     const blackVictims = data.filter(
       (victim) => victim["Victim's race"] === "Black"
@@ -65,6 +104,9 @@ export const Table = () => {
         ? 1
         : -1
     )
+
+    console.log(sorted)
+
     return sorted.map((record, id) => {
       return (
         <tr key={id}>
@@ -86,6 +128,7 @@ export const Table = () => {
         </tr>
       )
     })
+
   }
 
   const sortByAge = () => {
@@ -119,6 +162,7 @@ export const Table = () => {
     let sorted = data.sort((a, b) =>
       a["Cause of death"] > b["Cause of death"] ? 1 : -1
     )
+
     return sorted.map((record, id) => {
       return (
         <tr key={id}>
@@ -165,6 +209,7 @@ export const Table = () => {
       <div className="table-container">
         <table className="table-content">
           <thead>
+
             <button onClick={() => toggleRace()}>Black Lives</button>
             <button onClick={() => toggleDate()}>Sorted Date</button>
             <button onClick={() => toggleAge()}>Sorted Age</button>
@@ -177,7 +222,7 @@ export const Table = () => {
               <th>Date of Incident (month/day/year)</th>
               <th>Fleeing</th>
               <th>Alleged Weapon</th>
-              <th>Alleged Threat Level</th>
+              {/* <th>Alleged Threat Level</th> */}
               <th>Body Camera</th>
             </tr>
           </thead>
@@ -188,30 +233,8 @@ export const Table = () => {
             {gun ? sortByGun() : renderData()}
           </tbody>
         </table>
+        {paginate(0)}
       </div>
     </div>
   )
 }
-
-// Filter victims by being from New York City - can be anywhere
-// const filterNewYork = () => {
-//   const newYorkVictims = data.filter(victim => victim.City === 'New York')
-//   console.log('New York victims: ', newYorkVictims)
-//   return newYorkVictims
-// };
-
-// const filterByGunshot = () => {
-//   const gunshotVictims = data.filter(victim => victim["Cause of death"] === "Gunshot")
-//   console.log('gunshotVictims: ', gunshotVictims)
-//   // data.forEach(victim => console.log(victim["Cause of death"]))
-// };
-
-// const filterByNoCriminalCharges = () => {
-//   const noCriminalCharges = data.filter(victim => victim["Criminal Charges?"] === "No known charges")
-//   console.log('noCriminalCharges: ', noCriminalCharges)
-// };
-
-// const filterByAllegedWeapons = () => {
-//   const allegedWeapons = data.map(victim => victim["Alleged Weapon (Source: WaPo)"])
-//   console.log('allegedWeapons: ', allegedWeapons);
-// };
