@@ -94,15 +94,19 @@ table.table-content tfoot td {
 
 /* maps component */
 
-.leaflet-container {
+/* .leaflet-container {
   width: 100%;
   height: 100vh;
-}
+} */
 
-/* .leaflet-container {
+.leaflet-container {
   width: 75%; 
   height: 80vh;
-} */
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
 /* navbar componenent */
 .tabContainerBox {
