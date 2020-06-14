@@ -456,6 +456,7 @@ table.table-content tfoot td {
   margin-top: 10px;
   margin-bottom: -20px;
   text-align: center;
+  z-index: 100;
 }
 
 .Rights-Header {

@@ -19,6 +19,7 @@ export const Rights = () => {
         All US citizens are guaranteed certain rights.<p></p> The{" "}
         <a
           className="ACLU-link"
+          target="_blank"
           href="https://www.aclu.org/know-your-rights/stopped-by-police/"
         >
           ACLU
