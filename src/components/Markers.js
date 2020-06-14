@@ -48,6 +48,7 @@ const Markers = () => {
                     "Link to news article or photo of official document"
                   ]
                 }
+                target="_blank"
               >
                 Read the Full Story
               </a>
