@@ -5,7 +5,6 @@ export const Table = () => {
   const [race, setRace] = useState(false)
   const [date, setDate] = useState(false)
   const [age, setAge] = useState(false)
-  const [gun, setGun] = useState(false)
 
   // Handling functions
 
@@ -51,7 +50,6 @@ export const Table = () => {
           <td>{record["Date of Incident (month/day/year)"]}</td>
           <td>{record["Fleeing (Source: WaPo)"]}</td>
           <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
-          {/* <td>{record["Alleged Threat Level (Source: WaPo):"]}</td> */}
           <td>{record["Body Camera (Source: WaPo)"]}</td>
         </tr>
       )
@@ -95,7 +93,6 @@ export const Table = () => {
           <td>{record["Date of Incident (month/day/year)"]}</td>
           <td>{record["Fleeing (Source: WaPo)"]}</td>
           <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
-          {/* <td>{record["Alleged Threat Level (Source: WaPo):"]}</td> */}
           <td>{record["Body Camera (Source: WaPo)"]}</td>
         </tr>
       )
@@ -109,9 +106,6 @@ export const Table = () => {
         ? 1
         : -1
     )
-
-    console.log(sorted)
-
     return sorted.map((record, id) => {
       return (
         <tr key={id}>
@@ -140,45 +134,11 @@ export const Table = () => {
           <td onMouseEnter={() => showDescription(record)}>
             {record["Victim's name"]}
           </td>
-          <td>
-            {
-              record[
-                "A brief description of the circumstances surrounding the death"
-              ]
-            }
-          </td>
           <td>{record["Victim's age"]}</td>
           <td>{record["Date of Incident (month/day/year)"]}</td>
           <td>{record["Fleeing (Source: WaPo)"]}</td>
           <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
           <td>{record["Alleged Threat Level (Source: WaPo):"]}</td>
-          <td>{record["Body Camera (Source: WaPo)"]}</td>
-        </tr>
-      )
-    })
-  }
-
-  const sortByGun = () => {
-    let sorted = data.sort((a, b) =>
-      a["Cause of death"] > b["Cause of death"] ? 1 : -1
-    )
-
-    return sorted.map((record, id) => {
-      return (
-        <tr key={id}>
-          <td>{record["Victim's race"]}</td>
-          <td>{record["Victim's name"]}</td>
-          <td>
-            {
-              record[
-                "A brief description of the circumstances surrounding the death"
-              ]
-            }
-          </td>
-          <td>{record["Victim's age"]}</td>
-          <td>{record["Date of Incident (month/day/year)"]}</td>
-          <td>{record["Fleeing (Source: WaPo)"]}</td>
-          <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
           <td>{record["Body Camera (Source: WaPo)"]}</td>
         </tr>
       )
@@ -198,10 +158,6 @@ export const Table = () => {
     setAge(!age)
   }
 
-  const toggleGun = () => {
-    setGun(!gun)
-  }
-
   return (
     <div className="table-component">
       <h1 className="table-title">Killings by Police</h1>
@@ -214,8 +170,6 @@ export const Table = () => {
         <button className="black-lives-button" onClick={() => toggleRace()}>
           Show Black Lives
         </button>
-
-        {/* <button onClick={() => toggleGun()}>Sorted Gun</button> */}
       </div>
       <div className="table-container">
         <table className="table-content">
@@ -223,7 +177,6 @@ export const Table = () => {
             <tr>
               <th>Victim's Race</th>
               <th>Victim's Name</th>
-              <th>Description</th>
               <th>
                 Victim's age{" "}
                 <div className="arrow-container" onClick={() => toggleAge()}>
