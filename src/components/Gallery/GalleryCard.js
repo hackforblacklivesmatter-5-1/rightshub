@@ -10,7 +10,11 @@ const GalleryCard = (props) => {
       <div className="card-box text-dark">
         <h4 className="card-title">{props.title}</h4>
         <p className="card-text text-secondary">{props.desc}</p>
-        <a href={props.href} className="btn btn-outline-success">
+        <a
+          href={props.href}
+          target="_blank"
+          className="btn btn-outline-success"
+        >
           Learn More
         </a>
       </div>

@@ -4,9 +4,11 @@ import Gallery from "./Gallery/Gallery";
 export const Resources = () => {
   return (
     <div className="Resources">
-      <h1 className="Resources-Header">Resources</h1>
-      <div></div>
-      <p></p> <h2>What are your rights?</h2>
+      <h1 className="resources-title">Community Resources</h1>
+      <div className="black-line-resources"></div>
+      <h5 className="resources-subheader">
+        Below are organizations that aim to support and educate Black Lives.
+      </h5>
       <Gallery />
     </div>
   );

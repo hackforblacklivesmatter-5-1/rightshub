@@ -4,11 +4,16 @@
   padding: 0;
 }
 
+html {
+  background-color: #fce21b;
+}
+
 body {
   text-decoration: none;
   color: black;
   margin: 0;
   font-family: Roboto;
+  background-color: #fce21b;
 }
 
 h1 {
@@ -21,17 +26,53 @@ h2 {
   font-family: "Cornerstone";
 }
 
+h3 {
+  margin: 10px 0px 0px 0px;
+  font-family: "Cornerstone";
+}
+
 nav {
   background-color: #fce21b;
   color: black;
   font-family: "Cornerstone";
 }
 
+.card-emoji {
+  font-size: 50px;
+  margin-top: 10px;
+  margin-bottom: -20px;
+}
+
 .black-line {
+  border-bottom: 3px solid black;
+  width: 250px;
+  margin-bottom: 10px;
+  margin-top: -7px;
+  margin-left: -10px;
+}
+
+.black-line-long {
+  border-bottom: 3px solid black;
+  width: 350px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-left: -10px;
+}
+
+.black-line-resources {
+  border-bottom: 3px solid black;
+  width: 400px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  margin-left: -10px;
+}
+
+.black-line-title {
   border-bottom: 3px solid black;
   width: 350px;
   margin-bottom: 10px;
   margin-top: -10px;
+  margin-left: -10px;
 }
 
 .white-line {
@@ -44,7 +85,7 @@ nav {
 /* table component css */
 
 .table-content {
-  text-align: center;
+  text-align: left;
 }
 
 th {
@@ -59,34 +100,47 @@ th {
   background-clip: padding-box;
 }
 
+.table-liveslost {
+  font-weight: bold;
+}
+
+.table-border {
+  border: 2px solid black;
+  height: 100%;
+}
 .table-container {
   background-color: white;
   margin-bottom: 30px;
-  height: 68vh;
+  height: 59vh;
   overflow: scroll;
-  border: 1px solid black;
   border-top: 3px solid black;
+  border-bottom: 3px solid black;
 }
 
 .table-title {
-  margin-top: 40px;
+  margin-top: 56px;
   margin-bottom: 0px;
 }
+
 table.table-content {
   font-family: Roboto;
   border: 3px solid #000000;
   width: 95vw;
+
   text-align: center;
   border-collapse: collapse;
 }
+
 table.table-content td,
 table.table-content th {
   border: 1px solid #000000;
   padding: 5px 4px;
 }
+
 table.table-content tbody td {
   font-size: 13px;
 }
+
 table.table-content thead {
   background: #cfcfcf;
   background: -moz-linear-gradient(top, #dbdbdb 0%, #d3d3d3 66%, #cfcfcf 100%);
@@ -99,12 +153,14 @@ table.table-content thead {
   background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #cfcfcf 100%);
   border-bottom: 3px solid #000000;
 }
+
 table.table-content thead th {
   font-size: 15px;
   font-weight: bold;
   color: #000000;
   text-align: center;
 }
+
 table.table-content tfoot td {
   font-size: 14px;
 }
@@ -147,6 +203,7 @@ table.table-content tfoot td {
   font-weight: bold;
   padding: 6px 24px;
   text-decoration: none;
+  height: 100%;
 }
 
 .black-lives-button:hover {
@@ -156,7 +213,7 @@ table.table-content tfoot td {
 
 .table-buttons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -182,6 +239,7 @@ table.table-content tfoot td {
 .markers-subheader {
   margin-top: 5px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 .Markers-component {
@@ -206,21 +264,42 @@ table.table-content tfoot td {
   border: 2px solid rgb(0, 0, 0);
   justify-content: center;
   align-items: center;
+  margin-bottom: 20px;
 }
+
 .Marker-tip {
-  margin-top: 25px;
+  margin-top: -24px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
-  font-size: 18px;
+  font-size: 15px;
   color: rgba(0, 0, 0, 0.804);
+  margin-bottom: 12px;
+}
+.Marker-tip2 {
+  margin-top: -5px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-style: italic;
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.804);
+  margin-bottom: 12px;
+}
+
+.marker-link {
+  text-decoration: none;
+  color: black;
 }
 
 .markers-title {
   margin-top: 100px;
 }
 
+.ACLU-link {
+  color: black;
+  text-decoration: underline;
+}
+
 .download-button {
-  margin: 15px 20px 35px 20px;
+  margin: 15px 20px 25px 20px;
   background-color: white;
   border: 2px solid black;
   border-radius: 1px;
@@ -231,7 +310,28 @@ table.table-content tfoot td {
   font-size: 15px;
   font-weight: bold;
   padding: 6px 24px;
+  height: 100%;
   text-decoration: none;
+}
+
+.download-button2 {
+  margin: 25px 20px 25px 20px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 1px;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: "Cornerstone";
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  height: 100%;
+  text-decoration: none;
+}
+.download-button2:hover {
+  background-color: #ffd500;
+  text-shadow: 0px 1px 0px #fce21b;
 }
 
 .download-button:hover {
@@ -244,17 +344,46 @@ table.table-content tfoot td {
   display: flex;
   align-items: center;
   width: 100%;
-  justify-content: center;
+  justify-content: left;
   color: black;
   border-bottom: 4px solid black;
   position: fixed;
   background-color: white;
   border-radius: 0%;
   z-index: 5;
+  text-decoration: none;
+}
+
+.tabBox-nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60vw;
 }
 
 .tabBox:hover {
   background-color: rgb(238, 238, 238);
+}
+
+.tabBox-main {
+  position: fixed;
+  left: 0;
+  z-index: 10;
+  margin-top: -6px;
+  text-decoration: none;
+}
+
+.tabBox-main:hover {
+  text-decoration: none;
+}
+
+.Nav-subtitle {
+  font-size: 25px;
+  margin-left: -25px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+/*  */
+.tabBox-main:hover {
+  text-decoration: none;
 }
 
 .TabLabel {
@@ -319,6 +448,39 @@ table.table-content tfoot td {
   flex-direction: column;
 }
 
+.rights-title {
+  margin-top: -82px;
+}
+
+.rights-subheader {
+  margin-top: 10px;
+  margin-bottom: -20px;
+  text-align: center;
+}
+
+.Rights-Header {
+  /* position: absolute; */
+  margin-top: 1.5rem;
+
+  left: 50%;
+  /* transform: translateX(-50%); */
+}
+
+.Rights-Sub-Header {
+  font-family: "Cornerstone";
+  color: tomato;
+}
+
+.Rights .Link {
+  color: tomato;
+  margin: 12rem 1rem;
+}
+
+.container-fluid .row.rights {
+  /* padding-top: 2rem; */
+  /* margin-top: 2rem; */
+}
+
 /* Resources */
 
 .Resources {
@@ -332,16 +494,43 @@ table.table-content tfoot td {
 }
 
 .Resources-Header {
-  margin: 0px 0px -25px 0px;
+  margin: 550px 0px -25px 0px;
   font-family: "Cornerstone";
   font-size: 77px;
 }
 
+.resources-title {
+  margin-top: 480px;
+}
+
+.resources-subheader {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
 .card {
   width: 20rem;
-  height: 550px;
+  height: 500px;
   z-index: 0;
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card.rights {
+  width: 300px;
+  height: 400px;
+  z-index: 0;
+  padding: 10px;
+  margin: 20px 10px 20px 10px;
+}
+
+.card-title {
+  text-decoration: underline;
+}
+
+.card-rights-link {
+  text-decoration: none;
 }
 
 .card:hover {
@@ -353,10 +542,29 @@ table.table-content tfoot td {
 .card-text {
   font-size: 0.9em;
   padding: 0.4rem 1.9rem;
+  text-align: left;
+}
+
+.card-rights-text {
+  font-size: 0.9em;
+  padding: 0.3rem 2rem;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.card-rights-title {
+  font-size: 20px;
+  margin-top: 35px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .container-fluid .row {
   padding-top: 6rem;
+}
+
+.row {
+  width: 80vw;
 }
 
 .overflow {
@@ -365,8 +573,10 @@ table.table-content tfoot td {
   justify-content: center;
   align-items: center;
   top: 50%;
-  padding: 70px 70px 70px;
-  height: 150px;
+  padding: 100px 90px 90px;
+  height: 70px;
+  margin-bottom: -10px;
+  margin-top: -20px;
 }
 
 .card-img-top {
