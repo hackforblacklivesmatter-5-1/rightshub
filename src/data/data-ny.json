@@ -22,10 +22,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 5304,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -49,12 +49,12 @@
     "Link to news article or photo of official document": "https://patch.com/new-york/brentwood-central-islip/man-killed-police-involved-shooting-brentwood-scpd",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Foot",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 5306,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -83,7 +83,7 @@
     "Fleeing (Source: WaPo)": 0,
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 5267,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Rural"
   },
   {
@@ -107,12 +107,12 @@
     "Link to news article or photo of official document": "https://cnycentral.com/news/local/syracuse-police-identify-officer-involved-in-deadly-shooting-on-fenton-street",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "Yes",
     "WaPo ID (If included in WaPo database)": 5257,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -138,10 +138,10 @@
     "Unarmed": "Unclear",
     "Alleged Weapon (Source: WaPo)": "chair",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 5132,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -165,12 +165,12 @@
     "Link to news article or photo of official document": "https://pix11.com/2019/10/23/nypd-officer-and-suspect-shot-in-harlem-shootout-officials/",
     "Symptoms of mental illness?": "Unknown",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 5139,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -196,10 +196,10 @@
     "Unarmed": "Vehicle",
     "Alleged Weapon (Source: WaPo)": "vehicle",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 5109,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -223,12 +223,12 @@
     "Link to news article or photo of official document": "https://nypost.com/2019/10/15/nypd-cops-shoot-man-in-gunfight-near-brooklyn-housing-complex/",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 5106,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -252,12 +252,12 @@
     "Link to news article or photo of official document": "https://www.nytimes.com/2019/09/30/nyregion/bronx-officer-brian-mulkeen-nypd.html?fbclid=IwAR1c6wFGvlx_gLOh48akcQ1qsJz6Zaco3dZbXTncB5nekEKjwey15Ni9v2s#click=https://t.co/2B5cLmbuyD",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "Yes",
     "WaPo ID (If included in WaPo database)": 5064,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -281,12 +281,12 @@
     "Link to news article or photo of official document": "https://www.nytimes.com/2019/09/30/nyregion/bronx-officer-brian-mulkeen-nypd.html?fbclid=IwAR1c6wFGvlx_gLOh48akcQ1qsJz6Zaco3dZbXTncB5nekEKjwey15Ni9v2s#click=https://t.co/2B5cLmbuyD",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "other",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -310,12 +310,12 @@
     "Link to news article or photo of official document": "https://nypost.com/2019/09/17/female-nypd-officer-shot-on-staten-island/",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Foot",
     "Body Camera (Source: WaPo)": "Yes",
     "WaPo ID (If included in WaPo database)": 5248,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -342,9 +342,9 @@
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -368,12 +368,12 @@
     "Link to news article or photo of official document": "http://brooklyn.news12.com/story/40990934/police-man-dead-in-policeinvolved-shooting-in-brownsville",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Foot",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 5000,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -397,12 +397,12 @@
     "Link to news article or photo of official document": "https://nypost.com/2019/08/30/murder-suspect-killed-in-gunfight-with-cops-in-queens/",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 4992,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -429,9 +429,9 @@
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -455,12 +455,12 @@
     "Link to news article or photo of official document": "https://nypost.com/2019/07/07/suspect-critically-injured-during-police-involved-shooting-in-the-bronx/",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -484,12 +484,12 @@
     "Link to news article or photo of official document": "https://www.syracuse.com/crime/2019/06/74-year-old-man-shot-by-syracuse-police-dies.html",
     "Symptoms of mental illness?": "Unknown",
     "Unarmed": "Unarmed",
-    "Alleged Weapon (Source: WaPo)": "toy weapon",
+    "Alleged Weapon (Source: WaPo)": "Toy weapon",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 4799,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -513,12 +513,12 @@
     "Link to news article or photo of official document": "https://abc7ny.com/2-officers-shot-suspect-killed-in-ardsley-motel-drug-arrest/5329397/",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": 0,
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 4762,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -544,10 +544,10 @@
     "Unarmed": "Unarmed",
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 5438,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Rural"
   },
   {
@@ -571,12 +571,12 @@
     "Link to news article or photo of official document": "https://www.nydailynews.com/new-york/nyc-crime/ny-cop-shot-by-gang-member-washington-heights-leaves-hospital-20190419-wqhv576rvngjtosjwlt4wzwevm-story.html",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Foot",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 4647,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -602,10 +602,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 4638,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -631,10 +631,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "Yes",
     "WaPo ID (If included in WaPo database)": 4634,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -658,12 +658,12 @@
     "Link to news article or photo of official document": "https://www.foxnews.com/us/nypd-officer-shot-in-queens-while-on-duty-police-say",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Unarmed",
-    "Alleged Weapon (Source: WaPo)": "toy",
+    "Alleged Weapon (Source: WaPo)": "Toy",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -689,10 +689,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 4453,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -716,12 +716,12 @@
     "Link to news article or photo of official document": "https://www.syracuse.com/crime/2019/01/man-shot-by-nys-trooper-had-military-style-rifle-police-say.html",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Car",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 4427,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -748,7 +748,7 @@
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
     "Off-Duty Killing?": "Off-Duty",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
@@ -774,12 +774,12 @@
     "Link to news article or photo of official document": "http://www.news12.com/story/39727832/officials-at-least-3-shots-fired-amid-greenport-standoff",
     "Symptoms of mental illness?": "Yes",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 4347,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -805,10 +805,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 4306,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -837,7 +837,7 @@
     "Fleeing (Source: WaPo)": "Foot",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 4293,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -863,10 +863,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 4289,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -893,9 +893,9 @@
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -919,12 +919,12 @@
     "Link to news article or photo of official document": "https://13wham.com/news/local/police-3-shot-in-rochester-multiple-schools-on-lockout",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Car",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 4086,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -950,10 +950,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 4056,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Rural"
   },
   {
@@ -979,10 +979,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "Yes",
     "WaPo ID (If included in WaPo database)": 4039,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1006,12 +1006,12 @@
     "Link to news article or photo of official document": "https://buffalonews.com/2018/09/12/one-dead-in-officer-involved-shooting-on-plymouth/",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "Yes",
     "WaPo ID (If included in WaPo database)": 4026,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1037,10 +1037,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 3845,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1066,10 +1066,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 3782,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -1093,12 +1093,12 @@
     "Link to news article or photo of official document": "https://www.newsday.com/long-island/crime/police-shooting-merrick-1.19005608",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Unclear",
-    "Alleged Weapon (Source: WaPo)": "undetermined",
-    "Alleged Threat Level (Source: WaPo)": "undetermined",
+    "Alleged Weapon (Source: WaPo)": "Undetermined",
+    "Alleged Threat Level (Source: WaPo)": "Undetermined",
     "Fleeing (Source: WaPo)": "",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 3757,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -1122,12 +1122,12 @@
     "Link to news article or photo of official document": "http://www.wgrz.com/article/news/local/suspect-dead-in-officer-involved-shooting-in-genesee-county/71-537533844",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "Yes",
     "WaPo ID (If included in WaPo database)": 3607,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Rural"
   },
   {
@@ -1151,12 +1151,12 @@
     "Link to news article or photo of official document": "http://www.whec.com/news/shooting-near-greece-athena-high-school/4853443/",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 3578,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -1182,10 +1182,10 @@
     "Unarmed": "Unclear",
     "Alleged Weapon (Source: WaPo)": "metal pipe",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 3577,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1211,10 +1211,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "baseball bat",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 3497,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -1238,10 +1238,10 @@
     "Link to news article or photo of official document": "http://brooklyn.news12.com/story/37655376/off-duty-officer-fatally-shoots-robbery-suspect-in-canarsie",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
-    "Body Camera (Source: WaPo)": "",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
     "Off-Duty Killing?": "Off-Duty",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
@@ -1272,7 +1272,7 @@
     "Fleeing (Source: WaPo)": "Foot",
     "Body Camera (Source: WaPo)": "Yes",
     "WaPo ID (If included in WaPo database)": 3365,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1298,40 +1298,11 @@
     "Unarmed": "Unarmed",
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Not fleeing",
-    "Body Camera (Source: WaPo)": "",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
-  },
-  {
-    "Victim's name": "Eric Campbell",
-    "Victim's age": "Unknown",
-    "Victim's gender": "Male",
-    "Victim's race": "White",
-    "Date of Incident (month/day/year)": "12/15/17",
-    "Latitude": 40.901426,
-    "Longitude": -73.862556,
-    "Street Address of Incident": "Mclean Ave and Aqueduct Ave",
-    "City": "Yonkers",
-    "State": "NY",
-    "Zipcode": 10704,
-    "County": "Westchester",
-    "Agency responsible for death": "Federal Bureau of Investigation, Yonkers Police Department",
-    "Cause of death": "Gunshot",
-    "A brief description of the circumstances surrounding the death": "An FBI agent and a Yonkers detective were conducting an investigation into a bank robbery when they tried to pull a man over for questioning, police said. The two apparently saw Eric Campbell with a weapon and shot and killed him.",
-    "Official disposition of death (justified or other)": "Pending investigation",
-    "Criminal Charges?": "No known charges",
-    "Link to news article or photo of official document": "https://www.nbcnewyork.com/news/local/Man-Shot-Killed-FBI-Agent-Officer-Yonkers-464472163.html",
-    "Symptoms of mental illness?": "No",
-    "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
-    "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Car",
-    "Body Camera (Source: WaPo)": "No",
-    "WaPo ID (If included in WaPo database)": 3218,
-    "Off-Duty Killing?": "",
-    "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
     "Victim's name": "Mario Sanabria",
@@ -1356,10 +1327,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "machete",
     "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 3182,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1385,10 +1356,10 @@
     "Unarmed": "Unarmed",
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Not fleeing",
-    "Body Camera (Source: WaPo)": "",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -1412,12 +1383,12 @@
     "Link to news article or photo of official document": "http://www.stargazette.com/story/news/2017/11/16/subject-elmira-police-standoff-dead/870362001/",
     "Symptoms of mental illness?": "Yes",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 3144,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1443,10 +1414,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "Yes",
     "WaPo ID (If included in WaPo database)": 3134,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1470,12 +1441,12 @@
     "Link to news article or photo of official document": "http://www.stargazette.com/story/news/public-safety/2017/10/26/police-chase-suspect-gunshots-fired-horseheads/802712001/",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Car",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 3073,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -1499,9 +1470,9 @@
     "Link to news article or photo of official document": "http://www.democratandchronicle.com/story/news/2017/10/04/canandaigua-fire-department-reported-shooting-pinnacle-north/733458001/",
     "Symptoms of mental illness?": "Unknown",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 3012,
     "Off-Duty Killing?": "Off-Duty",
@@ -1530,10 +1501,10 @@
     "Unarmed": "Unarmed",
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Not fleeing",
-    "Body Camera (Source: WaPo)": "",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -1559,10 +1530,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "Yes",
     "WaPo ID (If included in WaPo database)": 2933,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1580,7 +1551,7 @@
     "County": "Kings",
     "Agency responsible for death": "New York Police Department",
     "Cause of death": "Gunshot, Taser",
-    "A brief description of the circumstances surrounding the death": "Dwayne Jeune, who had a history of mental illness, was shot three or four times by police officers within seconds of their arrival after he allegedly charged at them with a 10-inch bread knife during a domestic disturbance. Officer Miguel Gonzalez opened fire after another cop tried to subdue Jeune with a Taser, �which proved to be ineffective,� police said. The same officer who killed Jeune also shot and wounded Davonte Pressley in October 2016.",
+    "A brief description of the circumstances surrounding the death": "Dwayne Jeune, who had a history of mental illness, was shot three or four times by police officers within seconds of their arrival after he allegedly charged at them with a 10-inch bread knife during a domestic disturbance. Officer Miguel Gonzalez opened fire after another cop tried to subdue Jeune with a Taser, which proved to be ineffective, police said. The same officer who killed Jeune also shot and wounded Davonte Pressley in October 2016.",
     "Official disposition of death (justified or other)": "Pending investigation",
     "Criminal Charges?": "No known charges",
     "Link to news article or photo of official document": "http://nypost.com/2017/07/31/nypd-cops-shoot-man-in-brooklyn/",
@@ -1588,10 +1559,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 2815,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1617,10 +1588,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 2819,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -1644,12 +1615,12 @@
     "Link to news article or photo of official document": "http://www.nydailynews.com/new-york/nyc-crime/police-officer-shot-bronx-suspect-custody-article-1.3301718",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Foot",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 2742,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1678,7 +1649,7 @@
     "Fleeing (Source: WaPo)": "Foot",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 2559,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1702,12 +1673,12 @@
     "Link to news article or photo of official document": "http://www.nydailynews.com/new-york/brooklyn/cops-fire-shots-brooklyn-deli-wounded-article-1.2976505",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Unarmed",
-    "Alleged Weapon (Source: WaPo)": "toy",
+    "Alleged Weapon (Source: WaPo)": "Toy",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Foot",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 2358,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1731,12 +1702,12 @@
     "Link to news article or photo of official document": "http://abc7ny.com/news/suspect-dead-officer-hurt-in-police-involved-shooting-in-brooklyn/1758358/",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Foot",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 2346,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1762,10 +1733,10 @@
     "Unarmed": "Unclear",
     "Alleged Weapon (Source: WaPo)": "screwdriver",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 2222,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1783,18 +1754,18 @@
     "County": "Kings",
     "Agency responsible for death": "New York Police Department",
     "Cause of death": "Gunshot",
-    "A brief description of the circumstances surrounding the death": "Police shot and killed Joshua Martino, who'd been firing shots into a lounge moments before police pursued and then confronted him, police said. Two officers shot Martino twice in the torso after he turned towards them with a .38 caliber revolver in his hand. The man never fired.",
+    "A brief description of the circumstances surrounding the death": "Police shot and killed Joshua Martino, who'd been firing shots into a lounge moments before police pursued and then confronted  him, police said. Two officers shot Martino twice in the torso after he turned towards them with a .38 caliber revolver in his hand. The man never fired.",
     "Official disposition of death (justified or other)": "Pending investigation",
     "Criminal Charges?": "No known charges",
     "Link to news article or photo of official document": "http://www.nbcnewyork.com/news/local/NYC-Police-Involved-Shooting-Prospect-Heights-Man-Critical-Gun-Recovered-409623155.html",
     "Symptoms of mental illness?": "Unkown",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Foot",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 2190,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1812,7 +1783,7 @@
     "County": "Kings",
     "Agency responsible for death": "New York Police Department",
     "Cause of death": "Gunshot, Taser",
-    "A brief description of the circumstances surrounding the death": "Officers responded to reports of an emotionally disturbed person in a first-floor apartment, police said. The man's sister, who called 911, let the cops into the home. When James Owens saw the officers he grabbed a 13-inch knife and refused to put it down. One of the cops fired a Taser, but it �didn't make complete contact.� Another officer then fired his gun three times, killing Owens.",
+    "A brief description of the circumstances surrounding the death": "Officers responded to reports of an emotionally disturbed person in a first-floor apartment, police said. The man's sister, who called 911, let the cops into the home. When James Owens saw the officers he grabbed a 13-inch knife and refused to put it down. One of the cops fired a Taser, but it didn't make complete contact. Another officer then fired his gun three times, killing Owens.",
     "Official disposition of death (justified or other)": "Pending investigation",
     "Criminal Charges?": "No known charges",
     "Link to news article or photo of official document": "http://www.nydailynews.com/new-york/brooklyn/knife-wielding-man-shot-wounded-brooklyn-article-1.2933589",
@@ -1820,10 +1791,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 2189,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1849,10 +1820,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "baton",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 2062,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1876,12 +1847,12 @@
     "Link to news article or photo of official document": "http://www.nydailynews.com/new-york/nyc-crime/nypd-sergeant-shot-dead-wounded-bronx-gunman-ambush-article-1.2858556",
     "Symptoms of mental illness?": "Yes",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Other",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 2016,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1905,12 +1876,12 @@
     "Link to news article or photo of official document": "http://www.nydailynews.com/new-york/bronx/man-critical-condition-cops-taser-bronx-clash-article-1.2855934",
     "Symptoms of mental illness?": "Yes",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "bottle",
+    "Alleged Weapon (Source: WaPo)": "Bottle",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
-    "Body Camera (Source: WaPo)": "",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1936,10 +1907,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "baseball bat",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 1975,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -1963,12 +1934,12 @@
     "Link to news article or photo of official document": "http://www.syracuse.com/crime/index.ssf/2016/10/syracuse_man_shoots_at_police_during_traffic_stop_officer_returns_fire_suspect_d.html",
     "Symptoms of mental illness?": "Unknown",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 1943,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -1986,18 +1957,18 @@
     "County": "Kings",
     "Agency responsible for death": "New York Police Department",
     "Cause of death": "Gunshot",
-    "A brief description of the circumstances surrounding the death": "Two officers responded to Debevoise Ave. at Jackson St. in the Cooper Park Houses after receiving a pair of 911 calls � one reporting an emotionally disturbed man and the other a robbery at gunpoint, police said. Police spotted Johnson toting a .40-caliber semiautomatic handgun, and fitting the robbery suspect's description, police said. Johnson opened fire on the officers, who shot and killed him.",
+    "A brief description of the circumstances surrounding the death": "Two officers responded to Debevoise Ave. at Jackson St. in the Cooper Park Houses after receiving a pair of 911 calls  one reporting an emotionally disturbed man and the other a robbery at gunpoint, police said. Police spotted Johnson toting a .40-caliber semiautomatic handgun, and fitting the robbery suspect's description, police said. Johnson opened fire on the officers, who shot and killed him.",
     "Official disposition of death (justified or other)": "Pending investigation",
     "Criminal Charges?": "No known charges",
     "Link to news article or photo of official document": "http://www.nydailynews.com/new-york/brooklyn/person-shot-police-involved-shooting-brooklyn-article-1.2714732",
     "Symptoms of mental illness?": "Unknown",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 1717,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -2021,12 +1992,12 @@
     "Link to news article or photo of official document": "http://www.recordonline.com/news/20160713/middletown-cops-involved-in-fatal-shooting",
     "Symptoms of mental illness?": "Yes",
     "Unarmed": "Unarmed",
-    "Alleged Weapon (Source: WaPo)": "toy",
+    "Alleged Weapon (Source: WaPo)": "Toy",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 1709,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -2050,12 +2021,12 @@
     "Link to news article or photo of official document": "http://www.nytimes.com/2016/07/12/nyregion/man-killed-by-officers-responding-to-burglary-report-in-brooklyn.html?_r=1",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Foot",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 1706,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -2081,8 +2052,8 @@
     "Unarmed": "Unarmed",
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
-    "Body Camera (Source: WaPo)": "",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
     "Off-Duty Killing?": "Off-Duty",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
@@ -2108,12 +2079,12 @@
     "Link to news article or photo of official document": "http://pix11.com/2016/06/19/man-killed-in-police-involved-shooting-at-bronx-housing-complex/",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 1631,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -2137,12 +2108,12 @@
     "Link to news article or photo of official document": "http://www.syracuse.com/news/index.ssf/2016/06/syracuse_shooting_victim_pregnant_fiancee_hit_by_bullets_family_seeks_answers.html#incart_m-rpt-1",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Unclear",
-    "Alleged Weapon (Source: WaPo)": "undetermined",
-    "Alleged Threat Level (Source: WaPo)": "undetermined",
-    "Fleeing (Source: WaPo)": "Not fleeing",
-    "Body Camera (Source: WaPo)": "",
+    "Alleged Weapon (Source: WaPo)": "Undetermined",
+    "Alleged Threat Level (Source: WaPo)": "Undetermined",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -2166,12 +2137,12 @@
     "Link to news article or photo of official document": "http://news10.com/2016/06/13/police-investigating-officer-involved-shooting-in-schenectady/",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 1619,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -2197,10 +2168,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 1543,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -2226,10 +2197,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 1485,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Rural"
   },
   {
@@ -2258,7 +2229,7 @@
     "Fleeing (Source: WaPo)": "Car",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 1472,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -2282,12 +2253,12 @@
     "Link to news article or photo of official document": "http://www.nbcnewyork.com/news/local/NYC-Man-Killed-in-Police-Involved-Shooting-in-Queens-375983101.html",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Foot",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 1470,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -2313,10 +2284,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 1451,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -2340,12 +2311,12 @@
     "Link to news article or photo of official document": "http://www.democratandchronicle.com/story/news/2016/03/09/rpd-identifies-man-shot-swat-team/81530234/",
     "Symptoms of mental illness?": "Yes",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 1339,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -2369,12 +2340,12 @@
     "Link to news article or photo of official document": "http://www.buffalonews.com/city-region/man-killed-by-police-officer-in-cheektowaga-was-troubled-20160307",
     "Symptoms of mental illness?": "Yes",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 1334,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -2398,12 +2369,12 @@
     "Link to news article or photo of official document": "http://www.syracuse.com/crime/index.ssf/2016/02/syracuse_police_investigating_shooting_at_north_side_apartments_officer_reported.html",
     "Symptoms of mental illness?": "Yes",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 1276,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -2429,8 +2400,8 @@
     "Unarmed": "Unarmed",
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Not fleeing",
-    "Body Camera (Source: WaPo)": "",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
     "Off-Duty Killing?": "Off-Duty",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
@@ -2458,8 +2429,8 @@
     "Unarmed": "Unarmed",
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Not fleeing",
-    "Body Camera (Source: WaPo)": "",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
     "Off-Duty Killing?": "Off-Duty",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
@@ -2490,7 +2461,7 @@
     "Fleeing (Source: WaPo)": "Foot",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 1067,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -2514,10 +2485,10 @@
     "Link to news article or photo of official document": "http://www.nytimes.com/2015/12/08/nyregion/man-is-fatally-shot-by-police-after-a-robbery-attempt-in-queens.html?_r=1",
     "Symptoms of mental illness?": "Unknown",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
     "Off-Duty Killing?": "Off-Duty",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
@@ -2543,12 +2514,12 @@
     "Link to news article or photo of official document": "http://www.poughkeepsiejournal.com/story/news/crime/2016/02/17/man-involved-police-shootout-new-paltz-dies/80522678/",
     "Symptoms of mental illness?": "Yes",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 1283,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -2574,10 +2545,10 @@
     "Unarmed": "Allegedly Armed",
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 817,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Rural"
   },
   {
@@ -2603,10 +2574,10 @@
     "Unarmed": "Unarmed",
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "other",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 788,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -2630,12 +2601,12 @@
     "Link to news article or photo of official document": "http://wivb.com/2015/08/23/troy-officers-hospitalized-after-shootout-gunman-dead/",
     "Symptoms of mental illness?": "Unknown",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Foot",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 763,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -2659,12 +2630,12 @@
     "Link to news article or photo of official document": "http://www.silive.com/news/index.ssf/2015/08/im_coming_out_now_mama_suspect.html",
     "Symptoms of mental illness?": "Unknown",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 738,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -2688,12 +2659,12 @@
     "Link to news article or photo of official document": "http://www.timesunion.com/news/article/Sheriff-Edinburgh-resident-dead-in-officer-6357460.php#photo-8239735",
     "Symptoms of mental illness?": "Yes",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 585,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Rural"
   },
   {
@@ -2717,12 +2688,12 @@
     "Link to news article or photo of official document": "http://www.nbcnews.com/storyline/new-york-prison-escape/autopsy-shows-prison-escapee-richard-matt-was-drunk-when-he-n404676",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Other",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 579,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Rural"
   },
   {
@@ -2751,7 +2722,7 @@
     "Fleeing (Source: WaPo)": "Foot",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 564,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -2775,12 +2746,12 @@
     "Link to news article or photo of official document": "http://www.nydailynews.com/new-york/bronx/bronx-man-shot-police-responding-domestic-dispute-article-1.2253127",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 540,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -2807,9 +2778,9 @@
     "Alleged Weapon (Source: WaPo)": "scissors",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -2833,12 +2804,12 @@
     "Link to news article or photo of official document": "http://www.democratandchronicle.com/story/news/2015/06/01/police-investigate-near-sears-mall-greece-ridge/28314217/",
     "Symptoms of mental illness?": "Yes",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Other",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 505,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -2865,9 +2836,9 @@
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -2885,18 +2856,18 @@
     "County": "New York",
     "Agency responsible for death": "New York Police Department",
     "Cause of death": "Gunshot",
-    "A brief description of the circumstances surrounding the death": "Three officers approached Branch in his car after the fatal shooting of his girlfriend. He began shooting at officers from his car with a .380 Beretta pistol�and continued to shoot as he exited his vehicle. Officers fatally shot Branch from a distance of about eight feet.",
+    "A brief description of the circumstances surrounding the death": "Three officers approached Branch in his car after the fatal shooting of his girlfriend. He began shooting at officers from his car with a .380 Beretta pistoland continued to shoot as he exited his vehicle. Officers fatally shot Branch from a distance of about eight feet.",
     "Official disposition of death (justified or other)": "Unreported",
     "Criminal Charges?": "No known charges",
     "Link to news article or photo of official document": "http://pix11.com/2015/05/26/police-shoot-man-in-brooklyn-school-parking-lot/",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 477,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -2920,12 +2891,12 @@
     "Link to news article or photo of official document": "http://www.localsyr.com/story/d/story/authorities-investigating-fatal-officer-involved-s/67882/io8DUgiTsEG_yMWZyCVbHw",
     "Symptoms of mental illness?": "Yes",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 443,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Rural"
   },
   {
@@ -2954,7 +2925,7 @@
     "Fleeing (Source: WaPo)": "Car",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 435,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -2983,7 +2954,7 @@
     "Fleeing (Source: WaPo)": "Foot",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 411,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3007,12 +2978,12 @@
     "Link to news article or photo of official document": "http://www.nytimes.com/2015/04/24/nyregion/man-killed-by-police-in-queens-had-a-history-of-instability.html?_r=0",
     "Symptoms of mental illness?": "Yes",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Foot",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 395,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3030,7 +3001,7 @@
     "County": "Albany",
     "Agency responsible for death": "City of Albany Police Department",
     "Cause of death": "Taser",
-    "A brief description of the circumstances surrounding the death": "At approximately 12:36 a.m., officers questioned Ivy, a paranoid schizophrenic with a heart condition.�He fled�down Second Street. Officers chased Ivy, shooting him with a�Taser at least once. The Taser failed to subdue Ivy,�whom they�chased�and�handcuffed. When he stopped breathing, officers attempted CPR and called for help. Ivy died at Albany Medical Center.�",
+    "A brief description of the circumstances surrounding the death": "At approximately 12:36 a.m., officers questioned Ivy, a paranoid schizophrenic with a heart condition.He fleddown Second Street. Officers chased Ivy, shooting him with aTaser at least once. The Taser failed to subdue Ivy,whom theychasedandhandcuffed. When he stopped breathing, officers attempted CPR and called for help. Ivy died at Albany Medical Center.",
     "Official disposition of death (justified or other)": "Ongoing investigation",
     "Criminal Charges?": "No known charges",
     "Link to news article or photo of official document": "http://www.timesunion.com/news/article/Taser-victim-Dontay-Ivy-to-be-laid-to-rest-6187858.php",
@@ -3039,9 +3010,9 @@
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3065,12 +3036,12 @@
     "Link to news article or photo of official document": "https://www.longislandexchange.com/press-releases/suspect-dies-after-officer-involved-shooting-in-bay-shore/",
     "Symptoms of mental illness?": "Unknown",
     "Unarmed": "Unarmed",
-    "Alleged Weapon (Source: WaPo)": "undetermined",
+    "Alleged Weapon (Source: WaPo)": "Undetermined",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Car",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 234,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -3094,12 +3065,12 @@
     "Link to news article or photo of official document": "http://www.whec.com/news/stories/S3742306.shtml?cat=565",
     "Symptoms of mental illness?": "Unknown",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
     "Fleeing (Source: WaPo)": "Car",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 309,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Rural"
   },
   {
@@ -3123,12 +3094,12 @@
     "Link to news article or photo of official document": "https://cbsnewyork.files.wordpress.com/2015/02/vincent-cordaro.jpg?w=620&h=349&crop=1",
     "Symptoms of mental illness?": "Yes",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "attack",
-    "Fleeing (Source: WaPo)": "Not fleeing",
+    "Fleeing (Source: WaPo)": "Not Fleeing",
     "Body Camera (Source: WaPo)": "No",
     "WaPo ID (If included in WaPo database)": 133,
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -3155,9 +3126,9 @@
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3184,9 +3155,9 @@
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3213,9 +3184,9 @@
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3242,9 +3213,9 @@
     "Alleged Weapon (Source: WaPo)": "hatchet",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3271,9 +3242,9 @@
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3300,9 +3271,9 @@
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3329,9 +3300,9 @@
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3358,9 +3329,9 @@
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -3387,9 +3358,9 @@
     "Alleged Weapon (Source: WaPo)": "unclear",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3416,9 +3387,9 @@
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Rural"
   },
   {
@@ -3445,9 +3416,9 @@
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Rural"
   },
   {
@@ -3471,12 +3442,12 @@
     "Link to news article or photo of official document": "http://www.dnainfo.com/new-york/20140730/greenwich-village/detective-hurt-during-greenwich-village-shootout-leaves-hospital",
     "Symptoms of mental illness?": "Unknown",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3503,9 +3474,9 @@
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3529,12 +3500,12 @@
     "Link to news article or photo of official document": "http://www.nbcnewyork.com/news/local/Long-Island-Suffolk-County-Bay-Shore-Police-Involved-Shooting-Fatal-264868841.html",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -3561,9 +3532,9 @@
     "Alleged Weapon (Source: WaPo)": "box cutter",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -3590,9 +3561,9 @@
     "Alleged Weapon (Source: WaPo)": "scissors",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3616,12 +3587,12 @@
     "Link to news article or photo of official document": "http://www.nbcnewyork.com/news/local/NYPD-Shooting-FDR-Drive-96-Street-259556971.html",
     "Symptoms of mental illness?": "Unknown",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3645,12 +3616,12 @@
     "Link to news article or photo of official document": "http://www.dailymail.co.uk/news/article-2603373/Cops-fatally-shoot-86-year-old-Queens-resident-shot-own.html",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3674,12 +3645,12 @@
     "Link to news article or photo of official document": "http://www.washingtonpost.com/national/police-officer-fatally-shot-in-upstate-new-york/2014/03/31/ad349cc6-b8f4-11e3-80de-2ff8801f27af_story.html",
     "Symptoms of mental illness?": "Yes",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -3706,9 +3677,9 @@
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -3735,9 +3706,9 @@
     "Alleged Weapon (Source: WaPo)": "cleaver",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -3764,9 +3735,9 @@
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3790,12 +3761,12 @@
     "Link to news article or photo of official document": "http://www.nytimes.com/2013/12/27/nyregion/police-fatally-shoot-an-armed-robbery-suspect-in-the-bronx.html",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3822,9 +3793,9 @@
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -3851,9 +3822,9 @@
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3880,9 +3851,9 @@
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Rural"
   },
   {
@@ -3906,12 +3877,12 @@
     "Link to news article or photo of official document": "http://www.nbcnewyork.com/news/local/Shooting-Bronx-Officer-Involved-230157251.html",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -3935,12 +3906,12 @@
     "Link to news article or photo of official document": "http://www.syracuse.com/news/index.ssf/2013/10/sheriff_onondaga_man_shot_by_deputies_had_threatened_to_kill_himself_shoot_polic.html",
     "Symptoms of mental illness?": "Yes",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -3964,12 +3935,12 @@
     "Link to news article or photo of official document": "http://7online.com/archive/9211962/",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -3993,12 +3964,12 @@
     "Link to news article or photo of official document": "http://www.huffingtonpost.com/2013/08/05/shaaliver-douse-shooting_n_3705623.html",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -4025,9 +3996,9 @@
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -4051,12 +4022,12 @@
     "Link to news article or photo of official document": "http://abclocal.go.com/wabc/story?section=news%2Flocal%2Flong_island&id=9156482",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -4080,12 +4051,12 @@
     "Link to news article or photo of official document": "http://www.newsday.com/news/nypd-suspect-dead-in-police-shooting-1.5519051",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -4112,7 +4083,7 @@
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
     "Off-Duty Killing?": "Off-Duty",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
@@ -4141,9 +4112,9 @@
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -4170,9 +4141,9 @@
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -4196,12 +4167,12 @@
     "Link to news article or photo of official document": "http://heavy.com/news/2013/05/andrea-rebello-kiled-by-police-dalton-smith/",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -4228,9 +4199,9 @@
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -4257,9 +4228,9 @@
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -4286,9 +4257,9 @@
     "Alleged Weapon (Source: WaPo)": "knife",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -4315,7 +4286,7 @@
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
     "Off-Duty Killing?": "Off-Duty",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
@@ -4344,7 +4315,7 @@
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
     "Off-Duty Killing?": "Off-Duty",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
@@ -4370,12 +4341,12 @@
     "Link to news article or photo of official document": "http://www.timesunion.com/local/article/Real-world-storms-in-4354255.php",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Suburban"
   },
   {
@@ -4399,12 +4370,12 @@
     "Link to news article or photo of official document": "http://www.dnainfo.com/new-york/20130310/east-flatbush/police-fatally-shoot-allegedly-armed-teenager-brooklyn",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -4431,9 +4402,9 @@
     "Alleged Weapon (Source: WaPo)": "unclear",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Rural"
   },
   {
@@ -4460,9 +4431,9 @@
     "Alleged Weapon (Source: WaPo)": "unarmed",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   },
   {
@@ -4486,12 +4457,12 @@
     "Link to news article or photo of official document": "http://articles.mcall.com/2013-01-04/news/mc-c-allentown-gunman-killed-on-ny-subway-20130104_1_lukasz-kozicki-officer-michael-levay-allentown-man; http://www.foxnews.com/us/2013/01/04/3-nypd-officers-shot-in-one-hour-span-in-separate-incidents/",
     "Symptoms of mental illness?": "No",
     "Unarmed": "Allegedly Armed",
-    "Alleged Weapon (Source: WaPo)": "gun",
+    "Alleged Weapon (Source: WaPo)": "Gun",
     "Alleged Threat Level (Source: WaPo)": "",
     "Fleeing (Source: WaPo)": "",
-    "Body Camera (Source: WaPo)": "",
+    "Body Camera (Source: WaPo)": "N/A",
     "WaPo ID (If included in WaPo database)": "",
-    "Off-Duty Killing?": "",
+    "Off-Duty Killing?": "Unknown",
     "Geography (via Trulia methodology based on zipcode population density: http://jedkolko.com/wp-content/uploads/2015/05/full-ZCTA-urban-suburban-rural-classification.xlsx )": "Urban"
   }
 ]

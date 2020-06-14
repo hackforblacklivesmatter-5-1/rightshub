@@ -1,10 +1,10 @@
-import React, { useState } from "react"
-import data from "../data/data-ny.json"
+import React, { useState } from "react";
+import data from "../data/data-ny.json";
 
 export const Table = () => {
-  const [race, setRace] = useState(false)
-  const [date, setDate] = useState(false)
-  const [age, setAge] = useState(false)
+  const [race, setRace] = useState(false);
+  const [date, setDate] = useState(false);
+  const [age, setAge] = useState(false);
 
   // Handling functions
 
@@ -12,19 +12,19 @@ export const Table = () => {
     window.open(
       e.currentTarget.dataset.href,
       "_blank" // <- This is what makes it open in a new window.
-    )
+    );
     console.log(
       "You clicked a row!",
       "e.target.dataset.href: ",
       e.currentTarget.dataset.href
-    )
-  }
+    );
+  };
 
   const showDescription = (record) => {
     console.log(
       record["A brief description of the circumstances surrounding the death"]
-    )
-  }
+    );
+  };
 
   // Render data
 
@@ -52,36 +52,36 @@ export const Table = () => {
           <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
           <td>{record["Body Camera (Source: WaPo)"]}</td>
         </tr>
-      )
-    })
-  }
+      );
+    });
+  };
 
   //Pagination
   const paginate = (currentPage) => {
-    console.log("Im paginating")
-    const page = currentPage
-    countPages()
-    turnPageTo(page)
-  }
+    console.log("Im paginating");
+    const page = currentPage;
+    countPages();
+    turnPageTo(page);
+  };
 
   const turnPageTo = (n) => {
-    const startIndex = n * 20
-    const currentData = data.slice(startIndex, startIndex + 20)
-    console.log(currentData)
-  }
+    const startIndex = n * 20;
+    const currentData = data.slice(startIndex, startIndex + 20);
+    console.log(currentData);
+  };
 
   const countPages = () => {
-    console.log("counting!")
-    const pages = Math.ceil(data.length / 20)
-  }
+    console.log("counting!");
+    const pages = Math.ceil(data.length / 20);
+  };
 
-  const renderPages = () => {}
+  const renderPages = () => {};
 
   // Filter and Sort functions
   const filterByRace = () => {
     const blackVictims = data.filter(
       (victim) => victim["Victim's race"] === "Black"
-    )
+    );
     return blackVictims.map((record, id) => {
       return (
         <tr key={id}>
@@ -95,9 +95,9 @@ export const Table = () => {
           <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
           <td>{record["Body Camera (Source: WaPo)"]}</td>
         </tr>
-      )
-    })
-  }
+      );
+    });
+  };
 
   const sortByDate = () => {
     let sorted = data.sort((a, b) =>
@@ -105,7 +105,7 @@ export const Table = () => {
       new Date(b["Date of Incident (month/day/year)"])
         ? 1
         : -1
-    )
+    );
     return sorted.map((record, id) => {
       return (
         <tr key={id}>
@@ -119,14 +119,14 @@ export const Table = () => {
           <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
           <td>{record["Body Camera (Source: WaPo)"]}</td>
         </tr>
-      )
-    })
-  }
+      );
+    });
+  };
 
   const sortByAge = () => {
     let sorted = data.sort((a, b) =>
       parseInt(a["Victim's age"]) > parseInt(b["Victim's age"]) ? 1 : -1
-    )
+    );
     return sorted.map((record, id) => {
       return (
         <tr key={id}>
@@ -141,27 +141,27 @@ export const Table = () => {
           <td>{record["Alleged Threat Level (Source: WaPo):"]}</td>
           <td>{record["Body Camera (Source: WaPo)"]}</td>
         </tr>
-      )
-    })
-  }
+      );
+    });
+  };
 
   // toggle state
   const toggleRace = () => {
-    setRace(!race)
-  }
+    setRace(!race);
+  };
 
   const toggleDate = () => {
-    setDate(!date)
-  }
+    setDate(!date);
+  };
 
   const toggleAge = () => {
-    setAge(!age)
-  }
+    setAge(!age);
+  };
 
   return (
     <div className="table-component">
       <h1 className="table-title">Killings by Police</h1>
-      <div className="yellow-line"></div>{" "}
+      <div className="black-line-long"></div>
       <h6 className="table-subheader">
         Below are the statistics of killings by police in New York from
         2013-2019.
@@ -170,6 +170,9 @@ export const Table = () => {
         <button className="black-lives-button" onClick={() => toggleRace()}>
           Show Black Lives
         </button>
+        <a href="https://github.com/hackforblacklivesmatter-5-1/rightshub/blob/master/src/data/NY2013to2019.xlsx?raw=true">
+          <button className="download-button">Download Dataset</button>
+        </a>
       </div>
       <div className="table-container">
         <table className="table-content">
@@ -200,11 +203,7 @@ export const Table = () => {
             {age ? sortByAge() : renderData()}
           </tbody>
         </table>
-        {paginate(0)}
-      </div>{" "}
-      <a href="https://github.com/hackforblacklivesmatter-5-1/rightshub/blob/master/src/data/NY2013to2019.xlsx?raw=true">
-        <button className="download-button">Download Dataset</button>
-      </a>
+      </div>
     </div>
-  )
-}
+  );
+};

@@ -21,6 +21,11 @@ h2 {
   font-family: "Cornerstone";
 }
 
+h3 {
+  margin: 10px 0px 0px 0px;
+  font-family: "Cornerstone";
+}
+
 nav {
   background-color: #fce21b;
   color: black;
@@ -29,9 +34,18 @@ nav {
 
 .black-line {
   border-bottom: 3px solid black;
-  width: 350px;
+  width: 250px;
   margin-bottom: 10px;
   margin-top: -10px;
+  margin-left: -10px;
+}
+
+.black-line-long {
+  border-bottom: 3px solid black;
+  width: 350px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-left: -10px;
 }
 
 .white-line {
@@ -44,7 +58,7 @@ nav {
 /* table component css */
 
 .table-content {
-  text-align: center;
+  text-align: left;
 }
 
 th {
@@ -59,23 +73,28 @@ th {
   background-clip: padding-box;
 }
 
+.table-border {
+  border: 2px solid black;
+  height: 100%;
+}
 .table-container {
   background-color: white;
   margin-bottom: 30px;
   height: 68vh;
   overflow: scroll;
-  border: 1px solid black;
   border-top: 3px solid black;
+  border-bottom: 3px solid black;
 }
 
 .table-title {
-  margin-top: 40px;
+  margin-top: 56px;
   margin-bottom: 0px;
 }
 table.table-content {
   font-family: Roboto;
   border: 3px solid #000000;
   width: 95vw;
+
   text-align: center;
   border-collapse: collapse;
 }
@@ -147,6 +166,7 @@ table.table-content tfoot td {
   font-weight: bold;
   padding: 6px 24px;
   text-decoration: none;
+  height: 100%;
 }
 
 .black-lives-button:hover {
@@ -156,7 +176,7 @@ table.table-content tfoot td {
 
 .table-buttons {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
 }
@@ -208,11 +228,12 @@ table.table-content tfoot td {
   align-items: center;
 }
 .Marker-tip {
-  margin-top: 25px;
+  margin-top: -24px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
-  font-size: 18px;
+  font-size: 15px;
   color: rgba(0, 0, 0, 0.804);
+  margin-bottom: 24px;
 }
 
 .markers-title {
@@ -220,7 +241,7 @@ table.table-content tfoot td {
 }
 
 .download-button {
-  margin: 15px 20px 35px 20px;
+  margin: 15px 20px 25px 20px;
   background-color: white;
   border: 2px solid black;
   border-radius: 1px;
@@ -231,7 +252,28 @@ table.table-content tfoot td {
   font-size: 15px;
   font-weight: bold;
   padding: 6px 24px;
+  height: 100%;
   text-decoration: none;
+}
+
+.download-button2 {
+  margin: 25px 20px 25px 20px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 1px;
+  display: inline-block;
+  cursor: pointer;
+  color: #333333;
+  font-family: "Cornerstone";
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  height: 100%;
+  text-decoration: none;
+}
+.download-button2:hover {
+  background-color: #ffd500;
+  text-shadow: 0px 1px 0px #fce21b;
 }
 
 .download-button:hover {
@@ -244,17 +286,46 @@ table.table-content tfoot td {
   display: flex;
   align-items: center;
   width: 100%;
-  justify-content: center;
+  justify-content: left;
   color: black;
   border-bottom: 4px solid black;
   position: fixed;
   background-color: white;
   border-radius: 0%;
   z-index: 5;
+  text-decoration: none;
+}
+
+.tabBox-nav {
+  display: flex;
+  flex-direction: row;
+  margin-left: 60vw;
 }
 
 .tabBox:hover {
   background-color: rgb(238, 238, 238);
+}
+
+.tabBox-main {
+  position: absolute;
+  left: 0;
+  z-index: 10;
+  margin-top: -6px;
+  text-decoration: none;
+}
+
+.tabBox-main:hover {
+  text-decoration: none;
+}
+
+.Nav-subtitle {
+  font-size: 25px;
+  margin-left: -25px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+/*  */
+.tabBox-main:hover {
+  text-decoration: none;
 }
 
 .TabLabel {
