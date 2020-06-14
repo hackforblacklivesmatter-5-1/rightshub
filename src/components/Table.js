@@ -4,6 +4,8 @@ import data from "../data/data-ny.json"
 export const Table = () => {
   console.log(data)
 
+  // Handling functions
+
   const handleRowClick = (e) => {
     window.open(
       e.currentTarget.dataset.href,
@@ -11,6 +13,8 @@ export const Table = () => {
     );
     console.log('You clicked a row!', 'e.target.dataset.href: ', e.currentTarget.dataset.href)
   };
+
+  // Render data
 
   const renderData = () => {
     return data.map((record, id) => {
@@ -36,6 +40,33 @@ export const Table = () => {
     })
   }
 
+  //Pagination
+  const paginate = (currentPage) => {
+    console.log('Im paginating')
+    const page = currentPage;
+    countPages();
+    turnPageTo(page);
+  };
+
+  const turnPageTo = (n) => {
+    const startIndex = n * 20;
+    const currentData = data.slice(startIndex, (startIndex + 20));
+    console.log(currentData)
+    
+  };
+
+  const countPages = () => {
+    console.log('counting!')
+    const pages = Math.ceil(data.length / 20);
+  };
+
+  const renderPages = () => {
+
+  };
+
+
+
+  // Filter and Sort functionality
   const filterByRace = () => {
     const blackVictims = data.filter(
       (victim) => victim["Victim's race"] === "Black"
@@ -96,6 +127,7 @@ export const Table = () => {
             {/* {sortByName()} */}
           </tbody>
         </table>
+        {paginate(0)}
       </div>
     </div>
   )
