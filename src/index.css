@@ -339,7 +339,7 @@ table.table-content tfoot td {
 
 .card {
   width: 20rem;
-  height: 550px;
+  height: 500px;
   z-index: 0;
   margin-top: 20px;
 }
@@ -353,6 +353,7 @@ table.table-content tfoot td {
 .card-text {
   font-size: 0.9em;
   padding: 0.4rem 1.9rem;
+  text-align: left;
 }
 
 .container-fluid .row {
