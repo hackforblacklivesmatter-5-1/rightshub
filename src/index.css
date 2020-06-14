@@ -104,6 +104,21 @@ table.table-content tfoot td {
 
 }
 
+.pagination {
+  display: block;
+  margin: 0 auto;
+  color: black;
+  font-size: 2rem;
+}
+
+.pagination-page {
+  color: black;
+};
+
+.pagination-page.active {
+  color: tomato;
+};
+
 /* maps component */
 
 .leaflet-container {

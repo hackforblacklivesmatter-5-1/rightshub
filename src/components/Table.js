@@ -1,23 +1,74 @@
-import React from "react"
+import React, { useState, useEffect } from "react"
 import data from "../data/data-ny.json"
 
+  
+
 export const Table = () => {
-  console.log(data)
+
+    //Hooks
+    let [page, setPage] = useState(1);
+
+
+    //Pagination
+    
+    const turnPageTo = (n) => {
+      const startIndex = (n - 1) * 20;
+      const currentData = data.slice(startIndex, (startIndex + 20));
+      return currentData
+      
+    };
+
+    const currentPage = (pageNumber=1) => {
+      return pageNumber
+    };
+  
+    const countPages = () => {
+      console.log('counting!')
+      const pages = Math.ceil(data.length / 20);
+      return pages
+    };
+  
+    const handleTurnPage = (e) => {
+      e.preventDefault();
+      console.log('handlepage executed, current page: ', page)
+      setPage(e.target.innerText)
+      
+    };
+
+    
 
   // Handling functions
-
   const handleRowClick = (e) => {
     window.open(
       e.currentTarget.dataset.href,
       '_blank' // <- This is what makes it open in a new window.
     );
-    console.log('You clicked a row!', 'e.target.dataset.href: ', e.currentTarget.dataset.href)
+  };
+
+  const handlePageClick = (e) => {
+    e.preventDefault();
+    if(e.target.className === 'pagination-prev') {
+      if(page > 0) {
+        setPage(--page)
+        console.log('previous!')
+      }
+    } else if(e.target.className === 'pagination-next') {
+      if(page < countPages()) {
+        setPage(++page)
+        console.log('previous!')
+      }
+    } else {
+      handleTurnPage(e);
+
+    }
+
+    
+    
   };
 
   // Render data
-
-  const renderData = () => {
-    return data.map((record, id) => {
+  const renderData = (pageData) => {
+    return pageData.map((record, id) => {
       return (
         
           <tr className="table-row" style={{
@@ -40,29 +91,7 @@ export const Table = () => {
     })
   }
 
-  //Pagination
-  const paginate = (currentPage) => {
-    console.log('Im paginating')
-    const page = currentPage;
-    countPages();
-    turnPageTo(page);
-  };
 
-  const turnPageTo = (n) => {
-    const startIndex = n * 20;
-    const currentData = data.slice(startIndex, (startIndex + 20));
-    console.log(currentData)
-    
-  };
-
-  const countPages = () => {
-    console.log('counting!')
-    const pages = Math.ceil(data.length / 20);
-  };
-
-  const renderPages = () => {
-
-  };
 
 
 
@@ -122,12 +151,22 @@ export const Table = () => {
             </tr>
           </thead>
           <tbody>
-            {renderData()}
+            {renderData(turnPageTo(page))}
             {/* {sortByRace()} */}
             {/* {sortByName()} */}
           </tbody>
         </table>
-        {paginate(0)}
+      </div>
+      {/* Need to dynamically map anchor tags */}
+      <div onClick={(e) => handlePageClick(e)} class="pagination">
+            <a className="pagination-prev" href="#">&laquo;</a>
+            <a className="pagination-page active" href="#">1</a>
+            <a className="pagination-page" href="#">2</a>
+            <a className="pagination-page" href="#">3</a>
+            <a className="pagination-page" href="#">4</a>
+            <a className="pagination-page" href="#">5</a>
+            <a className="pagination-page" href="#">6</a>
+            <a className="pagination-next" href="#">&raquo;</a>
       </div>
     </div>
   )
