@@ -125,7 +125,8 @@ export const Table = () => {
         {" "}
         {race
           ? `Number of Black Lives Lost: ${filterLives()}`
-          : `Number of Lives Lost: ${data.length}`}
+          : `Total Number of Lives Lost: ${data.length}`}
+
       </div>
       <div className="table-buttons">
         <button className="black-lives-button" onClick={() => toggleRace()}>
