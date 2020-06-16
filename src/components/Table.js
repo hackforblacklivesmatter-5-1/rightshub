@@ -54,6 +54,38 @@ export const Table = () => {
     })
   }
 
+  // Filter and Sort functions
+  const filterByRace = () => {
+    const blackVictims = data.filter(
+      (victim) => victim["Victim's race"] === "Black"
+    )
+    return blackVictims.map((record, id) => {
+      return (
+        <tr
+          className="table-row"
+          style={{
+            cursor: `pointer`,
+          }}
+          onClick={(e) => handleRowClick(e)}
+          key={id}
+          data-href={
+            record["Link to news article or photo of official document"]
+          }
+        >
+          <td>{record["Victim's race"]}</td>
+          <td onMouseEnter={() => showDescription(record)}>
+            {record["Victim's name"]}
+          </td>
+          <td>{record["Victim's age"]}</td>
+          <td>{record["Date of Incident (month/day/year)"]}</td>
+          <td>{record["Fleeing (Source: WaPo)"]}</td>
+          <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
+          <td>{record["Body Camera (Source: WaPo)"]}</td>
+        </tr>
+      )
+    })
+  }
+
   //Pagination
   const paginate = (currentPage) => {
     // console.log("Im paginating")
@@ -71,30 +103,6 @@ export const Table = () => {
   const countPages = () => {
     // console.log("counting!")
     const pages = Math.ceil(data.length / 20)
-  }
-
-  // Filter and Sort functions
-  const filterByRace = () => {
-    const blackVictims = data.filter(
-      (victim) => victim["Victim's race"] === "Black"
-    )
-    let blackLives = blackVictims.length
-    console.log(blackLives)
-    return blackVictims.map((record, id) => {
-      return (
-        <tr key={id}>
-          <td>{record["Victim's race"]}</td>
-          <td onMouseEnter={() => showDescription(record)}>
-            {record["Victim's name"]}
-          </td>
-          <td>{record["Victim's age"]}</td>
-          <td>{record["Date of Incident (month/day/year)"]}</td>
-          <td>{record["Fleeing (Source: WaPo)"]}</td>
-          <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
-          <td>{record["Body Camera (Source: WaPo)"]}</td>
-        </tr>
-      )
-    })
   }
 
   // toggle state
