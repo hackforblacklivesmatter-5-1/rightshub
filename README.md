@@ -13,7 +13,7 @@ Our designer [Shelly](http://www.shelleyliang.com) made prototypes for us to uti
 We utilized data from https://mappingpoliceviolence.org/states and filtered out the killings by police in New York. The engagement comes in the form of navigable carousel cards, a quiz, a data visualization of reports, media, and helpful links for the user to explore.
 
 # Built with
-React/CSS/HTML/Bootstrap
+React/CSS/HTML/Bootstrap/Leaflet
 
 # Contributors
 [Phillip](https://github.com/thenatural86), [Nicole](https://github.com/thebantz), [Kevin](https://github.com/ninjaeagle), [Will](https://github.com/baintonw), and [Scott](https://github.com/skut21x-ga)
