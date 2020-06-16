@@ -13,6 +13,7 @@ const GalleryCard = (props) => {
         <a
           href={props.href}
           target="_blank"
+          rel="noopener noreferrer"
           className="btn btn-outline-success"
         >
           Learn More

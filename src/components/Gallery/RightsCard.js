@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 const RightsCard = (props) => {
   return (
     <div className="card rights text-center">
@@ -6,12 +6,17 @@ const RightsCard = (props) => {
         <h3 className="card-rights-title">{props.title}</h3>
         <p className="card-rights-text text-secondary">{props.desc}</p>
         <div>
-          <a className="card-rights-link" href={props.href} target="_blank">
+          <a
+            className="card-rights-link"
+            href={props.href}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             More Information
           </a>
         </div>
       </div>
     </div>
-  )
-}
-export default RightsCard
+  );
+};
+export default RightsCard;

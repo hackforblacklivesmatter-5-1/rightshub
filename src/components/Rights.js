@@ -20,6 +20,7 @@ export const Rights = () => {
         <a
           className="ACLU-link"
           target="_blank"
+          rel="noopener noreferrer"
           href="https://www.aclu.org/know-your-rights/stopped-by-police/"
         >
           ACLU

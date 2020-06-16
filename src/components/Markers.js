@@ -49,6 +49,7 @@ const Markers = () => {
                   ]
                 }
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Read the Full Story
               </a>

@@ -5,7 +5,6 @@ import GalleryCard from "./GalleryCard";
 import aclu from "./assets/aclu-logo.jpeg";
 import jlusa from "./assets/jlusa-logo.jpeg";
 import crj from "./assets/crj-logo.png";
-import mh from "./assets/blm-mh.jpeg";
 import ccrb from "./assets/ccrb.png";
 import vera from "./assets/vera.png";
 import blm from "./assets/blm.png";

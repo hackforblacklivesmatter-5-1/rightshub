@@ -1,27 +1,27 @@
-import React, { useState } from "react"
-import data from "../data/data-ny.json"
+import React, { useState } from "react";
+import data from "../data/data-ny.json";
 
 export const Table = () => {
-  const [race, setRace] = useState(false)
+  const [race, setRace] = useState(false);
 
   // Handling functions
   const handleRowClick = (e) => {
     window.open(
       e.currentTarget.dataset.href,
       "_blank" // <- This is what makes it open in a new window.
-    )
+    );
     console.log(
       "You clicked a row!",
       "e.target.dataset.href: ",
       e.currentTarget.dataset.href
-    )
-  }
+    );
+  };
 
   const showDescription = (record) => {
     console.log(
       record["A brief description of the circumstances surrounding the death"]
-    )
-  }
+    );
+  };
 
   // Render data
   const renderData = () => {
@@ -48,15 +48,15 @@ export const Table = () => {
           <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
           <td>{record["Body Camera (Source: WaPo)"]}</td>
         </tr>
-      )
-    })
-  }
+      );
+    });
+  };
 
   // Filter and Sort functions
   const filterByRace = () => {
     const blackVictims = data.filter(
       (victim) => victim["Victim's race"] === "Black"
-    )
+    );
     return blackVictims.map((record, id) => {
       return (
         <tr
@@ -81,37 +81,37 @@ export const Table = () => {
           <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
           <td>{record["Body Camera (Source: WaPo)"]}</td>
         </tr>
-      )
-    })
-  }
+      );
+    });
+  };
 
   const filterLives = () => {
-    return data.filter((victim) => victim["Victim's race"] === "Black").length
-  }
+    return data.filter((victim) => victim["Victim's race"] === "Black").length;
+  };
 
   //Pagination
-  const paginate = (currentPage) => {
-    // console.log("Im paginating")
-    const page = currentPage
-    countPages()
-    turnPageTo(page)
-  }
+  // const paginate = (currentPage) => {
+  //   // console.log("Im paginating")
+  //   const page = currentPage
+  //   countPages()
+  //   turnPageTo(page)
+  // }
 
-  const turnPageTo = (n) => {
-    const startIndex = n * 20
-    const currentData = data.slice(startIndex, startIndex + 20)
-    // console.log(currentData)
-  }
+  // const turnPageTo = (n) => {
+  //   const startIndex = n * 20;
+  //   const currentData = data.slice(startIndex, startIndex + 20);
+  //   // console.log(currentData)
+  // };
 
-  const countPages = () => {
-    // console.log("counting!")
-    const pages = Math.ceil(data.length / 20)
-  }
+  // const countPages = () => {
+  //   // console.log("counting!")
+  //   const pages = Math.ceil(data.length / 20);
+  // };
 
   // toggle state
   const toggleRace = () => {
-    setRace(!race)
-  }
+    setRace(!race);
+  };
 
   return (
     <div className="table-component">
@@ -126,7 +126,6 @@ export const Table = () => {
         {race
           ? `Number of Black Lives Lost: ${filterLives()}`
           : `Number of Lives Lost: ${data.length}`}
-
       </div>
       <div className="table-buttons">
         <button className="black-lives-button" onClick={() => toggleRace()}>
@@ -153,5 +152,5 @@ export const Table = () => {
         </table>
       </div>
     </div>
-  )
-}
+  );
+};
