@@ -5,7 +5,6 @@ export const Table = () => {
   const [race, setRace] = useState(false)
 
   // Handling functions
-
   const handleRowClick = (e) => {
     window.open(
       e.currentTarget.dataset.href,
@@ -25,7 +24,6 @@ export const Table = () => {
   }
 
   // Render data
-
   const renderData = () => {
     return data.map((record, id) => {
       return (
@@ -71,6 +69,7 @@ export const Table = () => {
           data-href={
             record["Link to news article or photo of official document"]
           }
+          r
         >
           <td>{record["Victim's race"]}</td>
           <td onMouseEnter={() => showDescription(record)}>
@@ -84,6 +83,10 @@ export const Table = () => {
         </tr>
       )
     })
+  }
+
+  const filterLives = () => {
+    return data.filter((victim) => victim["Victim's race"] === "Black").length
   }
 
   //Pagination
@@ -121,10 +124,7 @@ export const Table = () => {
       <div className="table-liveslost">
         {" "}
         {race
-          ? `Number of Black Lives Lost: ${
-              data.filter((victim) => victim["Victim's race"] === "Black")
-                .length
-            }`
+          ? `Number of Black Lives Lost: ${filterLives()}`
           : `Total Number of Lives Lost: ${data.length}`}
       </div>
       <div className="table-buttons">
