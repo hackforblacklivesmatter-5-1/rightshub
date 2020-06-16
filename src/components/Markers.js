@@ -6,7 +6,7 @@ const Markers = () => {
   return (
     <div className="Markers-component">
       <h1 className="markers-title">Incident Map</h1>
-      <div className="black-line"></div>
+      <div className="red-line-markers"></div>
       <h6 className="markers-subheader">
         Below are the reported killings by police in New York from 2013-2019
         mapped out.
