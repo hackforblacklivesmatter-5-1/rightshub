@@ -4,13 +4,17 @@
   padding: 0;
 }
 
+a {
+  color: green;
+}
+
 html {
-  background-color: #fce21b;
+  background-color: #252421;
 }
 
 body {
   text-decoration: none;
-  color: black;
+  color: #252421;
   margin: 0;
   font-family: Roboto;
   background-color: #fce21b;
@@ -33,7 +37,7 @@ h3 {
 
 nav {
   background-color: #fce21b;
-  color: black;
+  color: #252421;
   font-family: "Cornerstone";
 }
 
@@ -43,36 +47,69 @@ nav {
   margin-bottom: -20px;
 }
 
-.black-line {
-  border-bottom: 3px solid black;
+.red-line {
+  border-bottom: 5px solid #c20008;
   width: 250px;
   margin-bottom: 10px;
-  margin-top: -7px;
-  margin-left: -10px;
+  margin-top: 0px;
+  margin-left: -6px;
 }
 
-.black-line-long {
-  border-bottom: 3px solid black;
+.red-line-long {
+  border-bottom: 5px solid #c20008;
   width: 350px;
   margin-bottom: 10px;
   margin-top: 0px;
-  margin-left: -10px;
+  margin-left: -6px;
 }
 
-.black-line-resources {
-  border-bottom: 3px solid black;
+.red-line-markers {
+  border-bottom: 5px solid #c20008;
+  width: 265px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-left: -8px;
+}
+
+.red-line-table {
+  border-bottom: 5px solid #c20008;
+  width: 379px;
+  margin-bottom: 10px;
+  margin-top: -2px;
+  margin-left: -6px;
+}
+
+/* .red-line-table { */
+/* border-bottom: 50px solid #252421; */
+/* width: 408px; */
+/* margin-bottom: 10px; */
+/* margin-top: -46.5px; */
+/* margin-left: -6px; */
+/* z-index: 0; */
+/* } */
+
+.red-line-resources {
+  border-bottom: 5px solid #c20008;
   width: 400px;
   margin-bottom: 10px;
-  margin-top: -10px;
-  margin-left: -10px;
+  margin-top: 0px;
+  margin-left: -6px;
 }
 
-.black-line-title {
-  border-bottom: 3px solid black;
-  width: 350px;
+.red-line- {
+  border-bottom: 5px solid #c20008;
+  width: 400px;
   margin-bottom: 10px;
-  margin-top: -10px;
-  margin-left: -10px;
+  margin-top: 0px;
+  margin-left: -6px;
+}
+
+.red-line-title {
+  border-bottom: 5px solid #c20008;
+  width: 400px;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  margin-left: -6px;
 }
 
 .white-line {
@@ -105,7 +142,7 @@ th {
 }
 
 .table-border {
-  border: 2px solid black;
+  border: 2px solid #252421;
   height: 100%;
 }
 .table-container {
@@ -113,18 +150,20 @@ th {
   margin-bottom: 30px;
   height: 59vh;
   overflow: scroll;
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
+  border-top: 3px solid #252421;
+  border-bottom: 3px solid #252421;
 }
 
 .table-title {
-  margin-top: 56px;
-  margin-bottom: 0px;
+  margin-top: 20px;
+  margin-bottom: -6px;
+  z-index: 1;
+  color: black;
 }
 
 table.table-content {
   font-family: Roboto;
-  border: 3px solid #000000;
+  border: 3px solid #252421;
   width: 95vw;
 
   text-align: center;
@@ -133,7 +172,7 @@ table.table-content {
 
 table.table-content td,
 table.table-content th {
-  border: 1px solid #000000;
+  border: 1px solid #252421;
   padding: 5px 4px;
 }
 
@@ -151,13 +190,13 @@ table.table-content thead {
     #cfcfcf 100%
   );
   background: linear-gradient(to bottom, #dbdbdb 0%, #d3d3d3 66%, #cfcfcf 100%);
-  border-bottom: 3px solid #000000;
+  border-bottom: 3px solid #252421;
 }
 
 table.table-content thead th {
   font-size: 15px;
   font-weight: bold;
-  color: #000000;
+  color: #252421;
   text-align: center;
 }
 
@@ -171,6 +210,8 @@ table.table-content tfoot td {
   flex-direction: column;
   align-items: center;
   background-color: #fce21b;
+  margin-top: 58px;
+  padding-bottom: 58px;
 }
 
 .arrow-down {
@@ -193,7 +234,7 @@ table.table-content tfoot td {
 .black-lives-button {
   margin: 15px 20px 25px 20px;
   background-color: white;
-  border: 2px solid black;
+  border: 2px solid #252421;
   border-radius: 1px;
   display: inline-block;
   cursor: pointer;
@@ -231,7 +272,7 @@ table.table-content tfoot td {
 
 .table-row:hover {
   cursor: pointer;
-  background-color: rgba(190, 190, 190, 1);
+  background-color: #fce21b30;
 }
 
 /* maps component */
@@ -249,9 +290,10 @@ table.table-content tfoot td {
   background-color: #fce21b;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: #252421;
   flex-direction: column;
-  margin-top: -45px;
+  margin-top: 58px;
+  margin-bottom: -58px;
 }
 
 .leaflet-container {
@@ -261,7 +303,7 @@ table.table-content tfoot td {
   justify-content: center;
   align-items: center;
   display: flex;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid #252421;
   justify-content: center;
   align-items: center;
   margin-bottom: 20px;
@@ -286,15 +328,16 @@ table.table-content tfoot td {
 
 .marker-link {
   text-decoration: none;
-  color: black;
+  color: #252421;
 }
 
 .markers-title {
-  margin-top: 100px;
+  margin-top: 20px;
+  margin-bottom: -6px;
 }
 
 .ACLU-link {
-  color: black;
+  color: #252421;
   text-decoration: underline;
 }
 
@@ -340,39 +383,44 @@ table.table-content tfoot td {
 }
 
 /* navbar componenent */
+.navBar-comp {
+  padding-top: 12px;
+  height: 57px;
+  border-bottom: 4px solid #252421;
+  background-color: #252421;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 50;
+  display: flex;
+  flex-direction: row;
+}
+
 .tabContainerBox {
   display: flex;
   align-items: center;
-  width: 100%;
   justify-content: left;
-  color: black;
-  border-bottom: 4px solid black;
-  position: fixed;
-  background-color: white;
+  color: white;
   border-radius: 0%;
-  z-index: 5;
-  text-decoration: none;
+  position: fixed;
+  top: 0;
 }
 
 .tabBox-nav {
   display: flex;
   flex-direction: row;
-  margin-left: 60vw;
-}
-
-.tabBox:hover {
-  background-color: rgb(238, 238, 238);
+  margin-top: 13px;
+  margin-right: 16px;
+  margin-bottom: -4px;
+  position: fixed;
+  top: 0;
 }
 
 .tabBox-main {
   position: fixed;
-  left: 0;
+  margin-left: 8px;
   z-index: 10;
   margin-top: -6px;
-  text-decoration: none;
-}
-
-.tabBox-main:hover {
   text-decoration: none;
 }
 
@@ -381,16 +429,17 @@ table.table-content tfoot td {
   margin-left: -25px;
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-/*  */
-.tabBox-main:hover {
-  text-decoration: none;
-}
 
-.TabLabel {
-  color: black;
-  margin: 14px 20px 10px 20px;
+.TabLabel,
+.TabLogo {
+  color: white;
+  margin-left: 30px;
   text-decoration: none;
   word-spacing: 0.25px;
+  padding-bottom: 8px;
+  padding-right: 24px;
+  margin-top: 1px;
+  transition: 0.5s ease-in-out;
 }
 
 /* HOME */
@@ -402,9 +451,8 @@ table.table-content tfoot td {
   background-color: #fce21b;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: #252421;
   flex-direction: column;
-  margin-top: -45px;
 }
 
 .home-purpose {
@@ -441,16 +489,16 @@ table.table-content tfoot td {
   background-color: #fce21b;
   justify-content: center;
   align-items: center;
-  color: black;
-  margin-top: -45px;
-
-  height: 100vh;
-
+  color: #252421;
+  /* height: 100vh; */
   flex-direction: column;
+  margin-top: 60px;
+  padding-bottom: 12vh;
 }
 
 .rights-title {
-  margin-top: -80px;
+  margin-top: 20px;
+  margin-bottom: -6px;
 }
 
 .rights-subheader {
@@ -478,6 +526,10 @@ table.table-content tfoot td {
   margin: 12rem 1rem;
 }
 
+.Rights {
+  margin-top: 58px;
+  margin-bottom: -58px;
+}
 .container-fluid .row.rights {
   /* padding-top: 2rem; */
   /* margin-top: 2rem; */
@@ -490,9 +542,11 @@ table.table-content tfoot td {
   background-color: #fce21b;
   justify-content: center;
   align-items: center;
-  color: black;
+  color: #252421;
   flex-direction: column;
-  height: 95vh;
+  /* height: 100vh; */
+  margin-top: 58px;
+  margin-bottom: -58px;
 }
 
 .Resources-Header {
@@ -502,7 +556,8 @@ table.table-content tfoot td {
 }
 
 .resources-title {
-  margin-top: 480px;
+  margin-top: 20px;
+  margin-bottom: -6px;
 }
 
 .resources-subheader {
@@ -596,4 +651,238 @@ table.table-content tfoot td {
 
 .gallery {
   margin-top: -100px;
+}
+
+/* Media queries */
+
+@media only screen and (min-width: 501px) {
+  .tabBox-nav {
+    right: 0;
+  }
+
+  .tabBox-main {
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .TabLogo {
+    margin-left: 30px;
+    padding-right: 15px;
+    font-size: 35px;
+    margin-top: 3px;
+  }
+
+  .TabLabel {
+    margin-left: 30px;
+    padding-right: 15px;
+    font-size: 25px;
+  }
+}
+
+/* Media queries */
+@media only screen and (max-width: 800px) {
+  .TabLogo {
+    font-size: 30px;
+    margin-top: 8px;
+  }
+
+  .TabLabel {
+    font-size: 20px;
+    margin-top: 5.5px;
+  }
+}
+
+/* Media queries */
+@media only screen and (max-width: 700px) {
+  .TabLogo {
+    font-size: 30px;
+    margin-top: 8px;
+  }
+
+  .TabLabel {
+    font-size: 17px;
+    margin-top: 7px;
+    margin-left: 20px;
+  }
+
+  .markers-subheader {
+    width: 70vw;
+  }
+
+  .Home-Header {
+    font-size: 60px;
+    margin-left: 20%;
+  }
+
+  .Home-subtitle {
+    font-size: 20px;
+    margin-left: -31px;
+  }
+
+  .Home-SecondHeader {
+    font-size: 1.5rem;
+    margin-left: 20%;
+    padding-right: 20%;
+  }
+
+  .home-purpose {
+    width: 350px;
+    margin-left: 25%;
+    font-family: 14px;
+    margin-top: -13px;
+  }
+}
+
+/* Media queries */
+@media only screen and (max-width: 600px) {
+  .TabLogo {
+    font-size: 30px;
+    margin-top: 8px;
+  }
+
+  .TabLabel {
+    font-size: 15px;
+    margin-top: 8px;
+    margin-left: 5px;
+  }
+
+  .resources-title {
+    font-size: 40px;
+  }
+}
+
+/* Media queries */
+@media only screen and (max-width: 500px) {
+  .tabBox-main .TabLogo {
+    font-size: 30px;
+    position: fixed;
+    margin-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .TabLogo {
+    left: initial;
+    right: initial;
+    margin-left: 0px;
+  }
+
+  .tabBox-nav {
+    font-size: 15px;
+    margin-top: 45px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    left: initial;
+    right: initial;
+    margin-right: 0px;
+  }
+  .navBar-comp {
+    padding-top: 12px;
+    height: 82px;
+    border-bottom: 4px solid #252421;
+    background-color: #252421;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .tabContainerBox {
+    justify-content: center;
+    margin: 0;
+    left: initial;
+    right: initial;
+  }
+  .Logo {
+    margin-left: -10px;
+  }
+  .TabLabel {
+    margin-right: 2px;
+    margin-left: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+
+  .markers-subheader {
+    width: 80vw;
+  }
+
+  .markers-title {
+    margin-top: 32px;
+  }
+
+  .download-button2 {
+    display: none;
+  }
+
+  .Marker-tip {
+    display: none;
+  }
+
+  .Logo {
+    justify-content: center;
+    display: flex;
+  }
+
+  .App {
+    background-color: #fce21b;
+  }
+  .Homepage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -15px;
+    margin-right: 40px;
+  }
+
+  .Home-Header {
+    font-size: 40px;
+    margin-left: 10%;
+    padding-right: 0%;
+  }
+
+  .Home-subtitle {
+    font-size: 20px;
+    margin-left: -20px;
+  }
+
+  .Home-SecondHeader {
+    font-size: 1.25em;
+    margin-left: 10%;
+    padding-right: 0%;
+    margin-top: 2px;
+  }
+
+  .home-purpose {
+    width: 80vw;
+    margin-left: 10%;
+    padding-right: 0%;
+    font-family: 12px;
+    margin-top: -13px;
+    text-align: center;
+  }
+
+  .resources-title {
+    font-size: 30px;
+  }
+}
+
+/*  */
+@media only screen and (max-width: 300px) {
+  .Home-Header {
+    display: none;
+  }
+
+  .Home-SecondHeader {
+    margin-top: -50px;
+  }
 }
