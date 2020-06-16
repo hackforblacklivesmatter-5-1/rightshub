@@ -762,6 +762,7 @@ table.table-content tfoot td {
   .TabLogo {
     left: initial;
     right: initial;
+    margin-left: 0px;
   }
 
   .tabBox-nav {
@@ -795,7 +796,9 @@ table.table-content tfoot td {
     left: initial;
     right: initial;
   }
-
+  .Logo {
+    margin-left: -10px;
+  }
   .TabLabel {
     margin-right: 2px;
     margin-left: 2px;
