@@ -116,7 +116,7 @@ export const Table = () => {
   return (
     <div className="table-component">
       <h1 className="table-title">Killings by Police</h1>
-      <div className="black-line-long"></div>
+      <div className="red-line-table"></div>
       <h6 className="table-subheader">
         Below are the statistics of killings by police in New York from
         2013-2019.
