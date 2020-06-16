@@ -14,11 +14,12 @@ export const Rights = () => {
   return (
     <div className="Rights">
       <h1 className="rights-title">Know Your Rights</h1>
-      <div className="black-line-title"></div>
+      <div className="red-line-title"></div>
       <h5 className="rights-subheader">
         All US citizens are guaranteed certain rights.<p></p> The{" "}
         <a
           className="ACLU-link"
+          target="_blank"
           href="https://www.aclu.org/know-your-rights/stopped-by-police/"
         >
           ACLU

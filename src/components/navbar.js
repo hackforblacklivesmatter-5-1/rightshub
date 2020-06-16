@@ -13,57 +13,46 @@ export default function Navbar(props) {
   return (
     <div>
       <div className="navBar-comp">
-        <Paper>
-          <Tabs
-            //value={value}
-            onClick={handleChange}
-            variant="fullWidth"
-            indicatorColor="primary"
-            textColor="primary"
-          >
-            {" "}
-            <div className="tabBox-main">
-              <Link to="/">
-                <h1 className="TabLabel" label="About">
-                  Rights-Hub
-                </h1>
+        <div className="tabBox-main">
+          <Link className="Logo" to="/">
+            <h1 className="TabLogo" label="Logo">
+              Rights-Hub
+            </h1>
+          </Link>
+        </div>
+        <div className="tabContainerBox">
+          <div className="tabBox-nav">
+            <div className="tabBox">
+              <Link to="/Table" state={"Table"}>
+                <h3 className="TabLabel" label="Data Set">
+                  Data
+                </h3>
               </Link>
             </div>
-            <div className="tabContainerBox">
-              <div className="tabBox-nav">
-                <div className="tabBox">
-                  <Link to="/Table" state={"Table"}>
-                    <h3 className="TabLabel" label="Data Set">
-                      Data
-                    </h3>
-                  </Link>
-                </div>
 
-                <div className="tabBox">
-                  <Link to="/Markers" state={"Markers"}>
-                    <h3 className="TabLabel" label="Map">
-                      Map
-                    </h3>
-                  </Link>
-                </div>
-                <div className="tabBox">
-                  <Link to="/Rights" state={"Rights"}>
-                    <h3 className="TabLabel" label="Rights">
-                      Rights
-                    </h3>
-                  </Link>
-                </div>
-                <div className="tabBox">
-                  <Link to="/Resources" state={"Resources"}>
-                    <h3 className="TabLabel" label="Resources">
-                      Resources
-                    </h3>
-                  </Link>
-                </div>
-              </div>
+            <div className="tabBox">
+              <Link to="/Markers" state={"Markers"}>
+                <h3 className="TabLabel" label="Map">
+                  Map
+                </h3>
+              </Link>
             </div>
-          </Tabs>
-        </Paper>
+            <div className="tabBox">
+              <Link to="/Rights" state={"Rights"}>
+                <h3 className="TabLabel" label="Rights">
+                  Rights
+                </h3>
+              </Link>
+            </div>
+            <div className="tabBox">
+              <Link to="/Resources" state={"Resources"}>
+                <h3 className="TabLabel" label="Resources">
+                  Resources
+                </h3>
+              </Link>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
