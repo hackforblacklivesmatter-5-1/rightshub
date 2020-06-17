@@ -44,9 +44,9 @@ export const Table = () => {
           </td>
           <td>{record["Victim's age"]}</td>
           <td>{record["Date of Incident (month/day/year)"]}</td>
-          <td>{record["Fleeing (Source: WaPo)"]}</td>
-          <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
-          <td>{record["Body Camera (Source: WaPo)"]}</td>
+          <td className="Fleeing">{record["Fleeing (Source: WaPo)"]}</td>
+          <td className="Weapon">{record["Alleged Weapon (Source: WaPo)"]}</td>
+          <td className="Camera">{record["Body Camera (Source: WaPo)"]}</td>
         </tr>
       );
     });
@@ -77,9 +77,9 @@ export const Table = () => {
           </td>
           <td>{record["Victim's age"]}</td>
           <td>{record["Date of Incident (month/day/year)"]}</td>
-          <td>{record["Fleeing (Source: WaPo)"]}</td>
-          <td>{record["Alleged Weapon (Source: WaPo)"]}</td>
-          <td>{record["Body Camera (Source: WaPo)"]}</td>
+          <td className="Fleeing">{record["Fleeing (Source: WaPo)"]}</td>
+          <td className="Weapon">{record["Alleged Weapon (Source: WaPo)"]}</td>
+          <td className="Camera">{record["Body Camera (Source: WaPo)"]}</td>
         </tr>
       );
     });
@@ -126,7 +126,6 @@ export const Table = () => {
         {race
           ? `Number of Black Lives Lost: ${filterLives()}`
           : `Total Number of Lives Lost: ${data.length}`}
-
       </div>
       <div className="table-buttons">
         <button className="black-lives-button" onClick={() => toggleRace()}>
@@ -144,9 +143,9 @@ export const Table = () => {
               <th>Victim's Name</th>
               <th>Victim's age </th>
               <th>Date of Incident</th>
-              <th>Fleeing</th>
-              <th>Alleged Weapon</th>
-              <th>Body Camera</th>
+              <th className="Fleeing">Fleeing</th>
+              <th className="Weapon">Alleged Weapon</th>
+              <th className="Camera">Body Camera</th>
             </tr>
           </thead>
           <tbody>{race ? filterByRace() : renderData()}</tbody>

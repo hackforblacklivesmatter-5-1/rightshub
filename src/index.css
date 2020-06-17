@@ -150,7 +150,7 @@ th {
   margin-bottom: 30px;
   height: 59vh;
   overflow: scroll;
-  border-top: 3px solid #252421;
+  border: 3px solid #252421;
   border-bottom: 3px solid #252421;
 }
 
@@ -159,6 +159,7 @@ th {
   margin-bottom: -6px;
   z-index: 1;
   color: black;
+  transition: 1s ease;
 }
 
 table.table-content {
@@ -174,6 +175,10 @@ table.table-content td,
 table.table-content th {
   border: 1px solid #252421;
   padding: 5px 4px;
+}
+
+table.table-content {
+  border: 0px;
 }
 
 table.table-content tbody td {
@@ -214,6 +219,11 @@ table.table-content tfoot td {
   padding-bottom: 58px;
 }
 
+.card-rights {
+  background-color: white;
+  z-index: 10;
+  width: 100px;
+}
 .arrow-down {
   border: solid rgba(0, 0, 0, 0.84);
   border-width: 0 2px 2px 0;
@@ -573,6 +583,16 @@ table.table-content tfoot td {
   z-index: 0;
   margin-top: 20px;
   margin-bottom: 20px;
+  transition: 0.5s ease;
+}
+
+.card-rights {
+  width: 20rem;
+  height: 500px;
+  z-index: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  transition: 0.5s ease;
 }
 
 .card.rights {
@@ -595,6 +615,11 @@ table.table-content tfoot td {
   box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
   transform: scale(1.05);
   transition: transform 1s ease;
+}
+
+.card-rights:hover {
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.253) !important;
+  transform: scale(1.05);
 }
 
 .card-text {
@@ -623,6 +648,7 @@ table.table-content tfoot td {
 
 .row {
   width: 80vw;
+  transition: 0.5s ease;
 }
 
 .overflow {
@@ -654,6 +680,13 @@ table.table-content tfoot td {
   margin-top: -100px;
 }
 
+.card-img,
+.card-img-top,
+.card-img-bottom {
+  flex-shrink: 0;
+  width: 100%;
+}
+
 /* Media queries */
 
 @media only screen and (min-width: 501px) {
@@ -663,6 +696,77 @@ table.table-content tfoot td {
 
   .tabBox-main {
     left: 0;
+  }
+}
+
+@media only screen and (max-width: 1250px) {
+  .card {
+    width: 17rem;
+    height: 450px;
+  }
+
+  .card-rights {
+    width: 17rem;
+    height: 450px;
+  }
+
+  .rights {
+    width: 90vw;
+  }
+
+  .card-text {
+    font-size: 13px;
+  }
+
+  .overflow {
+    padding-top: 90px;
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+
+  .card-title {
+    margin-top: -10px;
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .card {
+    margin-bottom: 0px;
+  }
+
+  .rights {
+    width: 95vw;
+  }
+}
+
+@media only screen and (max-width: 1050px) {
+  .card {
+    width: 15rem;
+    height: 500px;
+  }
+
+  .card-rights {
+    width: 15rem;
+    height: 500px;
+  }
+
+  .card-text {
+    font-size: 12.5px;
+  }
+
+  .card-title {
+    font-size: 1em;
+  }
+
+  /* .overflow { */
+  /* padding-top: 50px; */
+  /* padding-left: 70px; */
+  /* padding-right: 70px; */
+  /* } */
+
+  .bottomcard {
+    margin-bottom: 30px;
   }
 }
 
@@ -681,6 +785,39 @@ table.table-content tfoot td {
   }
 }
 
+@media only screen and (max-width: 1000px) {
+  .row {
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .row {
+    width: 95vw;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  .table-container {
+    width: 80vw;
+    border: 3px solid black;
+  }
+
+  table.table-content {
+    width: 79.7vw;
+  }
+
+  .Weapon {
+    display: none;
+  }
+
+  .Camera {
+    display: none;
+  }
+}
+
 /* Media queries */
 @media only screen and (max-width: 800px) {
   .TabLogo {
@@ -691,6 +828,10 @@ table.table-content tfoot td {
   .TabLabel {
     font-size: 20px;
     margin-top: 5.5px;
+  }
+  /*  */
+  .Fleeing {
+    display: none;
   }
 }
 
@@ -751,10 +892,43 @@ table.table-content tfoot td {
   .resources-title {
     font-size: 40px;
   }
+  .table-subheader {
+    width: 80vw;
+  }
 }
 
 /* Media queries */
 @media only screen and (max-width: 500px) {
+  .red-line {
+    width: 250px;
+    margin-bottom: 10px;
+  }
+
+  .red-line-long {
+    width: 350px;
+    margin-bottom: 10px;
+  }
+
+  .red-line-markers {
+    width: 265px;
+    margin-bottom: 10px;
+  }
+
+  .red-line-table {
+    margin-top: 1px;
+    width: 305px;
+  }
+
+  .red-line-resources {
+    border-bottom: 5px solid #c20008;
+    width: 400px;
+  }
+
+  .red-line- {
+    border-bottom: 5px solid #c20008;
+    width: 400px;
+  }
+
   .tabBox-main .TabLogo {
     font-size: 30px;
     position: fixed;
@@ -766,6 +940,10 @@ table.table-content tfoot td {
     margin-right: auto;
   }
 
+  .table-title {
+    font-size: 2em;
+    margin-top: 35px;
+  }
   .TabLogo {
     left: initial;
     right: initial;

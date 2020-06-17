@@ -57,7 +57,7 @@ class Gallery extends Component {
               />
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4 bottomcard">
               <GalleryCard
                 imgsrc={ccrb}
                 title="File a Police Misconduct"
@@ -66,7 +66,7 @@ class Gallery extends Component {
               />
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4 bottomcard">
               <GalleryCard
                 imgsrc={vera}
                 title="Immigration Court Helpdesk"
@@ -75,7 +75,7 @@ class Gallery extends Component {
               />
             </div>
 
-            <div className="col-md-4">
+            <div className="col-md-4 bottomcard">
               <GalleryCard
                 imgsrc={blm}
                 title="Black Lives Matter"
