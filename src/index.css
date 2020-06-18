@@ -365,7 +365,7 @@ table.table-content tfoot td {
   margin-bottom: 12px;
 }
 .Marker-tip2 {
-  margin-top: -5px;
+  margin-top: -10px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-style: italic;
   font-size: 15px;
@@ -1038,10 +1038,9 @@ table.table-content tfoot td {
     text-decoration: none;
     height: 100%;
   }
-
-  .download-button {
-    margin-top: -20px;
-    padding: 6px 12px;
+  .leaflet-container {
+    width: 101%;
+    height: 70vh;
   }
 
   .table-buttons {
@@ -1107,7 +1106,7 @@ table.table-content tfoot td {
   }
 
   .markers-subheader {
-    width: 80vw;
+    width: 90vw;
   }
 
   .markers-title {
@@ -1123,7 +1122,9 @@ table.table-content tfoot td {
   }
 
   .Marker-tip {
-    display: none;
+    font-size: 13px;
+    margin-top: -5px;
+    margin-bottom: 5px;
   }
 
   .Logo {
