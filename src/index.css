@@ -556,10 +556,10 @@ table.table-content tfoot td {
   justify-content: center;
   align-items: center;
   color: black;
-  /* height: 100vh; */
+  /* height: 90vh; */
   flex-direction: column;
   margin-top: 60px;
-  padding-bottom: 12vh;
+  padding-bottom: 18vh;
 }
 
 .rights {
@@ -825,6 +825,7 @@ table.table-content tfoot td {
   }
   .card.rights {
     width: 1000px;
+    min-width: 500px;
     height: auto;
     min-height: auto;
     padding-bottom: 40px;
@@ -904,7 +905,7 @@ table.table-content tfoot td {
   .card {
     padding-top: 10px;
     height: 500px;
-    min-width: 250px !important;
+    /* min-width: 250px !important; */
   }
 
   .overflow {
