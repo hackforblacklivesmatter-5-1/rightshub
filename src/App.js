@@ -11,7 +11,7 @@ import { Rights } from "./components/Rights";
 import { Resources } from "./components/Resources";
 
 function App() {
-  console.log(data[0]["Street Address of Incident"]);
+  // console.log(data[0]["Street Address of Incident"]);
   return (
     <div className="App">
       <GlobalFonts />

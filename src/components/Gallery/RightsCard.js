@@ -7,7 +7,7 @@ const RightsCard = (props) => {
         <p className="card-rights-text text-secondary">{props.desc}</p>
         <div>
           <a
-            className="card-rights-link"
+            className="btn btn-outline-success"
             href={props.href}
             rel="noopener noreferrer"
             target="_blank"

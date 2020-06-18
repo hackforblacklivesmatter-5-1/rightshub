@@ -4,6 +4,19 @@
   padding: 0;
 }
 
+.btn-outline-success:hover {
+  background-color: #c20008 !important;
+  color: white !important;
+}
+.btn {
+  color: #c20006b9 !important;
+  border: 1px solid #c20006 !important;
+}
+
+.card-rights-link {
+  color: #c20006b9 !important;
+}
+
 a:hover {
   color: #c20008 !important;
 }
@@ -523,15 +536,16 @@ table.table-content tfoot td {
 }
 
 .Home-Header {
-  margin: 20px 0px -20px 100px;
+  margin: 20px 0px -20px 93px;
   font-family: "Cornerstone";
   font-size: 80px;
 }
 
 .Home-SecondHeader {
-  margin-left: -110px;
+  margin-left: -123px;
   margin-top: 0px;
   margin-bottom: 16px;
+  word-spacing: -7px;
 }
 
 /* Rights */
@@ -626,6 +640,7 @@ table.table-content tfoot td {
   margin-top: 10px;
   margin-bottom: 20px;
   text-align: center;
+  width: 80vw;
 }
 
 .card {
@@ -635,6 +650,8 @@ table.table-content tfoot td {
   margin-top: 20px;
   margin-bottom: 20px;
   transition: 0.5s ease;
+  height: 500px;
+  max-height: 500px;
 }
 
 .card-rights {
@@ -819,11 +836,6 @@ table.table-content tfoot td {
 }
 
 @media only screen and (max-width: 1050px) {
-  .card {
-    width: 15rem;
-    height: 500px;
-  }
-
   .card-text {
     font-size: 12.5px;
   }
@@ -831,12 +843,6 @@ table.table-content tfoot td {
   .card-title {
     font-size: 1em;
   }
-
-  /* .overflow { */
-  /* padding-top: 50px; */
-  /* padding-left: 70px; */
-  /* padding-right: 70px; */
-  /* } */
 
   .bottomcard {
     margin-bottom: 30px;
@@ -894,6 +900,19 @@ table.table-content tfoot td {
     display: none;
   }
 }
+@media only screen and (max-width: 830px) {
+  .card {
+    padding-top: 10px;
+    height: 500px;
+    min-width: 250px !important;
+  }
+
+  .overflow {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: -5px 50px -5px 50px;
+  }
+}
 
 /* Media queries */
 @media only screen and (max-width: 800px) {
@@ -911,7 +930,24 @@ table.table-content tfoot td {
     display: none;
   }
 }
+@media only screen and (max-width: 767px) {
+  .card {
+    padding-top: 20px;
+    width: 30rem;
+    max-height: 450px;
+    min-width: 300px !important;
+  }
 
+  .overflow {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: -5px 110px -20px 110px;
+  }
+
+  .card-title {
+    margin-top: 20px;
+  }
+}
 /* Media queries */
 @media only screen and (max-width: 700px) {
   .TabLogo {
@@ -957,6 +993,21 @@ table.table-content tfoot td {
   }
 }
 
+@media only screen and (max-width: 650px) {
+  .card {
+    padding-top: 20px;
+    width: 30rem;
+    max-height: 450px;
+    min-width: 300px !important;
+  }
+
+  .overflow {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: -5px 100px -20px 100px;
+  }
+}
+
 /* Media queries */
 @media only screen and (max-width: 600px) {
   .TabLogo {
@@ -965,9 +1016,9 @@ table.table-content tfoot td {
   }
 
   .TabLabel {
-    font-size: 15px;
+    font-size: 16px;
     margin-top: 8px;
-    margin-left: 5px;
+    margin-left: 8px;
   }
 
   .table-subheader {
@@ -1022,16 +1073,28 @@ table.table-content tfoot td {
   }
 
   .red-line-table {
-    margin-top: 1px;
+    margin-top: 0px;
   }
 
   .red-line- {
     border-bottom: 5px solid #c20008;
   }
+
+  .overflow {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: -5px 100px -20px 100px;
+  }
 }
 
 /* Media queries */
 @media only screen and (max-width: 500px) {
+  .overflow {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: -5px 90px -20px 90px;
+  }
+
   .black-lives-button,
   .lives-button {
     padding: 6px 12px;
@@ -1065,8 +1128,8 @@ table.table-content tfoot td {
   }
 
   .tabBox-nav {
-    font-size: 15px;
-    margin-top: 45px;
+    font-size: 17px;
+    margin-top: 51px;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -1077,7 +1140,7 @@ table.table-content tfoot td {
   }
   .navBar-comp {
     padding-top: 12px;
-    height: 82px;
+    height: 90px;
     border-bottom: 4px solid black;
     background-color: black;
     position: fixed;
@@ -1102,7 +1165,7 @@ table.table-content tfoot td {
     margin-right: 2px;
     margin-left: 2px;
     padding-left: 5px;
-    padding-right: 5px;
+    /* padding-right: 5px; */
   }
 
   .markers-subheader {
@@ -1110,7 +1173,7 @@ table.table-content tfoot td {
   }
 
   .markers-title {
-    margin-top: 32px;
+    margin-top: -5px;
   }
 
   .download-button2 {
@@ -1176,6 +1239,11 @@ table.table-content tfoot td {
 }
 
 @media only screen and (max-width: 400px) {
+  .card {
+    height: 550px;
+    max-height: 475px;
+    margin-top: 5px;
+  }
   .resources-subheader {
     width: 80vw;
   }
@@ -1188,21 +1256,22 @@ table.table-content tfoot td {
 
   .resources-newtitle {
     font-size: 26px;
-    margin-top: 35px;
+    margin-top: 45px;
   }
   .table-title {
     font-size: 26px;
-    margin-top: 35px;
+    margin-top: 45px;
   }
 
   .rights-title {
     font-size: 26px;
-    margin-top: 35px;
+    margin-top: 45px;
   }
   .markers-title {
     font-size: 26px;
-    margin-top: 35px;
+    margin-top: 5px;
   }
+
   .red-line-title {
     width: 100%;
     border-bottom: 2.5px solid #c20008;
@@ -1223,9 +1292,16 @@ table.table-content tfoot td {
     border-bottom: 2.5px solid #c20008;
   }
 
+  .rights-subheader {
+    font-size: 1em;
+  }
+  .resources-subheader {
+    font-size: 1em;
+  }
+
   .red-line-markers {
     margin-top: 2.5px;
-    border-bottom: 2.5px solid #c20008;
+    border-bottom: 2px solid #c20008;
   }
 
   .red-line-table {
@@ -1240,6 +1316,11 @@ table.table-content tfoot td {
   }
 }
 /*  */
+@media only screen and (max-width: 330px) {
+  .TabLabel {
+    padding-right: 5px;
+  }
+}
 @media only screen and (max-width: 300px) {
   .Home-Header {
     display: none;
