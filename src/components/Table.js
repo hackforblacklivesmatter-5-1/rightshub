@@ -110,6 +110,17 @@ export const Table = () => {
 
   // toggle state
   const toggleRace = () => {
+    let blacklivesbutton = document.getElementsByClassName(
+      "black-lives-button"
+    )[0];
+    let livesbutton = document.getElementsByClassName("lives-button")[0];
+    if (blacklivesbutton.style.display !== "none") {
+      blacklivesbutton.style.display = "none";
+      livesbutton.style.display = "inline-block";
+    } else {
+      blacklivesbutton.style.display = "inline-block";
+      livesbutton.style.display = "none";
+    }
     setRace(!race);
   };
 
@@ -132,12 +143,18 @@ export const Table = () => {
       </div>
       <div className="table-buttons">
         <button className="black-lives-button" onClick={() => toggleRace()}>
-          Show Black Lives
+          Black Lives Lost
+        </button>
+        <button className="lives-button" onClick={() => toggleRace()}>
+          Total Lives Lost
         </button>
         <a href="https://github.com/hackforblacklivesmatter-5-1/rightshub/blob/master/src/data/NY2013to2019.xlsx?raw=true">
           <button className="download-button">Download Dataset</button>
         </a>
-      </div>
+      </div>{" "}
+      <h4 className="data-tip">
+        Click on person's name for related news article
+      </h4>
       <div className="table-container">
         <table className="table-content">
           <thead>
