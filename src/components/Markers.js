@@ -5,8 +5,11 @@ import police from "../data/data-ny.json";
 const Markers = () => {
   return (
     <div className="Markers-component">
-      <h1 className="markers-title">Incident Map</h1>
-      <div className="red-line-markers"></div>
+      {" "}
+      <div className="component-header-container">
+        <h1 className="markers-title">Incident Map</h1>
+        <div className="red-line-markers"></div>
+      </div>
       <h6 className="markers-subheader">
         Below are the reported killings by police in New York from 2013-2019
         mapped out.
@@ -16,7 +19,6 @@ const Markers = () => {
           </a>
         </div>{" "}
       </h6>
-
       <h4 className="Marker-tip">Click on GPS pins for information</h4>
       <div className="markers-buttons"></div>
       <Map center={[40.7128, -74.006]} zoom={12}>

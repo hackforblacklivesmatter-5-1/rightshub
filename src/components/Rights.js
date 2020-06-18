@@ -13,8 +13,10 @@ const description = {
 export const Rights = () => {
   return (
     <div className="Rights">
-      <h1 className="rights-title">Know Your Rights</h1>
-      <div className="red-line-title"></div>
+      <div className="component-header-container">
+        <h1 className="rights-title">Know Your Rights</h1>
+        <div className="red-line-title"></div>
+      </div>
       <h5 className="rights-subheader">
         All US citizens are guaranteed certain rights.<p></p> The{" "}
         <a
@@ -33,7 +35,7 @@ export const Rights = () => {
             style={{
               paddingTop: `2rem`,
             }}
-            className="row rights"
+            className="rights-row rights"
           >
             <div className="col-md-4">
               <RightsCard

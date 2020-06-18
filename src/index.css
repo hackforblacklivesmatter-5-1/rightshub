@@ -12,6 +12,14 @@ html {
   background-color: #252421;
 }
 
+.component-header-container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
 body {
   text-decoration: none;
   color: #252421;
@@ -23,6 +31,10 @@ body {
 h1 {
   margin: 10px 0px 0px 0px;
   font-family: "Cornerstone";
+  word-spacing: -7px;
+}
+
+.table-title {
 }
 
 h2 {
@@ -49,15 +61,14 @@ nav {
 
 .red-line {
   border-bottom: 5px solid #c20008;
-  width: 250px;
+  width: 100%;
   margin-bottom: 10px;
   margin-top: 0px;
-  margin-left: -6px;
 }
 
 .red-line-long {
   border-bottom: 5px solid #c20008;
-  width: 350px;
+  width: 100%;
   margin-bottom: 10px;
   margin-top: 0px;
   margin-left: -6px;
@@ -65,18 +76,16 @@ nav {
 
 .red-line-markers {
   border-bottom: 5px solid #c20008;
-  width: 265px;
+  width: 100%;
   margin-bottom: 10px;
-  margin-top: 0px;
-  margin-left: -8px;
 }
 
 .red-line-table {
   border-bottom: 5px solid #c20008;
-  width: 379px;
+  width: 100%;
   margin-bottom: 10px;
   margin-top: -2px;
-  margin-left: -6px;
+  margin-left: -4px;
 }
 
 /* .red-line-table { */
@@ -90,7 +99,7 @@ nav {
 
 .red-line-resources {
   border-bottom: 5px solid #c20008;
-  width: 400px;
+  width: 100%;
   margin-bottom: 10px;
   margin-top: 0px;
   margin-left: -6px;
@@ -98,15 +107,14 @@ nav {
 
 .red-line- {
   border-bottom: 5px solid #c20008;
-  width: 400px;
+  width: 100%;
   margin-bottom: 10px;
   margin-top: 0px;
-  margin-left: -6px;
 }
 
 .red-line-title {
   border-bottom: 5px solid #c20008;
-  width: 400px;
+  width: 100%;
   margin-bottom: 10px;
   margin-top: 0px;
   margin-left: -6px;
@@ -131,6 +139,12 @@ th {
   top: -2px;
   box-shadow: 0px 3px 0px -1px rgba(0, 0, 0, 1);
   border-top: none;
+}
+
+.col-md-4 {
+  justify-content: center;
+  display: flex;
+  align-items: center;
 }
 
 @supports (-ms-ime-align: auto) {
@@ -272,6 +286,7 @@ table.table-content tfoot td {
 .table-subheader {
   margin-top: 5px;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 /* table row style */
@@ -345,6 +360,7 @@ table.table-content tfoot td {
 .markers-title {
   margin-top: 20px;
   margin-bottom: -6px;
+  text-align: center;
 }
 
 .ACLU-link {
@@ -507,6 +523,11 @@ table.table-content tfoot td {
   padding-bottom: 12vh;
 }
 
+.rights {
+  flex-direction: row;
+  display: flex;
+}
+
 .rights-title {
   margin-top: 20px;
   margin-bottom: -6px;
@@ -566,9 +587,14 @@ table.table-content tfoot td {
   font-size: 77px;
 }
 
-.resources-title {
+.resources-title,
+.resources-newtitle {
   margin-top: 20px;
   margin-bottom: -6px;
+}
+
+.resources-newtitle {
+  display: none;
 }
 
 .resources-subheader {
@@ -597,7 +623,8 @@ table.table-content tfoot td {
 
 .card.rights {
   width: 300px;
-  height: 400px;
+  min-height: 400px;
+  height: auto;
   z-index: 0;
   padding: 10px;
   margin: 20px 10px 20px 10px;
@@ -647,8 +674,10 @@ table.table-content tfoot td {
 }
 
 .row {
-  width: 80vw;
+  width: 95vw;
   transition: 0.5s ease;
+  display: flex;
+  justify-content: center;
 }
 
 .overflow {
@@ -738,15 +767,34 @@ table.table-content tfoot td {
   .rights {
     width: 95vw;
   }
+  .col-md-4 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .rights {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .card.rights {
+    width: 1000px;
+    height: auto;
+    min-height: auto;
+    padding-bottom: 40px;
+  }
+
+  .col-md-4 {
+    max-width: 75vw;
+  }
 }
 
 @media only screen and (max-width: 1050px) {
   .card {
-    width: 15rem;
-    height: 500px;
-  }
-
-  .card-rights {
     width: 15rem;
     height: 500px;
   }
@@ -771,6 +819,10 @@ table.table-content tfoot td {
 }
 
 @media only screen and (max-width: 1000px) {
+  /* .rights-row { */
+  /* flex-direction: column; */
+  /* } */
+
   .TabLogo {
     margin-left: 30px;
     padding-right: 15px;
@@ -786,15 +838,15 @@ table.table-content tfoot td {
 }
 
 @media only screen and (max-width: 1000px) {
-  .row {
-    width: 90vw;
-  }
+  /* .row { */
+  /* width: 100vw; */
+  /* } */
 }
 
 @media only screen and (max-width: 900px) {
-  .row {
-    width: 95vw;
-  }
+  /* .row { */
+  /* width: 95vw; */
+  /* } */
 
   .card {
     margin-bottom: 20px;
@@ -840,6 +892,10 @@ table.table-content tfoot td {
   .TabLogo {
     font-size: 30px;
     margin-top: 8px;
+  }
+
+  .rights-subheader {
+    width: 80vw;
   }
 
   .TabLabel {
@@ -889,44 +945,81 @@ table.table-content tfoot td {
     margin-left: 5px;
   }
 
-  .resources-title {
-    font-size: 40px;
-  }
   .table-subheader {
     width: 80vw;
   }
-}
 
-/* Media queries */
-@media only screen and (max-width: 500px) {
+  .resources-title {
+    display: none;
+  }
+
+  .resources-newtitle {
+    display: flex;
+  }
+  .red-line-resources {
+    border-bottom: 5px solid #c20008;
+  }
+
+  .resources-title {
+    font-size: 40px;
+  }
+  .table-title {
+    font-size: 2em;
+    margin-top: 35px;
+  }
+
+  .resources-newtitle {
+    font-size: 2em;
+    margin-top: 35px;
+  }
+
+  .rights-title {
+    font-size: 2em;
+    margin-top: 35px;
+  }
+  .markers-title {
+    font-size: 2em;
+    margin-top: 35px;
+  }
+  .red-line-title {
+    width: 300px;
+  }
   .red-line {
-    width: 250px;
     margin-bottom: 10px;
   }
 
   .red-line-long {
-    width: 350px;
     margin-bottom: 10px;
   }
 
   .red-line-markers {
-    width: 265px;
     margin-bottom: 10px;
   }
 
   .red-line-table {
     margin-top: 1px;
-    width: 305px;
-  }
-
-  .red-line-resources {
-    border-bottom: 5px solid #c20008;
-    width: 400px;
   }
 
   .red-line- {
     border-bottom: 5px solid #c20008;
-    width: 400px;
+  }
+}
+
+/* Media queries */
+@media only screen and (max-width: 500px) {
+  .black-lives-button {
+    padding: 6px 12px;
+    text-decoration: none;
+    height: 100%;
+  }
+
+  .download-button {
+    margin-top: -20px;
+    padding: 6px 12px;
+  }
+
+  .table-buttons {
+    flex-direction: column;
   }
 
   .tabBox-main .TabLogo {
@@ -940,10 +1033,6 @@ table.table-content tfoot td {
     margin-right: auto;
   }
 
-  .table-title {
-    font-size: 2em;
-    margin-top: 35px;
-  }
   .TabLogo {
     left: initial;
     right: initial;
@@ -1055,6 +1144,64 @@ table.table-content tfoot td {
   }
 }
 
+@media only screen and (max-width: 400px) {
+  .resources-subheader {
+    width: 80vw;
+  }
+
+  .resources-newtitle {
+    font-size: 26px;
+    margin-top: 35px;
+  }
+  .table-title {
+    font-size: 26px;
+    margin-top: 35px;
+  }
+
+  .rights-title {
+    font-size: 26px;
+    margin-top: 35px;
+  }
+  .markers-title {
+    font-size: 26px;
+    margin-top: 35px;
+  }
+  .red-line-title {
+    width: 100%;
+    border-bottom: 2.5px solid #c20008;
+    margin-top: 2.5px;
+  }
+  .red-line {
+    margin-top: 2.5px;
+    border-bottom: 2.5px solid #c20008;
+  }
+
+  .red-line-resources {
+    border-bottom: 2.5px solid #c20008;
+    margin-top: 2.5px;
+  }
+
+  .red-line-long {
+    margin-top: 2.5px;
+    border-bottom: 2.5px solid #c20008;
+  }
+
+  .red-line-markers {
+    margin-top: 2.5px;
+    border-bottom: 2.5px solid #c20008;
+  }
+
+  .red-line-table {
+    border-bottom: 2.5px solid #c20008;
+    margin-top: 2.5px;
+  }
+
+  .red-line- {
+    margin-top: 2.5px;
+
+    border-bottom: 2.5px solid #c20008;
+  }
+}
 /*  */
 @media only screen and (max-width: 300px) {
   .Home-Header {
