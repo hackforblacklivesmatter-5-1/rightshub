@@ -132,8 +132,6 @@ export const Table = () => {
      console.log('data sorted by victim name: ', sortedArray)
    }
 
-
-
   //Pagination
   // const paginate = (currentPage) => {
   //   // console.log("Im paginating")
