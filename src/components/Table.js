@@ -69,7 +69,7 @@ export const Table = () => {
           data-href={
             record["Link to news article or photo of official document"]
           }
-          r
+          
         >
           <td>{record["Victim's race"]}</td>
           <td onMouseEnter={() => showDescription(record)}>
@@ -85,9 +85,36 @@ export const Table = () => {
     });
   };
 
+  //Filter black lives lost
   const filterLives = () => {
     return data.filter((victim) => victim["Victim's race"] === "Black").length;
-  };
+  }
+
+  //Sort data alphabetically by race
+  const sortByRace = () => { 
+    const sortedArray = data.sort((a, b) => {
+      if(a["Victim's race"] > b["Victim's race"]) {
+        return 1
+      } else {
+        return -1
+      }
+     })
+     console.log('data sorted by victim race: ', sortedArray)
+   }
+
+   //Sort data alphabetically by victim's name
+   const sortByAge = () => { 
+    const sortedArray = data.sort((a, b) => {
+      if(a["Victim's age"] > b["Victim's age"]) {
+        return 1
+      } else {
+        return -1
+      }
+     })
+    console.log('data sorted by victim age: ', sortedArray)
+   }
+
+
 
   //Pagination
   // const paginate = (currentPage) => {
@@ -108,6 +135,7 @@ export const Table = () => {
   //   const pages = Math.ceil(data.length / 20);
   // };
 
+
   // toggle state
   const toggleRace = () => {
     setRace(!race);
@@ -115,6 +143,7 @@ export const Table = () => {
 
   return (
     <div className="table-component">
+      <button onClick={() => sortByAge()}>Sort Button</button>
       <h1 className="table-title">Killings by Police</h1>
       <div className="red-line-table"></div>
       <h6 className="table-subheader">
@@ -126,7 +155,6 @@ export const Table = () => {
         {race
           ? `Number of Black Lives Lost: ${filterLives()}`
           : `Total Number of Lives Lost: ${data.length}`}
-
       </div>
       <div className="table-buttons">
         <button className="black-lives-button" onClick={() => toggleRace()}>
