@@ -3,6 +3,7 @@ import data from "../data/data-ny.json";
 
 export const Table = () => {
   const [race, setRace] = useState(false);
+  const [sort, setSort] = useState('')
 
   // Handling functions
   const handleRowClick = (e) => {
@@ -98,7 +99,8 @@ export const Table = () => {
       } else {
         return -1
       }
-     })
+    })
+     setSort('race')
      console.log('data sorted by victim race: ', sortedArray)
    }
 
@@ -111,7 +113,23 @@ export const Table = () => {
         return -1
       }
      })
+     setSort('age')
     console.log('data sorted by victim age: ', sortedArray)
+   }
+
+   const sortByName = () => {
+     
+     const sortedArray = data.sort((a,b) => {
+       const lastNameA = a["Victim's name"].split(' ').slice(-1).join(' ');
+       const lastNameB = b["Victim's name"].split(' ').slice(-1).join(' ');
+       if(lastNameA > lastNameB) {
+         return 1
+       } else {
+         return -1
+       }
+     })
+     setSort('name')
+     console.log('data sorted by victim name: ', sortedArray)
    }
 
 
@@ -139,11 +157,9 @@ export const Table = () => {
   // toggle state
   const toggleRace = () => {
     setRace(!race);
-  };
-
+  };  
   return (
     <div className="table-component">
-      <button onClick={() => sortByAge()}>Sort Button</button>
       <h1 className="table-title">Killings by Police</h1>
       <div className="red-line-table"></div>
       <h6 className="table-subheader">
@@ -165,12 +181,12 @@ export const Table = () => {
         </a>
       </div>
       <div className="table-container">
-        <table className="table-content">
+        <table style={{ cursor: `pointer`,}} className="table-content">
           <thead>
             <tr className="table-headers">
-              <th>Victim's Race</th>
-              <th>Victim's Name</th>
-              <th>Victim's age </th>
+              <th onClick={() => sortByRace()}>Victim's Race</th>
+              <th onClick={() => sortByName()}>Victim's Name</th>
+              <th onClick={() => sortByAge()}>Victim's age </th>
               <th>Date of Incident</th>
               <th>Fleeing</th>
               <th>Alleged Weapon</th>
