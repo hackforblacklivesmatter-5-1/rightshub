@@ -3,6 +3,7 @@ import data from "../data/data-ny.json";
 
 export const Table = () => {
   const [race, setRace] = useState(false);
+  const [sort, setSort] = useState('')
 
   // Handling functions
   const handleRowClick = (e) => {
@@ -69,7 +70,7 @@ export const Table = () => {
           data-href={
             record["Link to news article or photo of official document"]
           }
-          r
+          
         >
           <td>{record["Victim's race"]}</td>
           <td onMouseEnter={() => showDescription(record)}>
@@ -85,9 +86,53 @@ export const Table = () => {
     });
   };
 
+  //Filter black lives lost
   const filterLives = () => {
     return data.filter((victim) => victim["Victim's race"] === "Black").length;
-  };
+  }
+
+  //Sort data alphabetically by race
+  const sortByRace = () => { 
+    const sortedArray = data.sort((a, b) => {
+      if(a["Victim's race"] > b["Victim's race"]) {
+        return 1
+      } else {
+        return -1
+      }
+    })
+     setSort('race')
+     console.log('data sorted by victim race: ', sortedArray)
+   }
+
+   //Sort data alphabetically by victim's name
+   const sortByAge = () => { 
+    const sortedArray = data.sort((a, b) => {
+      if(a["Victim's age"] > b["Victim's age"]) {
+        return 1
+      } else {
+        return -1
+      }
+     })
+     setSort('age')
+    console.log('data sorted by victim age: ', sortedArray)
+   }
+
+   const sortByName = () => {
+     
+     const sortedArray = data.sort((a,b) => {
+       const lastNameA = a["Victim's name"].split(' ').slice(-1).join(' ');
+       const lastNameB = b["Victim's name"].split(' ').slice(-1).join(' ');
+       if(lastNameA > lastNameB) {
+         return 1
+       } else {
+         return -1
+       }
+     })
+     setSort('name')
+     console.log('data sorted by victim name: ', sortedArray)
+   }
+
+
 
   //Pagination
   // const paginate = (currentPage) => {
@@ -108,6 +153,7 @@ export const Table = () => {
   //   const pages = Math.ceil(data.length / 20);
   // };
 
+
   // toggle state
   const toggleRace = () => {
     let blacklivesbutton = document.getElementsByClassName(
@@ -122,8 +168,7 @@ export const Table = () => {
       livesbutton.style.display = "none";
     }
     setRace(!race);
-  };
-
+  };  
   return (
     <div className="table-component">
       {" "}
@@ -156,12 +201,12 @@ export const Table = () => {
         Click on person's name for related news article
       </h4>
       <div className="table-container">
-        <table className="table-content">
+        <table style={{ cursor: `pointer`,}} className="table-content">
           <thead>
             <tr className="table-headers">
-              <th>Victim's Race</th>
-              <th>Victim's Name</th>
-              <th>Victim's age </th>
+              <th onClick={() => sortByRace()}>Victim's Race</th>
+              <th onClick={() => sortByName()}>Victim's Name</th>
+              <th onClick={() => sortByAge()}>Victim's age </th>
               <th>Date of Incident</th>
               <th className="Fleeing">Fleeing</th>
               <th className="Weapon">Alleged Weapon</th>
@@ -174,3 +219,6 @@ export const Table = () => {
     </div>
   );
 };
+
+
+//This is Will's table branch post Hackathon
